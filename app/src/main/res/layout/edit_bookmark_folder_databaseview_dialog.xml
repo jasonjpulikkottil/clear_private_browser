@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  //
+
+  //
+
+ //
+
+
+
+   -->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <!-- Setting `android:focusable` and `android:focusableInTouchMode` prevent `edit_bookmark_display_order_edittext` from being autoselected. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <!-- Database ID. -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="6dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/database_id"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/edit_folder_database_id_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_500"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <!-- The icon selection rows. -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- The column displaying the icons. -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/edit_folder_current_icon_imageview"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="6dp"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/edit_folder_default_icon_imageview"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:src="@drawable/folder_blue_bitmap"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/edit_folder_webpage_favorite_icon_imageview"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="6dp"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <!-- The column with the `RadioGroup`. -->
+            <RadioGroup
+                android:id="@+id/edit_folder_icon_radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkedButton="@+id/edit_folder_current_icon_radiobutton" >
+
+                <RadioButton
+                    android:id="@id/edit_folder_current_icon_radiobutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="@string/current_bookmark_icon"
+                    android:textColor="?android:textColorPrimary"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/edit_folder_default_icon_radiobutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="@string/default_folder_icon"
+                    android:textColor="?android:textColorPrimary"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/edit_folder_webpage_favorite_icon_radiobutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/web_page_favorite_icon"
+                    android:textColor="?android:textColorPrimary"
+                    android:textSize="18sp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Folder name.  The `TextInputLayout` makes the `android:hint` float above the `EditText`. -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="6dp" >
+
+            <!-- `android:imeOptions="actionGo"` sets the keyboard to have a `go` key instead of a `new line` key.  `android:inputType="textUri"` disables spell check in the `EditText`. -->
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_folder_name_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/folder_name"
+                android:imeOptions="actionGo"
+                android:inputType="textUri"
+                android:selectAllOnFocus="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Folder. -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="7dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/parent_folder"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/edit_folder_parent_folder_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Display order. -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="7dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="6dp"
+                android:labelFor="@+id/edit_folder_display_order_edittext"
+                android:text="@string/display_order"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@id/edit_folder_display_order_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionGo"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                tools:targetApi="26" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/folder_names_must_be_unique" />
+    </LinearLayout>
+</ScrollView>

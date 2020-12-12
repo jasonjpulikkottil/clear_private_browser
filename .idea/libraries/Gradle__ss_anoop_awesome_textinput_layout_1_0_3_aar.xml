@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: ss.anoop:awesome-textinput-layout:1.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2dcf5fd5df370eaa73ac76f48e25329/jetified-awesome-textinput-layout-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2dcf5fd5df370eaa73ac76f48e25329/jetified-awesome-textinput-layout-1.0.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2dcf5fd5df370eaa73ac76f48e25329/jetified-awesome-textinput-layout-1.0.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ss.anoop/awesome-textinput-layout/1.0.3/b999a0cb67db4d0f42077048f0301ce54c2c6826/awesome-textinput-layout-1.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ss.anoop/awesome-textinput-layout/1.0.3/91e0bb6a2281f488d7134f73238bff35934a3894/awesome-textinput-layout-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2017-2020
+
+  //
+
+ //
+
+
+
+   -->
+
+<resources>
+    <!-- Colors. -->
+    <attr name="aboutBackground" format="color" />
+    <attr name="activatedListViewItemBackground" format="color" />
+    <attr name="blueTextColor" format="color" />
+    <attr name="blueTitleTextColor" format="color" />
+    <attr name="buttonBackgroundColorSelector" format="color" />
+    <attr name="buttonTextColorSelector" format="color" />
+    <attr name="redTextColor" format="color" />
+
+    <!-- Tint Colors. -->
+    <attr name="addTabIconTintColor" format="color" />
+    <attr name="domainSettingsIconTintColor" format="color" />
+    <attr name="fabIconTintColor" format="color" />
+    <attr name="findOnPageIconTintColor" format="color" />
+    <attr name="navigationIconTintColor" format="color" />
+    <attr name="progressTintColor" format="color" />
+
+    <!-- Drawables.  -->
+    <attr name="listSelectorDrawable" format="reference" />
+
+    <!-- Main App Bar Icons. -->
+    <attr name="bookmarksAppBarIcon" format="reference" />
+
+    <!-- Options Icons. -->
+    <attr name="aboutIcon" format="reference" />
+    <attr name="appThemeIcon" format="reference" />
+    <attr name="closeIcon" format="reference" />
+    <attr name="copyIcon" format="reference" />
+    <attr name="deleteIcon" format="reference" />
+    <attr name="downloadIcon" format="reference" />
+    <attr name="editIcon" format="reference" />
+    <attr name="fontSizeIcon" format="reference" />
+    <attr name="homepageIcon" format="reference" />
+    <attr name="moveToFolderIcon" format="reference" />
+    <attr name="saveIcon" format="reference" />
+    <attr name="saveImageIcon" format="reference" />
+    <attr name="saveTextIcon" format="reference" />
+    <attr name="searchIcon" format="reference" />
+    <attr name="selectAllIcon" format="reference" />
+    <attr name="shareIcon" format="reference" />
+    <attr name="sortIcon" format="reference" />
+    <attr name="userAgentIcon" format="reference" />
+
+    <!-- Dialog Icons. -->
+    <attr name="aboutBlueIcon" format="reference" />
+    <attr name="domainsBlueIcon" format="reference" />
+    <attr name="fontSizeBlueIcon" format="reference" />
+    <attr name="lockBlueIcon" format="reference" />
+
+
+</resources>

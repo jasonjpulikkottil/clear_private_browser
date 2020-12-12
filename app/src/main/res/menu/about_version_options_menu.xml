@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2020
+
+  //
+
+ //
+
+
+
+   -->
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- `android:iconTint` can be used once the minimum API >= 26 instead of including a separate drawable for each theme. -->
+    <item
+        android:id="@+id/copy"
+        android:icon="?attr/copyIcon"
+        android:orderInCategory="10"
+        android:title="@string/copy_string"
+        app:showAsAction="ifRoom" />
+
+    <!-- `android:iconTint` can be used once the minimum API >= 26 instead of including a separate drawable for each theme. -->
+    <item
+        android:id="@+id/share"
+        android:icon="?attr/shareIcon"
+        android:orderInCategory="20"
+        android:title="@string/share"
+        app:showAsAction="ifRoom" />
+
+    <!-- `android:iconTint` can be used once the minimum API >= 26 instead of including a separate drawable for each theme. -->
+    <item
+        android:id="@+id/save_text"
+        android:icon="?attr/saveTextIcon"
+        android:orderInCategory="30"
+        android:title="@string/save_text"
+        app:showAsAction="ifRoom" />
+
+    <!-- `android:iconTint` can be used once the minimum API >= 26 instead of including a separate drawable for each theme. -->
+    <item
+        android:id="@+id/save_image"
+        android:icon="?attr/saveImageIcon"
+        android:orderInCategory="40"
+        android:title="@string/save_image"
+        app:showAsAction="ifRoom" />
+</menu>

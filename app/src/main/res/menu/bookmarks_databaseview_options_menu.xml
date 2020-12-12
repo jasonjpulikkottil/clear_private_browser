@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2019-2020
+
+  //
+
+ //
+
+
+
+   -->
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <!-- `android:iconTint` can be used once the minimum API >= 26 instead of including a separate drawable for each theme. -->
+    <item
+        android:id="@+id/sort"
+        android:icon="?attr/sortIcon"
+        android:orderInCategory="10"
+        android:title="@string/sort"
+        app:showAsAction="always" />
+</menu>

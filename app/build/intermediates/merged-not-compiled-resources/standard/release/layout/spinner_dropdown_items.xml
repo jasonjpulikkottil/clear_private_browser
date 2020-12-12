@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2017-2018,2020
+
+  //
+
+ //
+
+
+
+   -->
+
+<!-- A checked text view allows the color of the text to be changed when it is selected (checked). -->
+<CheckedTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spinner_item_textview"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:lines="1"
+    android:ellipsize="end"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:textSize="18sp"
+    android:textColor="@color/checked_text_color_selector" />

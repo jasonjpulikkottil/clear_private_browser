@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2015-2019
+
+  //
+
+ //
+
+
+
+   -->
+
+<resources>
+    <!-- Activities. -->
+    <string name="application_name">Clear Browser Free</string>
+
+    <!-- Create Home Screen Shortcut Alert Dialog. -->
+    <string name="open_with_application_name">Открыть в Clear Browser Free.</string>
+
+    <!-- Ad Consent. -->
+    <string name="ad_consent_text">Clear Browser Free отображает рекламный баннер в нижней части экрана.
+        Эта реклама поступает от Google и настроена так, чтобы исключить персонализацию.
+        \n\nСтандартная версия Clear Browser не содержит рекламы приложений.</string>
+    <string name="close_browser">Закрыть браузер</string>
+    <string name="accept_ads">Разрешить рекламу</string>
+</resources>

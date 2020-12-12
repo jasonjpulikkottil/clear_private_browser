@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2019-2020
+
+  This file is part of Clear Browser <https://www.stoutner.com/privacy-browser>>.
+
+ //
+
+
+
+   -->
+
+<!-- The frame layout allows the progress bar to float above the WebView. -->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- The nested scroll WebView is created with `visibility="invisible"` to prevent a white background splash in night mode because there is a delay in setting the background color.
+        It is set visible in `initializeWebView()` or `onProgressChanged()` in `MainWebViewActivity`. -->
+    <com.jdots.browser.views.NestedScrollWebView
+        android:id="@+id/nestedscroll_webview"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="?android:attr/colorBackground"
+        android:visibility="invisible" />
+
+    <!-- `android:max` changes the maximum `ProgressBar` value from 10000 to 100 to match progress percentage.
+        `android:layout_height="2dp"` works best for API >= 23, but `3dp` is required for visibility on API <= 22.
+        `tools:ignore="UnusedAttribute"` removes the lint warning about `progressTint` and `progressBackgroundTint` not applying to API < 21. -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_height="3dp"
+        android:layout_width="match_parent"
+        android:max="100"
+        android:progressTint="?attr/progressTintColor"
+        android:progressBackgroundTint="@color/transparent"
+        android:visibility="gone"
+        tools:ignore="UnusedAttribute" />
+</FrameLayout>

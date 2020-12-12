@@ -1,0 +1,73 @@
+<!--
+  //
+
+  Translation 2019 Bernhard G. Keller.  Copyright assigned to
+
+  Translation 2018 Stefan Erhardt.  Copyright assigned to
+
+  Translation 2016 Aaron Gerlach <aaron@gerlach.com>.  Copyright assigned to
+
+  //
+
+ //
+
+
+
+   -->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <link href="../css/theme.css" rel="stylesheet">
+
+        <!-- Setting the color scheme instructs the WebView to respect `prefers-color-scheme` @media CSS. -->
+        <meta content="light dark" name="color-scheme">
+    </head>
+
+    <body>
+        <h3>Voller Netzwerkzugriff</h3>
+        <p><a href="https://developer.android.com/reference/android/Manifest.permission.html#INTERNET">android.permission.INTERNET</a></p>
+        <p>Benötigt, damit WebView das Internet nutzen kann. Ohne diese Berechtigung wäre Clear Browser “Kein Browser: Schützt Ihre Privatsphäre durch Fernbleiben von jeglicher Konnektivität”.</p>
+
+        <h3>Verknüpfungen installieren</h3>
+        <p><a href="https://developer.android.com/reference/android/Manifest.permission.html#INSTALL_SHORTCUT">com.android.launcher.permission.INSTALL_SHORTCUT</a></p>
+        <p>Benötigt, um Verknüpfungen zu Websites auf Ihrer Startseite zu erstellen.</p>
+
+        <h3>Speicher lesen</h3>
+        <p><a href="https://developer.android.com/reference/android/Manifest.permission#READ_EXTERNAL_STORAGE">android.permission.READ_EXTERNAL_STORAGE</a></p>
+        <p>Benötigt, um Einstellungen aus öffentlichen Ordnern zu importieren.
+            Unter Android Marshmallow (API 23) und neuer kann Clear Browser Einstellungen nur aus seinem eigenen Ordner importieren, wenn diese Berechtigung nicht erteilt wird.</p>
+
+        <h3>Speicher schreiben</h3>
+        <p><a href="https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE">android.permission.WRITE_EXTERNAL_STORAGE</a></p>
+        <p>Benötigt, um Einstellungen und Downloads in öffentlichen Ordnern zu speichern.
+            Unter Android Marshmallow (API 23) und neuer kann Clear Browser Einstellungen und Downloads nur in seinem eigenen Ordner speichern, wenn diese Berechtigung nicht erteilt wird.</p>
+
+        <br/>
+        <hr/>
+        <br/>
+
+        <p>Zusätzlich zu den oben genannten Berechtigungen zeigt Clear Browser Free Werbeanzeigen von Google's AdMob-Netzwerk unter Zuhilfenahme des Firebase-Backends.
+            Für die "Kostenlos"-Plakette ergänzt Firebase die Liste der Berechtigungen um die Folgenden,
+            obwohl diese nicht im Quellcode der <a href="https://git.stoutner.com/?p=ClearBrowser.git;a=blob;f=app/src/main/AndroidManifest.xml;hb=HEAD">Manifest-Datei</a>
+            von Clear Browser aufgeführt werden:</p>
+
+        <h3>Netzwerk-Verbindungen anzeigen</h3>
+        <p><a href="https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE">android.permission.ACCESS_NETWORK_STATE</a></p>
+        <p>Erlaubt den Werbeanzeigen mitzuteilen, wenn das Gerät mit dem Internet verbunden ist und wann nicht (vermutlich damit nicht versucht wird, Werbeanzeigen neu zu laden, wenn keine Verbindung besteht).
+            Diese können auch mitteilen, ob eine Verbindung via WLAN, 2G, 3G, 4G, usw. besteht.</p>
+
+        <h3>Schlaf-Modus des Telefons verhindern</h3>
+        <p><a href="https://developer.android.com/reference/android/Manifest.permission.html#WAKE_LOCK">android.permission.WAKE_LOCK</a></p>
+        <p>Erlaubt den Werbeanzeigen, das Gerät nicht in den Schlaf-Modus zu versetzen und das Display nicht zu dimmen. In Stoutners Tests konnte dieses Verhalten nicht festgestellt werden.</p>
+
+        <h3>Play Install Referrer API</h3>
+        <p><a href="https://android-developers.googleblog.com/2017/11/google-play-referrer-api-track-and.html">com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE</a></p>
+        <p>Erlaubt anderen Apps mitzuteilen, ob ihre Installation über eine Werbeanzeige innerhalb von Clear Browser Free ausgelöst wurde.</p>
+
+        <h3>Daten aus Internet empfangen</h3>
+        <p><a href="http://androidpermissions.com/permission/com.google.android.c2dm.permission.RECEIVE">com.google.android.c2dm.permission.RECEIVE</a></p>
+        <p>Erlaubt Google Informationen direkt an AdView zu senden, ohne dass zuvor eine entsprechende Anfrage getätigt wurde (cloud-to-device messaging).</p>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2015-2017,2020
+
+  //
+
+ //
+
+
+
+   -->
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/move_bookmark_up"
+        android:title="@string/move_up"
+        android:orderInCategory="10"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/move_bookmark_down"
+        android:title="@string/move_down"
+        android:orderInCategory="20"
+        app:showAsAction="ifRoom" />
+
+    <!-- `android:iconTint` can be used once API >= 26 instead of including a separate drawable for each theme. -->
+    <item
+        android:id="@+id/move_to_folder"
+        android:title="@string/move_to_folder"
+        android:orderInCategory="30"
+        android:icon="?attr/moveToFolderIcon"
+        app:showAsAction="ifRoom" />
+
+    <!-- `android:iconTint` can be used once API >= 26 instead of including a separate drawable for each theme. -->
+    <item
+        android:id="@+id/edit_bookmark"
+        android:title="@string/edit"
+        android:orderInCategory="40"
+        android:icon="?attr/editIcon"
+        app:showAsAction="ifRoom" />
+
+    <!-- `android:iconTint` can be used once API >= 26 instead of including a separate drawable for each theme. -->
+    <item
+        android:id="@+id/delete_bookmark"
+        android:title="@string/delete"
+        android:orderInCategory="50"
+        android:icon="?attr/deleteIcon"
+        app:showAsAction="ifRoom" />
+
+    <!-- `android:iconTint` can be used once API >= 26 instead of including a separate drawable for each theme. -->
+    <item
+        android:id="@+id/context_menu_select_all_bookmarks"
+        android:title="@string/select_all"
+        android:orderInCategory="60"
+        android:icon="?attr/selectAllIcon"
+        app:showAsAction="ifRoom" />
+</menu>

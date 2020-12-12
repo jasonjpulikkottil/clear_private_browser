@@ -1,0 +1,68 @@
+<!--
+    2017-2020
+
+  Translation 2017-2019 Jose A. León Becerra.  Copyright assigned to
+
+  //
+
+ //
+
+
+
+   -->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <link href="../css/theme.css" rel="stylesheet">
+
+        <!-- Setting the color scheme instructs the WebView to respect `prefers-color-scheme` @media CSS. -->
+        <meta content="light dark" name="color-scheme">
+    </head>
+
+    <body>
+        <h3>Tener acceso completo a la red</h3>
+        <p><a href="https://developer.android.com/reference/android/Manifest.permission.html#INTERNET">android.permission.INTERNET</a></p>
+        <p>Requerido para que WebView consiga acceso a internet. Sin este permiso, Navegador Privado sería, “Sin Navegador: Protegiendo su privacidad estando completamente desconectado de internet”.</p>
+
+        <h3>Instalar accesos directos</h3>
+        <p><a href="https://developer.android.com/reference/android/Manifest.permission.html#INSTALL_SHORTCUT">com.android.launcher.permission.INSTALL_SHORTCUT</a></p>
+        <p>Requerido para añadir accesos directos de páginas web en el escritorio.</p>
+
+        <h3>Almacenamiento de lectura</h3>
+        <p><a href="https://developer.android.com/reference/android/Manifest.permission#READ_EXTERNAL_STORAGE">android.permission.READ_EXTERNAL_STORAGE</a></p>
+        <p>Requerido para importar la configuración de las carpetas públicas.
+            En Android Marshmallow (API 23) y posteriores, si se niega este permiso, Clear Browser puede en cambio importar la configuración desde las carpetas de la aplicación.</p>
+
+        <h3>Almacenamiento de escritura</h3>
+        <p><a href="https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE">android.permission.WRITE_EXTERNAL_STORAGE</a></p>
+        <p>Requerido para exportar la configuración y descargar archivos a las carpetas públicas.
+            En Android Marshmallow (API 23) y posteriores, si se niega este permiso, Clear Browser puede en cambio exportar la configuración y almacenar las descargas en las carpetas de la aplicación.</p>
+
+        <br/>
+        <hr/>
+        <br/>
+
+        <p>Además, Navegador Privado Gratuito muestra anuncios de Google AdMob usando el proveedor Firebase.
+            En el sabor gratuito, Firebase añade los siguientes permisos aunque no aparecen en el
+            <a href="https://git.stoutner.com/?p=ClearBrowser.git;a=blob;f=app/src/main/AndroidManifest.xml;hb=HEAD">archivo de manifiesto</a> de código fuente.</p>
+
+        <h3>Ver conexiones de red</h3>
+        <p><a href="https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE">android.permission.ACCESS_NETWORK_STATE</a></p>
+        <p>Permite a los anuncios saber si el dispositivo está conectado a internet y cuando no (probablemente para no tratar de recargar un anuncio cuando está desconectado).
+            También les permite saber si está conectado por wifi, 2G, 3G, 4G, etcétera.</p>
+
+        <h3>Impedir que el teléfono entre en modo de suspensión</h3>
+        <p><a href="https://developer.android.com/reference/android/Manifest.permission.html#WAKE_LOCK">android.permission.WAKE_LOCK</a></p>
+        <p>Permite a los anuncios impedir al procesador dormir y a la pantalla atenuar, aunque en mis pruebas no parece que los anuncios lo hagan así.</p>
+
+        <h3>API Install Referrer de Play</h3>
+        <p><a href="https://android-developers.googleblog.com/2017/11/google-play-referrer-api-track-and.html">com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE</a></p>
+        <p>Permite a otras aplicaciones saber si su instalación se ha iniciado desde un anuncio en el Navegador Privado gratuito.</p>
+
+        <h3>Recibir datos de internet</h3>
+        <p><a href="http://androidpermissions.com/permission/com.google.android.c2dm.permission.RECEIVE">com.google.android.c2dm.permission.RECEIVE</a></p>
+        <p>Permite a Google enviar información directamente al AdView sin tener que recibir primero una solicitud (mensajes de nube a dispositivo).</p>
+    </body>
+</html>

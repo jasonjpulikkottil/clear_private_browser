@@ -1,0 +1,21 @@
+<!--
+    2017,2020
+
+  //
+
+  It is derived from elements of `bookmark` and `create_new_folder`, which are part of the Android Material icon set and are released under the Apache License 2.0.
+
+ //
+
+
+
+   -->
+
+<svg
+  id="icon"
+  viewBox="0 0 48 48"
+  xmlns="http://www.w3.org/2000/svg" >
+
+  <path
+    d="M 14 6 C 11.8 6 10.019531 7.8 10.019531 10 L 10 42 L 24 36 L 38 42 L 38 10 C 38 7.8 36.2 6 34 6 L 14 6 z M 22 14 L 26 14 L 26 20 L 32 20 L 32 24 L 26 24 L 26 30 L 22 30 L 22 24 L 16 24 L 16 20 L 22 20 L 22 14 z " />
+</svg>

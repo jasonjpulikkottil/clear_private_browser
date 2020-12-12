@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="app_theme_entries">
+            <item>По умолчанию</item>
+            <item>Светлая</item>
+            <item>Темная</item>
+        </string-array>
+    <string-array name="display_webpage_images_array">
+        <item>Настройки по умолчанию</item>
+        <item>Изображения включены</item>
+        <item>Изображения выключены</item>
+    </string-array>
+    <string-array name="download_location_entries">
+            <item>Авто</item>
+            <item>Каталог приложения</item>
+            <item>Общий каталог</item>
+            <item>Пользовательский</item>
+        </string-array>
+    <string-array name="encryption_type">
+        <item>Нет</item>
+        <item>Пароль</item>
+        <item>OpenPGP</item>
+    </string-array>
+    <string-array name="font_size_array">
+        <item>Настройки по умолчанию</item>
+        <item>Пользовательский размер шрифта</item>
+    </string-array>
+    <string-array name="proxy_entries">
+            <item>Нет</item>
+            <item>Tor</item>
+            <item>I2P</item>
+            <item>Пользовательский</item>
+        </string-array>
+    <string-array name="search_entries">
+            <item>Startpage</item>
+            <item>Mojeek</item>
+            <item>DuckDuckGo - JavaScript выключен</item>
+            <item>DuckDuckGo - JavaScript включен</item>
+            <item>Google</item>
+            <item>Bing</item>
+            <item>Yahoo - JavaScript выключен</item>
+            <item>Yahoo - JavaScript включен</item>
+            <item>Настраиваемый</item>
+        </string-array>
+    <string-array name="swipe_to_refresh_array">
+        <item>Настройки по умолчанию</item>
+        <item>Потянуть для обновления - включено</item>
+        <item>Потянуть для обновления - выключено</item>
+    </string-array>
+    <string-array name="translated_domain_settings_user_agent_names">  <!-- The translated names of the user agents with a System Default option for the domains spinner. -->
+            <item>Настройки по умолчанию</item>
+            <item>Clear Browser</item>
+            <item>WebView по умолчанию</item>
+            <item>Firefox на Android</item>
+            <item>Chrome на Android</item>
+            <item>Safari на iOS</item>
+            <item>Firefox на Linux</item>
+            <item>Chromium на Linux</item>
+            <item>Firefox на Windows</item>
+            <item>Chrome на Windows</item>
+            <item>Edge на Windows</item>
+            <item>Internet Explorer на Windows</item>
+            <item>Safari на macOS</item>
+            <item>Настраиваемый</item>
+        </string-array>
+    <string-array name="translated_user_agent_names">
+            <item>Clear Browser</item>
+            <item>WebView по умолчанию</item>
+            <item>Firefox на Android</item>
+            <item>Chrome на Android</item>
+            <item>Safari на iOS</item>
+            <item>Firefox на Linux</item>
+            <item>Chromium на Linux</item>
+            <item>Firefox на Windows</item>
+            <item>Chrome на Windows</item>
+            <item>Edge на Windows</item>
+            <item>Internet Explorer на Windows</item>
+            <item>Safari на macOS</item>
+            <item>Настраиваемый</item>
+        </string-array>
+    <string-array name="webview_theme_array">
+        <item>Настройки по умолчанию</item>
+        <item>Светлая тема WebView</item>
+        <item>Темная тема WebView</item>
+    </string-array>
+    <string-array name="webview_theme_entries">
+            <item>По умолчанию</item>
+            <item>Светлая</item>
+            <item>Темная</item>
+        </string-array>
+    <string-array name="wide_viewport_array">
+        <item>Настройки по умолчанию</item>
+        <item>Широкий вид просмотра включен</item>
+        <item>Широкий вид просмотра выключен</item>
+    </string-array>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Ещё"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Выберите приложение"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ВЫКЛ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ВКЛ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Ввод"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Пробел"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Меню +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Введите запрос"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Поделиться с помощью"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Поделиться с помощью <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string name="about">О Clear Browser</string>
+    <string name="about_application_name">О Clear Browser</string>
+    <string name="about_view_source">О просмотре исходного кода</string>
+    <string name="about_view_source_message">Поскольку Android WebView не предоставляет исходные данные, для сбора информации, отображаемой в этом действии,
+        был сделан отдельный запрос с помощью системных средств. Между этими данными и теми, которые используются в WebView, могут быть некоторые отличия.
+        Это ограничение будет удалено в серии 4.x с выпуском Privacy WebView.</string>
+    <string name="ad_consent">Согласие на рекламу</string>
+    <string name="add">Добавить</string>
+    <string name="add_domain">Добавление домена</string>
+    <string name="add_domain_settings">Добавление параметров домена</string>
+    <string name="add_tab">Добавить вкладку</string>
+    <string name="add_to_home_screen">Добавить на главный экран</string>
+    <string name="all">Все</string>
+    <string name="all_folders">Все папки</string>
+    <string name="allow_screenshots">Разрешить скриншоты</string>
+    <string name="allow_screenshots_summary">Разрешить скриншоты, запись видео и просмотр на незащищенных дисплеях. При изменении этого параметра Clear Browser будет перезапущен.</string>
+    <string name="allowed">Разрешен</string>
+    <string name="allowed_plural">Разрешено</string>
+    <string name="android">Android:</string>
+    <string name="android_asset_path">ru</string>
+    <string name="api">API</string>
+    <string name="app_available_memory">Доступная приложению память:</string>
+    <string name="app_consumed_memory">Потребляемая приложением память:</string>
+    <string name="app_maximum_memory">Максимальная память приложения:</string>
+    <string name="app_theme">Тема приложения</string>
+    <string name="app_total_memory">Общая память приложения:</string>
+    <string name="application_name">Clear Browser</string>
+    <string name="application_name_logcat_txt">Clear Browser Logcat.txt</string>
+    <string name="application_name_version_png">Версия Clear Browser.png</string>
+    <string name="application_name_version_txt">Версия Clear Browser.txt</string>
+    <string name="application_name_web_page">Clear Browser веб-страница</string>
+    <string name="apply">Применить</string>
+    <string name="back">Назад</string>
+    <string name="block_all_third_party_requests">Блокировать все сторонние запросы</string>
+    <string name="block_all_third_party_requests_summary">Блокировка всех сторонних запросов повышает конфиденциальность, но ломает многие веб-сайты.</string>
+    <string name="blocked">Блокирован</string>
+    <string name="blocked_plural">Блокировано</string>
+    <string name="blocklist">Список блокировки</string>
+    <string name="blocklist_entries">Записи списка блокировки</string>
+    <string name="blocklist_original_entry">Исходная запись списка блокировки</string>
+    <string name="blocklists">Списки блокировки</string>
+    <string name="bookmark_name">Имя закладки</string>
+    <string name="bookmark_url">URL-адрес закладки</string>
+    <string name="bookmarks">Закладки</string>
+    <string name="bookmarks_database_view">Просмотр базы данных закладок</string>
+    <string name="bookmarks_deleted">Закладок удалены:</string>
+    <string name="bootloader">Загрузчик:</string>
+    <string name="brand">Бренд:</string>
+    <string name="browse">Обзор</string>
+    <string name="build">Сборка:</string>
+    <string name="bytes">байтов</string>
+    <string name="cancel">Отмена</string>
+    <string name="cannot_deselect_bookmark">Невозможно отменить выбор закладки пока выбрана родительская папка.</string>
+    <string name="cannot_use_location">Это расположение использовано быть не может, поскольку разрешение на хранение предоставлено не было.</string>
+    <string name="certificate_version">Версия сертификата:</string>
+    <string name="changelog">История изменений</string>
+    <string name="clear">Очистить</string>
+    <string name="clear_and_exit">Очистить и выйти</string>
+    <string name="clear_cache">Очистить кэш</string>
+    <string name="clear_cache_summary">Очищает кэш WebView.</string>
+    <string name="clear_cookies">Очистить cookie</string>
+    <string name="clear_cookies_preference">Очистить файлы cookie</string>
+    <string name="clear_cookies_summary">Очистить первичные и сторонние файлы cookie.</string>
+    <string name="clear_data">Очистить данные</string>
+    <string name="clear_dom_storage"> Очистить DOM-хранилище</string>
+    <string name="clear_dom_storage_preference">Очистить DOM-хранилище</string>
+    <string name="clear_dom_storage_summary">Очищает DOM-хранилище.</string>
+    <string name="clear_everything">Очистить все</string>
+    <string name="clear_everything_summary">Очищает файлы cookie, DOM-хранилище, данные форм, logcat и кэш WebView. После этого вручную удаляет каталоги "app_webview" и "cache".</string>
+    <string name="clear_form_data">Очистить данные формы</string>
+    <string name="clear_form_data_preference">Очистка данных формы</string>
+    <string name="clear_form_data_summary">Очищает данные формы.</string>
+    <string name="clear_history">Очистить историю</string>
+    <string name="clear_logcat_preference">Очистить logcat</string>
+    <string name="clear_logcat_summary">Очищает logcat.</string>
+    <string name="close">Закрыть</string>
+    <string name="close_navigation_drawer">Закрыть панель навигации</string>
+    <string name="close_tab">Закрыть вкладку</string>
+    <string name="cn_mismatch">Общепринятое имя не совпадает с именем хоста</string>
+    <string name="common_name">Общепринятое имя (CN):</string>
+    <string name="contributors">Благодарности</string>
+    <string name="cookies_deleted">Файлы cookie удалены</string>
+    <string msgid="3209159573327985035" name="copy">"Копировать"</string>
+    <string name="copy_email_address">Копировать адрес email</string>
+    <string name="copy_string">Копировать</string>
+    <string name="copy_url">Копировать URL</string>
+    <string name="create">Создать</string>
+    <string name="create_bookmark">Создание закладки</string>
+    <string name="create_folder">Создание папки</string>
+    <string name="create_shortcut">Создание ярлыка</string>
+    <string name="current">Текущий</string>
+    <string name="current_bookmark_icon">Текущий значок закладки</string>
+    <string name="current_folder_icon">Текущий значок папки</string>
+    <string name="current_ip_addresses">Текущие IP-адреса</string>
+    <string name="current_website_ssl_certificate">Текущий сертификат SSL сайта</string>
+    <string name="custom_proxy">Пользовательский прокси</string>
+    <string name="custom_proxy_invalid">URL пользовательского прокси недействителен.</string>
+    <string name="custom_url">Настраиваемый URL</string>
+    <string name="custom_user_agent">Настраиваемый user agent</string>
+    <string name="dark_webview">Темный WebView</string>
+    <string name="database_id">ID базы данных:</string>
+    <string name="database_view">Просмотр базы данных</string>
+    <string name="decrypt">Расшифровать</string>
+    <string name="default_allowed">По умолчанию - Разрешен</string>
+    <string name="default_folder_icon">Значок папки по умолчанию</string>
+    <string name="default_label">По умолчанию</string>
+    <string name="delete">Удалить</string>
+    <string name="device">Устройство:</string>
+    <string name="display_additional_app_bar_icons">Отображать дополнительные значки на панели приложения</string>
+    <string name="display_additional_app_bar_icons_summary">Показывать в панели приложения значки для обновления WebView и, если есть место, для открытия окна закладок и переключения cookie.</string>
+    <string name="display_images">Показывать изображения</string>
+    <string name="display_order">Порядок отображения:</string>
+    <string name="display_webpage_images">Показывать изображения веб-страницы</string>
+    <string name="display_webpage_images_summary">Отключите для экономии трафика.</string>
+    <string name="disposition">Поведение</string>
+    <string name="do_not_track">Не отслеживать</string>
+    <string name="do_not_track_summary">Отправлять заголовок \'Не отслеживать\', предлагающий веб-серверу не отслеживать этот браузер.</string>
+    <string name="dom_storage">DOM-хранилище</string>
+    <string name="dom_storage_deleted">DOM-хранилище удалено</string>
+    <string name="dom_storage_disabled">DOM-хранилище отключено</string>
+    <string name="dom_storage_enabled">DOM-хранилище включено</string>
+    <string name="dom_storage_preference">DOM-хранилище</string>
+    <string name="dom_storage_preference_summary">Для работы хранилища DOM должен быть включен JavaScript.</string>
+    <string name="domain">Домен</string>
+    <string name="domain_blacklist">Черный список доменов</string>
+    <string name="domain_deleted">Домен удален</string>
+    <string name="domain_final_blacklist">Конец черного списка доменов</string>
+    <string name="domain_final_whitelist">Конец белого списка доменов</string>
+    <string name="domain_initial_blacklist">Начало черного списка доменов</string>
+    <string name="domain_initial_whitelist">Начало белого списка доменов</string>
+    <string name="domain_label">Домен:</string>
+    <string name="domain_name">Имя домена</string>
+    <string name="domain_name_already_exists">Доменное имя уже существует</string>
+    <string name="domain_name_instructions">добавьте *. для включения всех поддоменов (напр. *.stoutner.com)</string>
+    <string name="domain_regular_expression_blacklist">Регулярные выражения черного списка доменов</string>
+    <string name="domain_settings">Настройки домена</string>
+    <string name="domain_whitelist">Белый список доменов</string>
+    <string name="domains">Домены</string>
+    <string name="download_custom_location">Загружать в пользовательское расположение</string>
+    <string name="download_location">Место скачивания</string>
+    <string name="downloads">Загрузки</string>
+    <string name="easylist">EasyList</string>
+    <string name="easylist_label">EasyList:</string>
+    <string name="easylist_summary">Основной список блокировки рекламы.</string>
+    <string name="easyprivacy">EasyPrivacy</string>
+    <string name="easyprivacy_label">EasyPrivacy:</string>
+    <string name="easyprivacy_summary">Основной список блокировки отслеживания.</string>
+    <string name="edit">Изменить</string>
+    <string name="edit_bookmark">Изменить закладку</string>
+    <string name="edit_domain_settings">Изменение параметров домена</string>
+    <string name="edit_folder">Изменить папку</string>
+    <string name="email_address">Адрес email</string>
+    <string name="encryption">Шифрование</string>
+    <string name="end_date">Конец:</string>
+    <string name="error">Ошибка:</string>
+    <string name="error_saving_file">Ошибка сохранения файла:</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Дополнительно"</string>
+    <string name="expired_certificate">Срок действия сертификата истек</string>
+    <string name="export">Экспорт</string>
+    <string name="export_failed">Сбой при экспорте:</string>
+    <string name="export_successful">Экспорт выполнен.</string>
+    <string name="facebook_click_ids">Идентификаторы кликов в Facebook</string>
+    <string name="facebook_click_ids_summary">Удалять из URL “?fbclid=”, “&amp;fbclid=”, “?fbadid=”, и “&amp;fbadid=” и все что будет после.</string>
+    <string name="fanboy_annoyance_label">Fanboy’s Annoyance List:</string>
+    <string name="fanboy_social_label">Fanboy’s Social Blocking List:</string>
+    <string name="fanboys_annoyance_list">Fanboy’s annoyance list</string>
+    <string name="fanboys_annoyance_list_summary">Блокирует раздражающие всплывающие окна и ссылки.  Включает в себя Fanboy’s social blocking lists.</string>
+    <string name="fanboys_social_blocking_list">Fanboy’s social blocking list</string>
+    <string name="fanboys_social_blocking_list_summary">Блокирует содержимое социальных сетей.</string>
+    <string name="favorite_icon">Значок сайта</string>
+    <string name="file">Файл</string>
+    <string name="file_does_not_exist">Файл не существует.</string>
+    <string name="file_exists_warning">Файл уже существует. Если вы продолжите, он будет перезаписан.</string>
+    <string name="file_location">Расположение файла</string>
+    <string name="file_name">Имя файла</string>
+    <string name="file_saved">Файл сохранен:</string>
+    <string name="final_blacklist">Конец черного списка</string>
+    <string name="final_whitelist">Конец белого списка</string>
+    <string name="find_on_page">Найти на странице</string>
+    <string name="first_party_cookies">Первичные файлы cookie</string>
+    <string name="first_party_cookies_disabled">Первичные файлы cookie отключены</string>
+    <string name="first_party_cookies_enabled">Первичные файлы cookie включены</string>
+    <string name="first_party_cookies_preference">Первичные файлы cookie</string>
+    <string name="first_party_cookies_preference_summary">Поскольку первичные файлы cookie являются настройкой уровня приложения, при включении файлов cookie на активной вкладке, любые сетевые запросы,
+            сделанные в фоновом режиме другими вкладками, также будут содержать любые сохраненные файлы cookie для их доменов.
+            Android KitKat (версия 4.4.x) не различает первичные и сторонние файлы cookie и включает их одновременно этой настройкой.</string>
+    <string name="folder">Папка:</string>
+    <string name="folder_name">Имя папки</string>
+    <string name="folder_names_must_be_unique">Имена папок должны быть уникальными</string>
+    <string name="font_size">Размер шрифта</string>
+    <string name="font_size_preference">Размер шрифта</string>
+    <string name="form_data">Данные формы</string>
+    <string name="form_data_deleted">Данные формы удалены</string>
+    <string name="form_data_disabled">Данные формы отключены</string>
+    <string name="form_data_enabled">Данные формы включены</string>
+    <string name="forward">Вперед</string>
+    <string name="full_screen">Во весь экран</string>
+    <string name="full_screen_browsing_mode">Полноэкранный режим просмотра</string>
+    <string name="full_screen_browsing_mode_summary">Двойное касание переключает режим просмотра.</string>
+    <string name="future_certificate">Дата начала действия сертификата еще не наступила</string>
+    <string name="general">Общее</string>
+    <string name="google_analytics">Google Analytics</string>
+    <string name="google_analytics_summary">Удалять из URL “?utm_” и “&amp;utm_” и все что будет после.</string>
+    <string name="guide">Руководство</string>
+    <string name="hardware">Оборудование</string>
+    <string name="hide_app_bar">Скрыть панель приложения</string>
+    <string name="hide_app_bar_summary">Скрывает панель приложения, которая содержит URL.</string>
+    <string name="history">История</string>
+    <string name="home">Домой</string>
+    <string name="home_folder">Домашняя папка</string>
+    <string name="homepage">Домашняя страница</string>
+    <string name="host">Host:</string>
+    <string name="http_authentication">Аутентификация HTTP</string>
+    <string name="i2p">I2P:</string>
+    <string name="i2p_enabled">I2P - подключиться через http://localhost:4444.</string>
+    <string name="i2p_not_installed_message">Прокси через I2P работать не будет, если приложение I2P не установлено.</string>
+    <string name="i2p_not_installed_title">I2P не установлен</string>
+    <string name="import_button">Импорт</string>
+    <string name="import_export">Импорт/Экспорт</string>
+    <string name="import_failed">Сбой при импорте:</string>
+    <string name="incognito_mode">Режим инкогнито</string>
+    <string name="incognito_mode_summary">Очистка журнала и кэша по завершении загрузки каждой веб-страницы.
+            В режиме инкогнито нажатие кнопки Назад приведет к закрытию вкладки (или приложения, если открыта только одна вкладка).</string>
+    <string name="initial_blacklist">Начало черного списка</string>
+    <string name="invalid_certificate">Недопустимый сертификат.</string>
+    <string name="invalid_date">Недопустимая дата сертификата</string>
+    <string name="invalid_url">неправильный URL</string>
+    <string name="ip_addresses">IP-адреса:</string>
+    <string name="issued_by">Кем выдан</string>
+    <string name="issued_to">Кому выдан</string>
+    <string name="issuer_dn">DN эмитента:</string>
+    <string name="javascript">JavaScript</string>
+    <string name="javascript_disabled">JavaScript отключен</string>
+    <string name="javascript_enabled">JavaScript включен</string>
+    <string name="javascript_preference">JavaScript</string>
+    <string name="javascript_preference_summary">JavaScript позволяет веб-сайтам запускать программы (скрипты) на устройстве.</string>
+    <string name="kitkat_password_encryption_message">Шифрование паролем не работает на Android KitKat.</string>
+    <string name="licenses">Лицензии</string>
+    <string name="links">Ссылки</string>
+    <string name="load_an_encrypted_website">Откройте зашифрованный сайт перед настройкой домена, чтобы заполнить текущий сертификат SSL веб-сайта.</string>
+    <string name="loading">Загрузка…</string>
+    <string name="loading_easylist">Загрузка EasyList</string>
+    <string name="loading_easyprivacy">Загрузка EasyPrivacy</string>
+    <string name="loading_fanboys_annoyance_list">Загрузка Fanboy’s Annoyance List</string>
+    <string name="loading_fanboys_social_blocking_list">Загрузка Fanboy’s Social Blocking List</string>
+    <string name="loading_ultralist">Загрузка UltraList</string>
+    <string name="loading_ultraprivacy">Загрузка UltraPrivacy</string>
+    <string name="local_storage">Локальное хранилище</string>
+    <string name="logcat">Logcat</string>
+    <string name="logcat_copied">Logcat скопирован.</string>
+    <string name="main_blacklist">Основной черный список</string>
+    <string name="main_whitelist">Основной белый список</string>
+    <string name="manufacturer">Производитель:</string>
+    <string name="mebibyte">МиБ</string>
+    <string name="memory_usage">Использование памяти</string>
+    <string name="model">Модель:</string>
+    <string name="move">Переместить</string>
+    <string name="move_down">Вниз</string>
+    <string name="move_to_folder">Переместить в папку</string>
+    <string name="move_up">Вверх</string>
+    <string name="navigation">Навигация</string>
+    <string name="navigation_drawer">Навигационная панель</string>
+    <string name="new_tab">Новая вкладка</string>
+    <string name="next">Следующий</string>
+    <string name="no_proxy_enabled">Нет - подключиться к интернету напрямую.</string>
+    <string name="no_ssl_certificate">Соединение с этим сайтом не зашифровано. Это позволяет третьим сторонам перехватывать информацию, отслеживать просмотр и внедрять вредоносный контент.</string>
+    <string msgid="478774118347071097" name="not_set">"Не указано"</string>
+    <string name="ok">OK</string>
+    <string name="open">Открыть</string>
+    <string name="open_image_in_new_tab">Открыть изображение в новой вкладке</string>
+    <string name="open_in_background">Открыть в фоне</string>
+    <string name="open_in_new_tab">Открыть в новой вкладке</string>
+    <string name="open_intents_in_new_tab">Открывать цели в новой вкладке</string>
+    <string name="open_intents_in_new_tab_summary">Цели - это ссылки, отправленные из других приложений.</string>
+    <string name="open_navigation_drawer">Открыть панель навигации</string>
+    <string name="open_with_app">Открыть в приложении</string>
+    <string name="open_with_application_name">Открыть в Clear Browser.</string>
+    <string name="open_with_browser">Открыть в браузере</string>
+    <string name="open_with_default_browser">Открыть в браузере по умолчанию.</string>
+    <string name="openkeychain">OpenKeychain:</string>
+    <string name="openkeychain_import_instructions">Незашифрованный файл должен быть импортирован на отдельном шаге после его дешифрования.</string>
+    <string name="openkeychain_required">Для использования шифрования OpenPGP необходимо приложение OpenKeychain.</string>
+    <string name="options_block_all_third_party_requests">Блокировать все сторонние запросы</string>
+    <string name="options_fanboys_annoyance_list">Fanboy’s annoyance list</string>
+    <string name="options_fanboys_social_blocking_list">Fanboy’s social blocking list</string>
+    <string name="options_user_agent">User agent</string>
+    <string name="orbot">Orbot:</string>
+    <string name="orbot_not_installed_message">Прокси через Orbot работать не будет, если приложение Orbot не установлено.</string>
+    <string name="orbot_not_installed_title">Orbot не установлен</string>
+    <string name="organization">Организация (O):</string>
+    <string name="organizational_unit">Подразделение (OU):</string>
+    <string name="overview">Обзор</string>
+    <string name="package_signature">Подпись пакета</string>
+    <string name="page">Страница</string>
+    <string name="parent_folder">Родительская папка:</string>
+    <string name="password">Пароль</string>
+    <string name="permissions">Разрешения</string>
+    <string name="pinned">Закрепленный</string>
+    <string name="pinned_ip_addresses">Закрепленные IP-адреса</string>
+    <string name="pinned_mismatch">Несоответствие закрепленных</string>
+    <string name="pinned_ssl_certificate">Закрепленный сертификат SSL</string>
+    <string msgid="7961817945132860002" name="preference_copied">"Текст \"<ns1:g id="SUMMARY">%1$s</ns1:g>\" скопирован в буфер обмена"</string>
+    <string name="previous">Предыдущий</string>
+    <string name="print">Печать</string>
+    <string name="privacy">Конфиденциальность</string>
+    <string name="privacy_mode">Режим приватности</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="proceed">Продолжить</string>
+    <string name="processing_image">Обработка изображения… :</string>
+    <string name="proxies">Прокси</string>
+    <string name="proxy">Прокси</string>
+    <string name="proxy_custom">Пользовательский</string>
+    <string name="proxy_custom_url">URL пользовательского прокси</string>
+    <string name="proxy_i2p">I2P</string>
+    <string name="proxy_none">Нет</string>
+    <string name="proxy_tor">Tor</string>
+    <string name="radio">Радио:</string>
+    <string name="refresh">Обновить</string>
+    <string name="regular_expression_blacklist">Регулярные выражения черного списка</string>
+    <string name="request_details">Детали запроса</string>
+    <string name="request_headers">Заголовки запроса</string>
+    <string name="requests">Запросы</string>
+    <string name="response_body">Тело ответа</string>
+    <string name="response_headers">Заголовки ответа</string>
+    <string name="response_message">Ответное сообщение</string>
+    <string name="save">Сохранить</string>
+    <string name="save_archive">Сохранить архив</string>
+    <string name="save_form_data_preference">Сохранение данных формы</string>
+    <string name="save_form_data_preference_summary">Сохраненные данные формы могут автоматически заполнять поля на веб-сайтах.</string>
+    <string name="save_image">Сохранить изображение</string>
+    <string name="save_logcat">Сохранить logcat</string>
+    <string name="save_text">Сохранить текст</string>
+    <string name="save_url">Сохранить URL</string>
+    <string name="saved_ip_addresses">Сохраненные IP-адреса</string>
+    <string name="saved_ssl_certificate">Сохраненный сертификат SSL</string>
+    <string name="saving_file">Сохранение файла:</string>
+    <string name="scroll_app_bar">Прокручивать панель приложения</string>
+    <string name="scroll_app_bar_summary">Прокручивает панель приложения вверху экрана при прокрутке WebView вниз.</string>
+    <string name="search">Поиск</string>
+    <string name="search_custom_url">Настраиваемый URL поиска</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Поиск"</string>
+    <string name="security_patch">Патч безопасности:</string>
+    <string name="select_all">Выбрать все</string>
+    <string name="selected">выбраны:</string>
+    <string name="serial_number">Серийный номер:</string>
+    <string name="settings">Настройки</string>
+    <string name="share">Поделиться</string>
+    <string name="share_url">Поделиться URL</string>
+    <string name="short_name">Privacy</string>
+    <string name="shortcut_name">Имя ярлыка</string>
+    <string name="signature_algorithm">Алгоритм подписи:</string>
+    <string name="socks_proxies_do_not_work_on_kitkat">SOCKS-прокси не работает на Android KitKat.</string>
+    <string name="software">Программное обеспечение</string>
+    <string name="sort">Сортировка</string>
+    <string name="sorted_by_database_id">Сортировать по ID базы данных.</string>
+    <string name="sorted_by_display_order">Сортировать по порядку отображения.</string>
+    <string name="ssl_certificate">Сертификат SSL</string>
+    <string name="ssl_certificate_error">Ошибка сертификата SSL</string>
+    <string name="ssl_certificates">Сертификаты SSL</string>
+    <string name="start_date">Начало:</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="stop">Остановить</string>
+    <string name="storage_permission">Доступ к хранилищу</string>
+    <string name="storage_permission_explanation">Для доступа к файлам во внешних папках требуется соответствующее разрешение. В противном случае будут работать только локальные папки.</string>
+    <string name="storage_permission_message">Clear Browser необходимо разрешение на доступ к внешним папкам. Если доступ предоставлен не будет, можно использовать локальную папку приложения.</string>
+    <string name="subject_dn">DN субъекта:</string>
+    <string name="sublist">Подсписок</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="swipe_to_refresh">Потянуть для обновления</string>
+    <string name="swipe_to_refresh_options_menu">Потянуть для обновления</string>
+    <string name="swipe_to_refresh_summary">Некоторые веб-сайты могут работать некорректно при включении данной опции.</string>
+    <string name="system_available_memory">Доступная системе память:</string>
+    <string name="system_consumed_memory">Потребляемая системой память:</string>
+    <string name="system_total_memory">Общая память системы:</string>
+    <string name="third_party_blacklist">Сторонний черный список</string>
+    <string name="third_party_blocked">Сторонние - Блокировано</string>
+    <string name="third_party_cookies">Сторонние файлы cookie</string>
+    <string name="third_party_cookies_disabled">Сторонние файлы cookie отключены</string>
+    <string name="third_party_cookies_enabled">Сторонние файлы cookie включены</string>
+    <string name="third_party_cookies_preference">Сторонние файлы cookie</string>
+    <string name="third_party_cookies_summary">Этот параметр требует Android Lollipop (версия 5.0) или выше. Он не действует, если первичные файлы cookie отключены.</string>
+    <string name="third_party_domain_blacklist">Сторонний черный список доменов</string>
+    <string name="third_party_domain_initial_blacklist">Начало стороннего черного списка доменов</string>
+    <string name="third_party_domain_initial_whitelist">Начало стороннего белого списка доменов</string>
+    <string name="third_party_domain_regular_expression_blacklist">Регулярные выражения стороннего черного списка доменов</string>
+    <string name="third_party_domain_whitelist">Сторонний белый список доменов</string>
+    <string name="third_party_initial_blacklist">Начало стороннего черного списка доменов</string>
+    <string name="third_party_plural">Сторонние</string>
+    <string name="third_party_regular_expression_blacklist">Регулярные выражения стороннего черного списка</string>
+    <string name="third_party_whitelist">Сторонний белый список</string>
+    <string name="tor_enabled">Tor - connect through socks://localhost:9050.</string>
+    <string name="tor_enabled_kitkat">Tor - подключиться через http://localhost:8118.</string>
+    <string name="tracking_ids">Идентификаторы отслеживания</string>
+    <string name="twitter_amp_redirects">AMP-перенаправления в Twitter</string>
+    <string name="twitter_amp_redirects_summary">Удалять из URL “?amp=1” и все что будет после.</string>
+    <string name="ultralist">UltraList</string>
+    <string name="ultralist_label">UltraList:</string>
+    <string name="ultralist_summary">UltraList блокирует рекламу, которую пропускает EasyList, так как блокировка может сломать сайты.</string>
+    <string name="ultraprivacy">UltraPrivacy</string>
+    <string name="ultraprivacy_label">UltraPrivacy:</string>
+    <string name="ultraprivacy_summary">UltraPrivacy блокирует трекеры, которые пропускает EasyPrivacy, чтобы не ломать веб-сайты.</string>
+    <string name="undo">Вернуть</string>
+    <string name="unencrypted_website">Незашифрованный веб-сайт</string>
+    <string name="unknown_size">неизвестный размер</string>
+    <string name="unrecognized_url">Нераспознанный URL:</string>
+    <string name="untrusted">Центр сертификации не является доверенным</string>
+    <string name="update">Обновить</string>
+    <string name="url">URL</string>
+    <string name="url_label">URL:</string>
+    <string name="url_modification">Модификация URL</string>
+    <string name="url_or_search_terms">URL или поисковый запрос</string>
+    <string name="user_agent">User agent</string>
+    <string name="user_agent_application_name">Clear Browser</string>
+    <string name="user_agent_chrome_on_android">Chrome на Android</string>
+    <string name="user_agent_chrome_on_windows">Chrome на Windows</string>
+    <string name="user_agent_chromium_on_linux">Chromium на Linux</string>
+    <string name="user_agent_custom">Настраиваемый</string>
+    <string name="user_agent_edge_on_windows">Edge на Windows</string>
+    <string name="user_agent_firefox_on_android">Firefox на Android</string>
+    <string name="user_agent_firefox_on_linux">Firefox на Linux</string>
+    <string name="user_agent_firefox_on_windows">Firefox на Windows</string>
+    <string name="user_agent_internet_explorer_on_windows">Internet Explorer на Windows</string>
+    <string name="user_agent_safari_on_ios">Safari на iOS</string>
+    <string name="user_agent_safari_on_macos">Safari на macOS</string>
+    <string name="user_agent_webview_default">WebView по умолчанию</string>
+    <string name="username">Имя пользователя</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ВЫКЛ."</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ВКЛ."</string>
+    <string name="valid_dates">Срок действия</string>
+    <string name="version">Версия</string>
+    <string name="version_code">код версии</string>
+    <string name="version_info_copied">Информация о версии скопирована.</string>
+    <string name="view_image">Просмотр изображения</string>
+    <string name="view_source">Просмотр исходного кода</string>
+    <string name="view_ssl_certificate">Просмотр сертификата SSL</string>
+    <string name="waiting_for_orbot">Ожидание подключения Orbot.</string>
+    <string name="web_page_favorite_icon">Значок избранной веб-страницы</string>
+    <string name="webpage_mht">Webpage.mht</string>
+    <string name="webpage_png">Webpage.png</string>
+    <string name="webview_provider">Провайдер WebView:</string>
+    <string name="webview_theme">Тема WebView</string>
+    <string name="webview_version">Версия WebView:</string>
+    <string name="wide_viewport">Широкий вид просмотра</string>
+    <string name="wide_viewport_preference">Широкий вид просмотра</string>
+    <string name="wide_viewport_summary">Использование широкого вида просмотра делает стиль некоторых веб-страниц более похожим на сайт для компьютера.</string>
+    <string name="write_email">Написать email</string>
+</resources>

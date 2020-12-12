@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2015-2019
+
+  //
+
+ //
+
+
+
+   -->
+
+<!-- `tools:ignore="MissingTranslation"` allows release APKs to be built if translation strings are missing.  The missing strings will fall back to English. -->
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation" >
+
+    <!-- Providers. -->
+    <string name="file_provider" translatable="false">com.jdots.browser.fileprovider.free</string>
+
+    <!-- Activities. -->
+    <string name="application_name">Clear Browser Free</string>
+
+    <!-- Create Home Screen Shortcut Alert Dialog. -->
+    <string name="open_with_application_name">Open with Clear Browser Free.</string>
+
+    <!-- Ad Consent. -->
+    <string name="ad_consent_text">Clear Browser Free displays a banner ad on the bottom of the screen.
+        These ads come from Google’s set of commonly used providers and are configured to be non-personalized.
+        \n\nThe standard version of Clear Browser does not contain app ads.</string>
+    <string name="close_browser">Close Browser</string>
+    <string name="accept_ads">Accept Ads</string>
+
+    <!-- Ad Control. -->
+    <string name="google_app_id" translatable="false">ca-app-pub-5962503714887045~2738552414</string>
+    <string name="ad_unit_id" translatable="false">ca-app-pub-5962503714887045/2738552414</string>
+
+    <!-- Test Ad Control.
+    <string name="google_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string> -->
+</resources>

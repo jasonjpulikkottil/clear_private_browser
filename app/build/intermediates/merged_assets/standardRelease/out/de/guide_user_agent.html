@@ -1,0 +1,67 @@
+<!--
+  //
+
+  Translation 2019 Bernhard G. Keller.  Copyright assigned to
+
+  Translation 2016 Aaron Gerlach <aaron@gerlach.com>.  Copyright assigned to
+
+  //
+
+ //
+
+
+
+   -->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="../css/theme.css">
+
+        <!-- Setting the color scheme instructs the WebView to respect `prefers-color-scheme` @media CSS. -->
+        <meta name="color-scheme" content="light dark">
+    </head>
+
+    <body>
+        <h3><svg class="header"><use href="../shared_images/devices_other.svg#icon"/></svg> Browser-Identifikation</h3>
+
+        <p>Wenn sich Internet-Browser mit Webseiten verbinden, senden Sie automatisch den sog. "User-Agent", welcher den Browser und dessen Anzeige-Fähigkeiten ausweist.
+            Der Webserver kann diese Informationen dann nutzen, um verschiedene Versionen der Webseite an unterschiedliche Browser auszuliefern.
+            Zum Beispiel haben viele Internet-Seiten unterschiedliche Versionen für Desktop- und Mobil-Browser,
+            damit die Seiten in Anhängigkeit von der Displaygrösse möglichst optimal genutzt werden können.</p>
+
+        <p>In der Voreinstellung nutzt Clear Browser seinen eigenen User-Agent, welcher <code>ClearBrowser/1.0</code> lautet.
+            Damit wird lediglich ein Minimum an Informationen an den jeweiligen Webserver gesendet.
+            Da jedoch manche Webserver diesen User-Agent nicht als mobilen Browser erkennen, liefern sie ggf. die Desktop-Version der betreffenden Webseite aus.</p>
+
+        <p>Im Vergleich dazu plaudert der Standard-User-Agent von WebView eine grosse Menge an Informationen über die Hard- und Software des genutzten Geräts aus.
+            Wird auf der <strong>Einstellungen-Seite</strong> von Clear Browser <strong>WebView-Standard</strong> als <strong>User-Agent</strong> ausgewählt,
+            wird der dadurch übermittelte User-Agent angezeigt.
+            Der Screenshot unterhalb zeigt ein Pixel 2 XL mit Android 10 und Android WebView 84.0.4147.125.
+            Die meisten Webserver erkennen diesen User-Agent als Mobil-Browser und liefern eine Mobil-Version der Seite aus, so eine solche existiert.</p>
+
+        <img class="center" src="images/user_agent.png"/>
+
+        <p>Der User-Agent beinhaltet normalerweise genügend Informationen, dass nur wenige Besucher einer Webseite denselben haben.
+            Wenn der User-Agent daher mit anderen nicht-eindeutigen Identifizierungs-Informationen kombiniert wird, kann dies ausreichen, um einen eindeutigen Fingerabdruck zu ergeben.
+            Die Electronic Frontier Foundation hat das Werkzeug <a href="https://panopticlick.eff.org/">Panopticlick</a> geschaffen,
+            um zu zeigen, wie viele Informationen aus diesen Quellen gesammelt werden kann.
+            Wenn dieser Test mit aktiviertem JavaScript absolviert wird, steigt die Menge der offengelegten Informationen drastisch an.
+            <a href="https://www.browserleaks.com">Browser Leaks</a> und <a href="https://amiunique.org/">Am I Unique</a> sind ebenfalls gute Quellen für Informationen zu diesem Thema.</p>
+
+        <img class="center" src="../shared_images/panopticlick.png"/>
+
+        <p>Clear Browser bietet verschiedene Voreinstellungen für den User-Agent an, um sich als gebräuchliche Browser und Betriebssysteme auszugeben.
+            Dabei gilt grundsätzlich: Je unüblicher der User-Agent ist, des einfacher ist das Tracking.
+            Wenn Clear Browser gebräuchlicher wird und viele Personen den User-Agent <code>ClearBrowser/1.0</code> nutzen, wird dies eine gute Wahl für die Privatsphäre sein.
+            Firefox und Chrome sind aktuell die gebräuchlichsten Browser.
+            Da sie jedoch häufig aktualisiert werden und in deren User-Agent auch die jeweilige Browser-Version mitsenden, kann es sein,
+            dass die in Clear Browser mitgelieferten User-Agents für Firefox und Chrome wiederum in den Server-Logs auffallen.</p>
+
+        <p>Manche Websites <a href="https://www.stoutner.com/user-agent-problems/">funktionieren nicht korrekt</a>, wenn sie einen User-Agent nicht erkennen.
+            Wird für derartige Webseiten in den Domänen-Einstellungen von Clear Browser der User-Agent <strong>WebView Standard</strong> oder ein anderer gebräuchlicher User-Agent ausgewählt,
+            verschwinden diese Probleme meist.
+            Androids WebView erlaubt keinen leeren User Agent. Wenn das der Fall ist, wird der Standard-User Agent an den Server gesandt.</p>
+    </body>
+</html>

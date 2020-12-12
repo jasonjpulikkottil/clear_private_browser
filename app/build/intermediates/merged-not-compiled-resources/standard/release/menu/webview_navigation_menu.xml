@@ -1,0 +1,86 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/clear_and_exit"
+        android:icon="@drawable/clear_and_exit"
+        android:orderInCategory="10"
+        android:title="@string/clear_and_exit" />
+    <!--  If a group has an id, a line is drawn above it in the navigation view.  -->
+    <group android:id="@+id/navigation_group">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home_enabled_day"
+            android:orderInCategory="20"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/back"
+            android:icon="@drawable/back"
+            android:orderInCategory="30"
+            android:title="@string/back" />
+        <item
+            android:id="@+id/forward"
+            android:icon="@drawable/forward"
+            android:orderInCategory="40"
+            android:title="@string/forward" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/history"
+            android:orderInCategory="50"
+            android:title="@string/history" />
+        <item
+            android:id="@+id/open"
+            android:icon="@drawable/proxy_enabled_day"
+            android:orderInCategory="60"
+            android:title="@string/open" />
+    </group>
+    <!--  If a group has an id, a line is drawn above it in the navigation view.  -->
+    <group android:id="@+id/features_group">
+        <item
+            android:id="@+id/requests"
+            android:icon="@drawable/block_ads_enabled_day"
+            android:orderInCategory="70"
+            android:title="@string/requests" />
+        <item
+            android:id="@+id/downloads"
+            android:icon="@drawable/downloads_enabled_day"
+            android:orderInCategory="80"
+            android:title="@string/downloads" />
+    </group>
+    <!--  If a group has an id, a line is drawn above it in the navigation view.  -->
+    <group android:id="@+id/settings_group">
+        <item
+            android:id="@+id/domains"
+            android:icon="@drawable/domains_day"
+            android:orderInCategory="90"
+            android:title="@string/domains" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settings"
+            android:orderInCategory="100"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/import_export"
+            android:icon="@drawable/import_export_day"
+            android:orderInCategory="110"
+            android:title="@string/import_export" />
+    <!--
+       <item
+           android:id="@+id/logcat"
+           android:icon="@drawable/bug"
+           android:orderInCategory="120"
+           android:title="@string/logcat" />
+           -->
+   </group>
+   <!--
+   <group android:id="@+id/info_group">
+       <item
+           android:id="@+id/guide"
+           android:icon="@drawable/guide"
+           android:orderInCategory="130"
+           android:title="@string/guide" />
+       <item
+           android:id="@+id/about"
+           android:icon="@drawable/about_day"
+           android:orderInCategory="140"
+           android:title="@string/about" />
+   </group>-->
+</menu>

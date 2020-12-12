@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2017-2018,2020
+
+  //
+
+ //
+
+
+
+   -->
+
+<!-- Set a background color for a button based on the state. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_enabled="true" android:color="@color/blue_600" />
+    <item android:color="@color/gray_750" />
+</selector>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2015-2019
+
+  Translation 2020 Thiago Nazareno Conceição Silva de Jesus <mochileiro2006-trilhas@yahoo.com.br>.  Copyright assigned to
+
+  //
+
+ //
+
+
+
+   -->
+
+<resources>
+    <!-- Activities. -->
+    <string name="application_name">Clear Browser Gratuito</string>
+
+    <!-- Create Home Screen Shortcut Alert Dialog. -->
+    <string name="open_with_application_name">Abrir com Clear Browser Gratuito.</string>
+
+    <!-- Ad Consent. -->
+    <string name="ad_consent_text">Clear Browser Gratuito exibe um anúncio de banner na parte inferior da tela.
+        Esses anúncios vêm do conjunto de provedores comumente usados do Google e são configurados para não serem personalizados.
+        \n\nA versão padrão do Clear Browser não contém anúncios de aplicativos.</string>
+    <string name="close_browser">Fechar Navegador</string>
+    <string name="accept_ads">Aceitar Anúncios</string>
+</resources>

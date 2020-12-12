@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2017,2020
+
+  //
+
+ //
+
+
+
+   -->
+
+
+<!-- An attribute that points to a drawable has to be used for the `android:background` until the minimum API >= 21.
+  After that, a single drawable may be referenced directly, which can set the background color using an attribute defined inside the drawable. -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="?attr/listSelectorDrawable" >
+
+    <TextView
+        android:id="@+id/domain_name_textview"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="22sp"
+        android:layout_margin="10dp"
+        android:lines="1"
+        android:ellipsize="end" />
+</LinearLayout>

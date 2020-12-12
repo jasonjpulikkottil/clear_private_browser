@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    2017,2019-2020
+
+  //
+
+ //
+
+
+
+   -->
+
+<!-- `android:choiceMode="singleChoice"` allows a selected domain to be highlighted.
+    `android:dividerHeight` must be at least `1dp` or the list view is inconsistent in calculating the scroll position when restarted.-->
+<ListView
+    android:id="@+id/domains_listview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jdots.browser.activities.DomainsActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:choiceMode="singleChoice"
+    android:divider="@color/transparent"
+    android:dividerHeight="1dp" />

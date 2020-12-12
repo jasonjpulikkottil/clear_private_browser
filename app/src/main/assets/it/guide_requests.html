@@ -1,0 +1,81 @@
+<!--
+    2018-2020
+
+  Translation 2018 Francesco Buratti.  Copyright assigned to
+
+  //
+
+ //
+
+
+
+   -->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <link href="../css/theme.css" rel="stylesheet">
+
+        <!-- Setting the color scheme instructs the WebView to respect `prefers-color-scheme` @media CSS. -->
+        <meta content="light dark" name="color-scheme">
+    </head>
+
+    <body>
+        <h3><svg class="header"><use href="../shared_images/local_activity.svg#icon"/></svg> Richieste di Risorse</h3>
+
+        <p>Quando viene caricata un URL, generalmente effettua un certo numero di richieste di risorse per CCS, JavaScript, immagini, e altri files.
+            I dettagli relativi a queste richieste possono essere visualizzati nella scheda delle Richieste.
+            Il menù a cassetto ha un collegamento alla scheda delle richieste e mostra quante sono state bloccate.
+            Se si tocca una delle richieste in elenco vengono mostrati i dettagli sui motivi per cui è stata permessa o bloccata.</p>
+
+        <img class="center" src="images/request_details.png"/>
+
+        <p>Clear Browser include quattro <a href="https://easylist.to/">liste di blocco comuni</a> basate sulla <a href="https://adblockplus.org/filters">Sintassi di Adblock</a>:
+            EasyList, EasyPrivacy, Fanboy’s Annoyance List, e Fanboy’s Social Blocking List.
+            Queste blocklist sono processate da Clear Browser nelle seguenti 22 liste secondarie, che verificano le richieste di risorse nell'ordine elencato.</p>
+
+        <ol>
+            <li>Whitelist principale</li>
+            <li>Whitelist finale</li>
+            <li>Whitelist per i domini</li>
+            <li>Whitelist iniziale</li>
+            <li>Whitelist finale</li>
+            <li>Whitelist di terze parti</li>
+            <li>Whitelist di terze parti per i domini</li>
+            <li>Whitelist di terze parti iniziale per i domini</li>
+            <li>Blacklist principale</li>
+            <li>Blacklist iniziale</li>
+            <li>Blacklist finale</li>
+            <li>Blacklist per i domini</li>
+            <li>Blacklist iniziale</li>
+            <li>Blacklist finale</li>
+            <li>Blacklist per le espressioni regolari</li>
+            <li>Blacklist di terze parti</li>
+            <li>Blacklist di terze parti iniziale</li>
+            <li>Blacklist di terze parti per i domini</li>
+            <li>Blacklist di terze parti iniziale per i domini</li>
+            <li>Blacklist di terze parti per le espressioni regolari</li>
+            <li>Blacklist di terze parti per le espressioni regolari per i domini</li>
+            <li>Blacklist per le espressioni regolari</li>
+        </ol>
+
+        <p>Le liste iniziali servono per la verifica della parte iniziale delle URL. Le liste iniziali servono per la verifica della parte finale delle URL.
+            Le liste dei domini servono per la verifica di certi domini. Le liste di terze parti si applicano solo se il dominio di root della richiesta è diverso dal dominio di root della URL principale.
+            Le liste per le espressioni regolari seguono la <a href="https://it.wikipedia.org/wiki/Espressione_regolare">sintassi delle espressioni regolari</a>.
+            Ogni oggetto delle liste secondarie ha uno o più elementi.
+            Nel caso delle liste secondarie dei domini, la richiesta di risorse è verificata solo se il primo elemento combacia con il dominio della URL principale.</p>
+
+        <p>A causa delle limitazioni della WebView di Android, e per velocizzare il processo delle richiesta, Clear Browser implementa una versione semplificata della sintassi di Adblock.
+            Questo approccio potrebbe a volte portare ad avere falsi positivi, nel caso in cui le risorse siano bloccate o permesse in modi che non erano previsti dall'elemento originale.
+            Una descrizione più dettagliata su come sono processati gli elementi delle liste di blocco è disponibile su <a href="https://www.stoutner.com/privacy-browser/blocklists/">stoutner.com</a>.</p>
+
+        <p>Clear Browser ha tre liste di blocco aggiuntive.
+            <a href="https://www.stoutner.com/privacy-browser/blocklists/ultralist/">UltraList</a> e <a href="https://www.stoutner.com/privacy-browser/blocklists/ultraprivacy/">UltraPrivacy</a>
+            bloccano gli annunci e i sistemi di tracciamento che EasyList e EasyPrivacy non bloccano. La terza blocca tutte le richieste di terze parti.
+            Una richiesta è considerata di terze parti solo se il dominio di base della richiesta è diverso dal dominio di base della URL.
+            Ad esempio se <code>www.website.com</code> carica un'immagine da <code>images.website.com</code>,
+            questa non è bloccata come richiesta di terze parti, perchè il dominio di base è lo stesso: <code>website.com</code>.
+            Il blocco di tutte le richieste di terze parti aumenta la privacy, ma questa lista di blocco è disabilitata di default perchè impedisce la corretta visualizzazione di un gran numero di siti web.</p>
+    </body>
+</html>

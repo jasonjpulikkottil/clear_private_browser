@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="app_theme_entries">
+            <item>Padrão do Sitema</item>
+            <item>Claro</item>
+            <item>Escuro</item>
+        </string-array>
+    <string-array name="display_webpage_images_array">
+        <item>Padrão do Sistema</item>
+        <item>Imagens habilitadas</item>
+        <item>Imagens desabilitadas</item>
+    </string-array>
+    <string-array name="download_location_entries">
+            <item>Automático</item>
+            <item>Diretório do aplicativo</item>
+            <item>Diretório público</item>
+            <item>Personalizado</item>
+        </string-array>
+    <string-array name="encryption_type">
+        <item>Nenhum</item>
+        <item>Senha</item>
+        <item>OpenPGP</item>
+    </string-array>
+    <string-array name="font_size_array">
+        <item>Padrão do Sistema</item>
+        <item>Tamanho de fonte personalizado</item>
+    </string-array>
+    <string-array name="proxy_entries">
+            <item>Nenhum</item>
+            <item>Tor</item>
+            <item>I2P</item>
+            <item>Personalizado</item>
+        </string-array>
+    <string-array name="search_entries">
+            <item>Startpage</item>
+            <item>Mojeek</item>
+            <item>DuckDuckGo - JavaScript desativado</item>
+            <item>DuckDuckGo - JavaScript ativado</item>
+            <item>Google</item>
+            <item>Bing</item>
+            <item>Yahoo - JavaScript desativado</item>
+            <item>Yahoo - JavaScript ativado</item>
+            <item>Custom</item>
+        </string-array>
+    <string-array name="swipe_to_refresh_array">
+        <item>Padrão do Sistema</item>
+        <item>Deslize para atualizar ativado</item>
+        <item>Deslize para atualizar desativado</item>
+    </string-array>
+    <string-array name="translated_domain_settings_user_agent_names">  <!-- The translated names of the user agents with a System Default option for the domains spinner. -->
+            <item>Padrão do Sistema</item>
+            <item>Clear Browser</item>
+            <item>WebView Padrão</item>
+            <item>Firefox para Android</item>
+            <item>Chrome para Android</item>
+            <item>Safari para iOS</item>
+            <item>Firefox para Linux</item>
+            <item>Chromium para Linux</item>
+            <item>Firefox para Windows</item>
+            <item>Chrome para Windows</item>
+            <item>Edge para Windows</item>
+            <item>Internet Explorer para Windows</item>
+            <item>Safari para macOS</item>
+            <item>Personalizado</item>
+        </string-array>
+    <string-array name="translated_user_agent_names">
+            <item>Clear Browser</item>
+            <item>WebView Padrão</item>
+            <item>Firefox para Android</item>
+            <item>Chrome para Android</item>
+            <item>Safari para iOS</item>
+            <item>Firefox para Linux</item>
+            <item>Chromium para Linux</item>
+            <item>Firefox para Windows</item>
+            <item>Chrome para Windows</item>
+            <item>Edge para Windows</item>
+            <item>Internet Explorer para Windows</item>
+            <item>Safari para macOS</item>
+            <item>Personalizado</item>
+        </string-array>
+    <string-array name="webview_theme_array">
+        <item>Padrão do Sistema</item>
+        <item>Tema Claro WebView</item>
+        <item>Tema Escuro WebView</item>
+    </string-array>
+    <string-array name="webview_theme_entries">
+            <item>Padrão do Sitema</item>
+            <item>Claro</item>
+            <item>Escuro</item>
+        </string-array>
+    <string-array name="wide_viewport_array">
+        <item>Padrão do Sistema</item>
+        <item>Janela de visualização ampla ativada</item>
+        <item>Janela de visualização ampla desativada</item>
+    </string-array>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Selecionar um app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESATIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ATIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"espaço"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Pesquisar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="about">Sobre</string>
+    <string name="about_application_name">Sobre o Clear Browser</string>
+    <string name="about_view_source">Sobre Ver Fonte</string>
+    <string name="about_view_source_message">Como o WebView do Android não expõe as informações de origem,
+        uma solicitação separada foi feita usando ferramentas do sistema para reunir as informações exibidas nesta atividade.
+        Pode haver algumas diferenças entre esses dados e aqueles usados pelo WebView na atividade principal. Essa limitação será removida na série 4.x com o lançamento do Privacy WebView.</string>
+    <string name="ad_consent">Consentimento de Anúncio</string>
+    <string name="add">Adicionar</string>
+    <string name="add_domain">Adicionar Domínio</string>
+    <string name="add_domain_settings">Adicionar configurações de domínio</string>
+    <string name="add_tab">Adicionar aba</string>
+    <string name="add_to_home_screen">Adicionar à tela inicial</string>
+    <string name="all">Tudo</string>
+    <string name="all_folders">Todas as pastas</string>
+    <string name="allow_screenshots">Permitir capturas de tela</string>
+    <string name="allow_screenshots_summary">Permitir capturas de tela, gravação de vídeo e visualização em monitores não seguros. Alterar esta configuração irá reiniciar o Clear Browser.</string>
+    <string name="allowed">Permitido</string>
+    <string name="allowed_plural">Permitido</string>
+    <string name="android">Android:</string>
+    <string name="android_asset_path">pt-rBR</string>
+    <string name="api">API</string>
+    <string name="app_available_memory">Memória Disponível do Aplicativo:</string>
+    <string name="app_consumed_memory">Consumo da Memória do Aplicativo:</string>
+    <string name="app_maximum_memory">Memória Máxima do Aplicativo:</string>
+    <string name="app_theme">Tema do  aplicativo</string>
+    <string name="app_total_memory">Memória Total do Aplicativo:</string>
+    <string name="application_name">Navegador Privado</string>
+    <string name="application_name_logcat_txt">Clear Browser Logcat.txt</string>
+    <string name="application_name_version_png">Clear Browser Versão.png</string>
+    <string name="application_name_version_txt">Clear Browser Versão.txt</string>
+    <string name="application_name_web_page">Página da Web do Clear Browser</string>
+    <string name="apply">Aplicar</string>
+    <string name="back">Fim</string>
+    <string name="block_all_third_party_requests">Bloquear todas as solicitações de terceiros</string>
+    <string name="block_all_third_party_requests_summary">Bloquear todas as solicitações de terceiros aumenta a privacidade, mas quebra muitos sites.</string>
+    <string name="blocked">Bloqueado</string>
+    <string name="blocked_plural">Bloqueados</string>
+    <string name="blocklist">Lista de bloqueios</string>
+    <string name="blocklist_entries">Entradas da lista de bloqueio</string>
+    <string name="blocklist_original_entry">Entrada original da lista de bloqueio</string>
+    <string name="blocklists">Blocklists</string>
+    <string name="bookmark_name">Nome do marcador</string>
+    <string name="bookmark_url">URL do favorito</string>
+    <string name="bookmarks">Favoritos</string>
+    <string name="bookmarks_database_view">Visualização do banco de dados de favoritos</string>
+    <string name="bookmarks_deleted">Favoritos excluídos:</string>
+    <string name="bootloader">Bootloader:</string>
+    <string name="brand">Marca:</string>
+    <string name="browse">Navegar</string>
+    <string name="build">Build:</string>
+    <string name="bytes">bytes</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cannot_deselect_bookmark">Um favorito não pode ser desmarcado enquanto a pasta superior estiver selecionada.</string>
+    <string name="cannot_use_location">Este local não pode ser usado porque a permissão de armazenamento não foi concedida.</string>
+    <string name="certificate_version">Versão do certificado:</string>
+    <string name="changelog">Changelog</string>
+    <string name="clear">Limpar</string>
+    <string name="clear_and_exit">Limpar e fechar</string>
+    <string name="clear_cache">Limpar cache</string>
+    <string name="clear_cache_summary">Limpa o cache do WebView.</string>
+    <string name="clear_cookies">Limpar Cookies</string>
+    <string name="clear_cookies_preference">Limpar cookies</string>
+    <string name="clear_cookies_summary">Limpa os cookies originais e de terceiros.</string>
+    <string name="clear_data">Limpar dados</string>
+    <string name="clear_dom_storage">Limpar Armazenamento DOM</string>
+    <string name="clear_dom_storage_preference">Limpar armazenamento DOM</string>
+    <string name="clear_dom_storage_summary">Limpa o armazenamento DOM.</string>
+    <string name="clear_everything">Limpar tudo</string>
+    <string name="clear_everything_summary">Limpa cookies, armazenamento DOM, dados de formulário e cache do WebView. Em seguida, exclui manualmente todos os diretórios “app_webview” e “cache”.</string>
+    <string name="clear_form_data">Clear Form Data</string>
+    <string name="clear_form_data_preference">Limpar dados do formulário</string>
+    <string name="clear_form_data_summary">Limpa os dados do formulário.</string>
+    <string name="clear_history">Limpar Histórico</string>
+    <string name="clear_logcat_preference">Limpar Logcat</string>
+    <string name="clear_logcat_summary">Limpar os Logcats.</string>
+    <string name="close">Fecha</string>
+    <string name="close_navigation_drawer">Fechar  a caixa de navegação</string>
+    <string name="close_tab">Fechar aba</string>
+    <string name="cn_mismatch">O nome comum não corresponde ao nome do host</string>
+    <string name="common_name">Nome Comum:</string>
+    <string name="contributors">Contribuidores</string>
+    <string name="cookies_deleted">Cookies excluídos</string>
+    <string msgid="3209159573327985035" name="copy">"Copiar"</string>
+    <string name="copy_email_address">Copiar Email Address</string>
+    <string name="copy_string">Cópia</string>
+    <string name="copy_url">Copiar URL</string>
+    <string name="create">Criar</string>
+    <string name="create_bookmark">Criar marcador</string>
+    <string name="create_folder">Criar pasta</string>
+    <string name="create_shortcut">Criar atalho</string>
+    <string name="current">Atual</string>
+    <string name="current_bookmark_icon">Ícone de favorito atual</string>
+    <string name="current_folder_icon">Ícone da pasta atual</string>
+    <string name="current_ip_addresses">Endereços IP atuais</string>
+    <string name="current_website_ssl_certificate">Certificado SSL do site atual</string>
+    <string name="custom_proxy">Personalizar proxy</string>
+    <string name="custom_proxy_invalid">O URL do proxy personalizado é inválido.</string>
+    <string name="custom_url">URL personalizado</string>
+    <string name="custom_user_agent">Agente de usuário personalizado</string>
+    <string name="dark_webview">Dark WebView</string>
+    <string name="database_id">ID de banco de dados:</string>
+    <string name="database_view">Visualização do banco de dados</string>
+    <string name="decrypt">Descriptografar</string>
+    <string name="default_allowed">Padrão - Permitido</string>
+    <string name="default_folder_icon">Ícone de pasta padrão</string>
+    <string name="default_label">Padrão</string>
+    <string name="delete">Apagar</string>
+    <string name="device">Dispositivo:</string>
+    <string name="display_additional_app_bar_icons">Exibir ícones adicionais da barra de aplicativos</string>
+    <string name="display_additional_app_bar_icons_summary">Exibe ícones na barra de aplicativos para atualizar o WebView e, se houver espaço, para abrir o menu de favoritos e alternar os cookies.</string>
+    <string name="display_images">Exibir imagens</string>
+    <string name="display_order">Ordem de exibição:</string>
+    <string name="display_webpage_images">Exibir imagens da página da web</string>
+    <string name="display_webpage_images_summary">Desative para conservar a largura de banda.</string>
+    <string name="disposition">Disposição</string>
+    <string name="do_not_track">Não rastreie</string>
+    <string name="do_not_track_summary">Envie \'Não Rastreie\' ao cabeçalho, que sugere educadamente que os servidores da web não rastreiam este navegador.</string>
+    <string name="dom_storage">Armazenamento DOM</string>
+    <string name="dom_storage_deleted">Armazenamento DOM excluído</string>
+    <string name="dom_storage_disabled">Armazenamento DOM desativado</string>
+    <string name="dom_storage_enabled">Armazenamento DOM ativado</string>
+    <string name="dom_storage_preference">Armazenamento DOM</string>
+    <string name="dom_storage_preference_summary">JavaScript deve estar habilitado para que o armazenamento DOM funcione.</string>
+    <string name="domain">Domínio</string>
+    <string name="domain_blacklist">Lista negra de domínio</string>
+    <string name="domain_deleted">Domínio excluído</string>
+    <string name="domain_final_blacklist">Lista negra final do domínio</string>
+    <string name="domain_final_whitelist">Lista de permissões final de domínio</string>
+    <string name="domain_initial_blacklist">Lista negra inicial do domínio</string>
+    <string name="domain_initial_whitelist">Lista de permissões inicial do domínio</string>
+    <string name="domain_label">Domínio:</string>
+    <string name="domain_name">Nome do domínio</string>
+    <string name="domain_name_already_exists">Nome de domínio já existe</string>
+    <string name="domain_name_instructions">*. pode ser anexado a um domínio para incluir todos os subdomínios (e.g. *.stoutner.com)</string>
+    <string name="domain_regular_expression_blacklist">Lista negra de expressões regulares de domínio</string>
+    <string name="domain_settings">Configurações de domínio</string>
+    <string name="domain_whitelist">Lista de permissões de domínio</string>
+    <string name="domains">Domínios</string>
+    <string name="download_custom_location">Localização de Download Personalizada</string>
+    <string name="download_location">Localização de Download</string>
+    <string name="downloads">Downloads</string>
+    <string name="easylist">EasyList</string>
+    <string name="easylist_label">EasyList:</string>
+    <string name="easylist_summary">Lista principal de bloqueio de anúncios.</string>
+    <string name="easyprivacy">EasyPrivacy</string>
+    <string name="easyprivacy_label">EasyPrivacy:</string>
+    <string name="easyprivacy_summary">Lista de bloqueio do rastreador principal.</string>
+    <string name="edit">Editar</string>
+    <string name="edit_bookmark">Editar favorito</string>
+    <string name="edit_domain_settings">Editar configurações de domínio</string>
+    <string name="edit_folder">Editar Pasta</string>
+    <string name="email_address">Endereço de Email</string>
+    <string name="encryption">Encriptação</string>
+    <string name="end_date">Data Final:</string>
+    <string name="error">Erro:</string>
+    <string name="error_saving_file">Erro ao salvar o arquivo:</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Avançado"</string>
+    <string name="expired_certificate">O certificado expirou</string>
+    <string name="export">Exportar</string>
+    <string name="export_failed">A exportação falhou:</string>
+    <string name="export_successful">Exportação bem sucedida.</string>
+    <string name="facebook_click_ids">IDs de clique do Facebook</string>
+    <string name="facebook_click_ids_summary">Remover â€œ?fbclid=â€ , â€œ&amp;fbclid=â€ , â€œ?fbadid=â€ , e â€œ&amp;fbadid=â€  e qualquer coisa depois deles a partir de URLs.</string>
+    <string name="fanboy_annoyance_label">Fanboy’s Annoyance List:</string>
+    <string name="fanboy_social_label">Fanboy’s Social Blocking List:</string>
+    <string name="fanboys_annoyance_list"> Lista de importunação Fanboy</string>
+    <string name="fanboys_annoyance_list_summary">Bloqueie popups e links irritantes. Inclui listas de bloqueio social do Fanboy.</string>
+    <string name="fanboys_social_blocking_list">Lista de bloqueio social do Fanboy</string>
+    <string name="fanboys_social_blocking_list_summary">Bloqueia conteúdo de mídia social de terceiros.</string>
+    <string name="favorite_icon">Ícone dos Favoritos</string>
+    <string name="file">Arquivo</string>
+    <string name="file_does_not_exist">O arquivo não existe.</string>
+    <string name="file_exists_warning">O arquivo já existe. Se você continuar, ele será sobrescrito.</string>
+    <string name="file_location">Localização do Arquivo</string>
+    <string name="file_name">Nome do Arquivo</string>
+    <string name="file_saved">Arquivo Salvo:</string>
+    <string name="final_blacklist">Lista negra final</string>
+    <string name="final_whitelist">Lista de permissões final</string>
+    <string name="find_on_page">Procurar</string>
+    <string name="first_party_cookies">Cookies primários</string>
+    <string name="first_party_cookies_disabled">Cookies primários desabilitados</string>
+    <string name="first_party_cookies_enabled">Cookies primários habilitados</string>
+    <string name="first_party_cookies_preference">Cookies primários</string>
+    <string name="first_party_cookies_preference_summary">Como os cookies primários são uma configuração de nível de aplicativo, quando a guia ativa tem cookies habilitados,
+            todas as solicitações de rede feitas em segundo plano por outras guias também incluirão quaisquer cookies armazenados para seus domínios.
+            O Android KitKat (versão 4.4.x) não diferencia entre cookies primários e de terceiros e os habilitará com esta configuração.</string>
+    <string name="folder">Pasta:</string>
+    <string name="folder_name">Nome da pasta</string>
+    <string name="folder_names_must_be_unique">Os nomes das pastas devem ser únicos</string>
+    <string name="font_size">Tamanho da Fonte</string>
+    <string name="font_size_preference">Tamanho da Fonte</string>
+    <string name="form_data">Dados do formulário</string>
+    <string name="form_data_deleted">Dados do formulário excluídos</string>
+    <string name="form_data_disabled">Dados de formulário desabilitados</string>
+    <string name="form_data_enabled">Dados de formulário habilitados</string>
+    <string name="forward">Avançar</string>
+    <string name="full_screen">Tela Cheia</string>
+    <string name="full_screen_browsing_mode">Modo de navegação em tela inteira</string>
+    <string name="full_screen_browsing_mode_summary">Toque duas vezes para alternar o modo de navegação em tela inteira.</string>
+    <string name="future_certificate">A data de início do certificado está no futuro</string>
+    <string name="general">Geral</string>
+    <string name="google_analytics">Google Analytics</string>
+    <string name="google_analytics_summary">Remova utm_ e amp; utm_ e qualquer coisa depois deles dos URLs.</string>
+    <string name="guide">Guia</string>
+    <string name="hardware">Hardware</string>
+    <string name="hide_app_bar">Ocultar a barra de aplicativos</string>
+    <string name="hide_app_bar_summary">Oculte a barra de aplicativos que contém o URL.</string>
+    <string name="history">Histórico</string>
+    <string name="home">Início</string>
+    <string name="home_folder">Pasta Pessoal</string>
+    <string name="homepage">Página inicial</string>
+    <string name="host">Host:</string>
+    <string name="http_authentication">Autenticação HTTP</string>
+    <string name="i2p">I2P:</string>
+    <string name="i2p_enabled">I2P - conecte-se por meio de http://localhost:4444.</string>
+    <string name="i2p_not_installed_message">O proxy através do I2P não funcionará a menos que o aplicativo I2P esteja instalado.</string>
+    <string name="i2p_not_installed_title">I2P Não  Instalado</string>
+    <string name="import_button">Importar</string>
+    <string name="import_export">Importar/Exportar</string>
+    <string name="import_failed">A importação falhou:</string>
+    <string name="incognito_mode">Modo de navegação anônima</string>
+    <string name="incognito_mode_summary">Limpe o histórico e o cache após o término do carregamento de cada página da web. No modo de navegação anônima,
+            volta para fechar a guia (ou o aplicativo, se houver apenas uma guia).</string>
+    <string name="initial_blacklist">Lista negra inicial</string>
+    <string name="invalid_certificate">O certificado é inválido</string>
+    <string name="invalid_date">A data do certificado é inválida</string>
+    <string name="invalid_url">URL inválida</string>
+    <string name="ip_addresses">Endereço de IP:</string>
+    <string name="issued_by">Emitido por</string>
+    <string name="issued_to">Emitido para</string>
+    <string name="issuer_dn">DN do emissor:</string>
+    <string name="javascript">JavaScript</string>
+    <string name="javascript_disabled">JavaScript desativado</string>
+    <string name="javascript_enabled">JavaScript ativado</string>
+    <string name="javascript_preference">JavaScript</string>
+    <string name="javascript_preference_summary">JavaScript permite que sites executem programas (scripts) no dispositivo.</string>
+    <string name="kitkat_password_encryption_message">A criptografia de senha não funciona no Android KitKat.</string>
+    <string name="licenses">Licenças</string>
+    <string name="links">Links</string>
+    <string name="load_an_encrypted_website">Carregue um site criptografado antes de abrir as configurações de domínio para preencher o certificado SSL do site atual.</string>
+    <string name="loading">Carregando...</string>
+    <string name="loading_easylist">Carregando  EasyList</string>
+    <string name="loading_easyprivacy">Carregando EasyPrivacy</string>
+    <string name="loading_fanboys_annoyance_list">Carregando Fanboy’s Annoyance List</string>
+    <string name="loading_fanboys_social_blocking_list">Carregando Fanboy’s Social Blocking List</string>
+    <string name="loading_ultralist">Carregando UltraList</string>
+    <string name="loading_ultraprivacy">Carregando UltraPrivacy</string>
+    <string name="local_storage">Armazenamento Local</string>
+    <string name="logcat">Logcat</string>
+    <string name="logcat_copied">Logcat copiado.</string>
+    <string name="main_blacklist">Lista negra principal</string>
+    <string name="main_whitelist">Lista branca principal</string>
+    <string name="manufacturer">Fabricante:</string>
+    <string name="mebibyte">MiB</string>
+    <string name="memory_usage">Uso da Memória</string>
+    <string name="model">Modelo:</string>
+    <string name="move">Mover</string>
+    <string name="move_down">Descer</string>
+    <string name="move_to_folder">Mover para a pasta</string>
+    <string name="move_up">Subir</string>
+    <string name="navigation">Navegação</string>
+    <string name="navigation_drawer">Caixa de Navegação</string>
+    <string name="new_tab">Nova aba</string>
+    <string name="next">Próximo</string>
+    <string name="no_proxy_enabled">Nenhum - conecte-se diretamente à Internet.</string>
+    <string name="no_ssl_certificate">A comunicação com este site não é criptografada. Isso permite que terceiros interceptem informações, rastreiem sua navegação e insiram conteúdo malicioso.</string>
+    <string msgid="478774118347071097" name="not_set">"Não definido"</string>
+    <string name="ok">OK</string>
+    <string name="open">Abrir</string>
+    <string name="open_image_in_new_tab">Abra a imagem em uma nova aba</string>
+    <string name="open_in_background">Abrir em segundo plano</string>
+    <string name="open_in_new_tab">Abrir em nova aba</string>
+    <string name="open_intents_in_new_tab">Abrir conteúdo em uma nova guia</string>
+    <string name="open_intents_in_new_tab_summary">Conteúdos são links enviados de outros aplicativos.</string>
+    <string name="open_navigation_drawer">Abrir a caixa de navegação</string>
+    <string name="open_with_app">Abrir com aplicativo</string>
+    <string name="open_with_application_name">Abrir com o  Clear Browser.</string>
+    <string name="open_with_browser">Abrir com navegador</string>
+    <string name="open_with_default_browser">Abrir com o navegador padrão.</string>
+    <string name="openkeychain">OpenKeychain:</string>
+    <string name="openkeychain_import_instructions">O arquivo não criptografado terá que ser importado em uma etapa separada após ser descriptografado.</string>
+    <string name="openkeychain_required">A criptografia OpenPGP requer que o OpenKeychain seja instalado.</string>
+    <string name="options_block_all_third_party_requests">Bloquear todas as solicitações de terceiros</string>
+    <string name="options_fanboys_annoyance_list">Lista de Aborrecimento Fanboy’s</string>
+    <string name="options_fanboys_social_blocking_list">Lista de bloqueio social Fanboy’s</string>
+    <string name="options_user_agent">User Agent</string>
+    <string name="orbot">Orbot:</string>
+    <string name="orbot_not_installed_message">O proxy através do Orbot não funcionará a menos que o aplicativo Orbot esteja instalado.</string>
+    <string name="orbot_not_installed_title">Orbot Não  Instalado</string>
+    <string name="organization">Organização:</string>
+    <string name="organizational_unit">Unidade da  Organização:</string>
+    <string name="overview">Visão geral</string>
+    <string name="package_signature">Assinatura do Pacote</string>
+    <string name="page">Página</string>
+    <string name="parent_folder">Pasta Superior:</string>
+    <string name="password">Senha</string>
+    <string name="permissions">Permissões</string>
+    <string name="pinned">Fixada</string>
+    <string name="pinned_ip_addresses">Endereços IP fixados</string>
+    <string name="pinned_mismatch">Incompatibilidade fixada</string>
+    <string name="pinned_ssl_certificate">Certificado SSL fixado</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" copiado para a área de transferência."</string>
+    <string name="previous">Anterior</string>
+    <string name="print">Imprimir</string>
+    <string name="privacy">Privacidade</string>
+    <string name="privacy_mode">Modo Privado</string>
+    <string name="privacy_policy">Política de Privacidade</string>
+    <string name="proceed">Prosseguir</string>
+    <string name="processing_image">Processando imagem… :</string>
+    <string name="proxies">Proxies</string>
+    <string name="proxy">Proxy</string>
+    <string name="proxy_custom">Personalizado</string>
+    <string name="proxy_custom_url">URL de proxy personalizado</string>
+    <string name="proxy_i2p">I2P</string>
+    <string name="proxy_none">Nenhum</string>
+    <string name="proxy_tor">Tor</string>
+    <string name="radio">Rádio:</string>
+    <string name="refresh">Atualizar</string>
+    <string name="regular_expression_blacklist">Lista negra de expressões regulares</string>
+    <string name="request_details">Solicitar Detalhes</string>
+    <string name="request_headers">Solicitar cabeçalhos</string>
+    <string name="requests">Solicitações</string>
+    <string name="response_body">Corpo de Resposta</string>
+    <string name="response_headers">Cabeçalhos de resposta</string>
+    <string name="response_message">Mensagem de Resposta</string>
+    <string name="save">Salvar</string>
+    <string name="save_archive">Salvar Arquivo</string>
+    <string name="save_form_data_preference">Dados do formulário</string>
+    <string name="save_form_data_preference_summary">Dados de formulário salvos podem preencher campos automaticamente em sites.</string>
+    <string name="save_image">Salvar Imagem</string>
+    <string name="save_logcat">Salvar logcat</string>
+    <string name="save_text">Salvar Texto</string>
+    <string name="save_url">Salvar URL</string>
+    <string name="saved_ip_addresses">Endereços IP salvos</string>
+    <string name="saved_ssl_certificate">Certificado SSL salvo</string>
+    <string name="saving_file">Salvando file:</string>
+    <string name="scroll_app_bar">Role a barra de aplicativos</string>
+    <string name="scroll_app_bar_summary">Role a barra de aplicativos para fora da parte superior da tela quando o WebView rola para baixo.</string>
+    <string name="search">Search</string>
+    <string name="search_custom_url">URL personalizado de pesquisa</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Pesquisar"</string>
+    <string name="security_patch">Patch de segurança:</string>
+    <string name="select_all">Selecionar Tudo</string>
+    <string name="selected">Selecionados:</string>
+    <string name="serial_number">Número de série:</string>
+    <string name="settings">Configurações</string>
+    <string name="share">Compartilhar</string>
+    <string name="share_url">Compartilhar URL</string>
+    <string name="short_name">Privado</string>
+    <string name="shortcut_name">Nome do atalho</string>
+    <string name="signature_algorithm">Algoritmo de Assinatura:</string>
+    <string name="socks_proxies_do_not_work_on_kitkat">Os proxies SOCKS não funcionam no Android KitKat.</string>
+    <string name="software">Software</string>
+    <string name="sort">Ordenar</string>
+    <string name="sorted_by_database_id">Ordenado por ID de banco de dados.</string>
+    <string name="sorted_by_display_order">Ordenado por ordem de exibição.</string>
+    <string name="ssl_certificate">Certificado SSL</string>
+    <string name="ssl_certificate_error">Erro de certificado SSL</string>
+    <string name="ssl_certificates">Certificados SSL</string>
+    <string name="start_date">Data Inicial:</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stop">Parar</string>
+    <string name="storage_permission">Permissão de armazenamento</string>
+    <string name="storage_permission_explanation">O acesso a arquivos em diretórios públicos requer permissão de armazenamento. Caso contrário, apenas os diretórios de aplicativos funcionarão.</string>
+    <string name="storage_permission_message">O Clear Browser precisa de permissão de armazenamento para acessar diretórios públicos.
+        Se for negado, os diretórios do aplicativo ainda podem ser usados.</string>
+    <string name="subject_dn">Assunto DN:</string>
+    <string name="sublist">Sublista</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="swipe_to_refresh">Deslize para atualizar</string>
+    <string name="swipe_to_refresh_options_menu">Deslize para atualizar</string>
+    <string name="swipe_to_refresh_summary">Alguns sites não funcionam bem se deslizar para atualizar estiver habilitado.</string>
+    <string name="system_available_memory">Memória Disponível do Sistema:</string>
+    <string name="system_consumed_memory">Memória Consumida do Sistema:</string>
+    <string name="system_total_memory">Memória Total do Sistema:</string>
+    <string name="third_party_blacklist">Lista negra de terceiros</string>
+    <string name="third_party_blocked">Terceiros - Bloqueados</string>
+    <string name="third_party_cookies">Cookies de terceiros</string>
+    <string name="third_party_cookies_disabled">Cookies de terceiros desabilitados</string>
+    <string name="third_party_cookies_enabled">Cookies de terceiros habilitados</string>
+    <string name="third_party_cookies_preference">Cookies de terceiros</string>
+    <string name="third_party_cookies_summary">Esta configuração requer Android Lollipop (versão 5.0) ou superior. Não tem efeito se os cookies primários estiverem desativados.</string>
+    <string name="third_party_domain_blacklist">Lista negra de domínios de terceiros</string>
+    <string name="third_party_domain_initial_blacklist">Lista negra inicial de domínios de terceiros</string>
+    <string name="third_party_domain_initial_whitelist">Lista de permissões inicial de domínio de terceiros</string>
+    <string name="third_party_domain_regular_expression_blacklist">Lista negra de expressões regulares de domínios de terceiros</string>
+    <string name="third_party_domain_whitelist">Lista de permissões de domínio de terceiros</string>
+    <string name="third_party_initial_blacklist">Lista negra inicial de terceiros</string>
+    <string name="third_party_plural">Terceiros</string>
+    <string name="third_party_regular_expression_blacklist">Lista negra de expressões regulares de terceiros</string>
+    <string name="third_party_whitelist">Lista de permissões de terceiros</string>
+    <string name="tor_enabled">Tor - conecte-se por meio do socks://localhost:9050.</string>
+    <string name="tor_enabled_kitkat">Tor - conecte-se por meio de http://localhost:8118.</string>
+    <string name="tracking_ids">IDs de rastreamento</string>
+    <string name="twitter_amp_redirects">Redirecionamentos de AMP do Twitter</string>
+    <string name="twitter_amp_redirects_summary">Remover â€œ?amp=1â€  e qualquer coisa depois de URLs.</string>
+    <string name="ultralist">UltraList</string>
+    <string name="ultralist_label">UltraList:</string>
+    <string name="ultralist_summary">O UltraList bloqueia anúncios que EasyList não bloqueia porque fazer isso pode quebrar sites.</string>
+    <string name="ultraprivacy">UltraPrivacy</string>
+    <string name="ultraprivacy_label">UltraPrivacy:</string>
+    <string name="ultraprivacy_summary">O UltraPrivacy bloqueia rastreadores que o EasyPrivacy não bloqueia, pois isso pode corromper sites.</string>
+    <string name="undo">Desfazer</string>
+    <string name="unencrypted_website">Site não criptografado</string>
+    <string name="unknown_size">tamanho desconhecido</string>
+    <string name="unrecognized_url">URL desconhecida:</string>
+    <string name="untrusted">A autoridade de certificação não é confiável</string>
+    <string name="update">Atualizar</string>
+    <string name="url">URL</string>
+    <string name="url_label">URL:</string>
+    <string name="url_modification">Modificação de URL</string>
+    <string name="url_or_search_terms">URL ou termos de pesquisa</string>
+    <string name="user_agent">Mimetizar o Navegador:</string>
+    <string name="user_agent_application_name">Clear Browser</string>
+    <string name="user_agent_chrome_on_android">Chrome para Android</string>
+    <string name="user_agent_chrome_on_windows">Chrome para Windows</string>
+    <string name="user_agent_chromium_on_linux">Chromium para Linux</string>
+    <string name="user_agent_custom">Personalizado</string>
+    <string name="user_agent_edge_on_windows">Edge para Windows</string>
+    <string name="user_agent_firefox_on_android">Firefox para Android</string>
+    <string name="user_agent_firefox_on_linux">Firefox para Linux</string>
+    <string name="user_agent_firefox_on_windows">Firefox para Windows</string>
+    <string name="user_agent_internet_explorer_on_windows">Internet Explorer para Windows</string>
+    <string name="user_agent_safari_on_ios">Safari para iOS</string>
+    <string name="user_agent_safari_on_macos">Safari para macOS</string>
+    <string name="user_agent_webview_default">WebView Default</string>
+    <string name="username">Nome do usuário</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"DESATIVADO"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ATIVADO"</string>
+    <string name="valid_dates">Datas Válidas</string>
+    <string name="version">Versão</string>
+    <string name="version_code">Código da Versão</string>
+    <string name="version_info_copied">Informações de versão copiada.</string>
+    <string name="view_image">Visualizar Imagem</string>
+    <string name="view_source">Ver fonte</string>
+    <string name="view_ssl_certificate">Ver certificado SSL</string>
+    <string name="waiting_for_orbot">Esperando que o Orbot se conecte.</string>
+    <string name="web_page_favorite_icon">Ícone favorito da página da web</string>
+    <string name="webpage_mht">Pagina_Web.mht</string>
+    <string name="webpage_png">Pagina_Web.png</string>
+    <string name="webview_provider">Fornecedor WebView:</string>
+    <string name="webview_theme">Tema do WebView</string>
+    <string name="webview_version">Versão do WebView:</string>
+    <string name="wide_viewport">Janela ampliada</string>
+    <string name="wide_viewport_preference">Janela de visualização ampla</string>
+    <string name="wide_viewport_summary">Usar uma janela de visualização ampla torna o layout de algumas páginas da web mais parecido com o site para desktop.</string>
+    <string name="write_email">Escrever Email</string>
+</resources>

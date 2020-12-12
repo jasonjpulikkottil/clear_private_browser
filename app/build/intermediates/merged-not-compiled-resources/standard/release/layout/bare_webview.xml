@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2016-2017
+
+  //
+
+ //
+
+
+
+   -->
+
+<!-- This WebView displays inside of the tabs in AboutActivity and GuideActivity. -->
+<WebView
+    android:id="@+id/bare_webview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />

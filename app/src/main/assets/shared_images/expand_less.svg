@@ -1,0 +1,21 @@
+<!--
+    2020
+
+  //
+
+  It is a modified version of `expand_less`, which is part of the Android Material icon set and is released under the Apache License 2.0.
+
+ //
+
+
+
+   -->
+
+<svg
+  id="icon"
+  viewBox="0 0 24 24"
+  xmlns="http://www.w3.org/2000/svg" >
+
+  <path
+     d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z" />
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2015-2019
+
+  Translation 2018-2019 Francesco Buratti.  Copyright assigned to
+
+  //
+
+ //
+
+
+
+   -->
+
+<resources>
+    <!-- Activities. -->
+    <string name="application_name">Clear Browser Free</string>
+
+    <!-- Create Home Screen Shortcut Alert Dialog. -->
+    <string name="open_with_application_name">Apri con Clear Browser Free.</string>
+
+    <!-- Ad Consent. -->
+    <string name="ad_consent_text">Clear Browser Free mostra un banner pubblicitario nella parte inferiore dello schermo.
+        Questi annunci provengono dai provider normalmente utilizzati da Google e sono configurati in modo da non essere personalizzati.
+        \n\nLa versione standard di Clear Browser non contiene annunci di applicazioni.</string>
+    <string name="close_browser">Chiudi il Browser</string>
+    <string name="accept_ads">Accetta gli Annunci</string>
+</resources>

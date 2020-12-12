@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2018,2020
+
+  //
+
+ //
+
+
+
+   -->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical" >
+
+        <!-- Disposition. -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/disposition"
+            android:textColor="?attr/blueTextColor"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/request_disposition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?android:textColorPrimary"
+            android:textIsSelectable="true"
+            android:textSize="16sp" />
+
+        <!-- URL -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/url"
+            android:textColor="?attr/blueTextColor"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/request_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?android:textColorPrimary"
+            android:textIsSelectable="true"
+            android:textSize="16sp" />
+
+        <!-- Blocklist -->
+        <TextView
+            android:id="@+id/request_blocklist_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/blocklist"
+            android:textColor="?attr/blueTextColor"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/request_blocklist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?android:textColorPrimary"
+            android:textIsSelectable="true"
+            android:textSize="16sp" />
+
+        <!-- Sublist -->
+        <TextView
+            android:id="@+id/request_sublist_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/sublist"
+            android:textColor="?attr/blueTextColor"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/request_sublist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?android:textColorPrimary"
+            android:textIsSelectable="true"
+            android:textSize="16sp" />
+
+        <!-- Blocklist Entries. -->
+        <TextView
+            android:id="@+id/request_blocklist_entries_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/blocklist_entries"
+            android:textColor="?attr/blueTextColor"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/request_blocklist_entries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?android:textColorPrimary"
+            android:textIsSelectable="true"
+            android:textSize="16sp" />
+
+        <!-- Blocklist Entries. -->
+        <TextView
+            android:id="@+id/request_blocklist_original_entry_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/blocklist_original_entry"
+            android:textColor="?attr/blueTextColor"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/request_blocklist_original_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?android:textColorPrimary"
+            android:textIsSelectable="true"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

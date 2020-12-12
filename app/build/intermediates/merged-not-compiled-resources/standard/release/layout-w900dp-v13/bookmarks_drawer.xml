@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2017,2019-2020
+
+  This file is part of Clear Browser <https://www.stoutner.com/privacy-browser>>.
+
+ //
+
+
+
+   -->
+
+<!-- `android:layout_width="400dp"` keeps the bookmarks drawer from filling the whole screen on a tablet. -->
+<FrameLayout
+    android:id="@+id/bookmarks_framelayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="400dp"
+    android:layout_gravity="end" >
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="?android:attr/colorBackground" >
+
+        <!-- A compound drawable doesn't work well because only the image view should execute the `onClick()`. -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables" >
+
+            <ImageView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:src="@drawable/back"
+                android:background="?attr/selectableItemBackground"
+                android:onClick="bookmarksBack"
+                android:contentDescription="@string/back"
+                app:tint="?android:attr/textColorPrimary" />
+
+            <TextView
+                android:id="@+id/bookmarks_title_textview"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="?android:attr/textColorPrimary"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/bookmarks_drawer_listview"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:divider="@color/transparent"
+            android:dividerHeight="0dp" />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/launch_bookmarks_activity_fab"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="155dp"
+        android:src="@drawable/bookmarks_day"
+        android:tint="?attr/fabIconTintColor"
+        android:contentDescription="@string/bookmarks" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/create_bookmark_folder_fab"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="85dp"
+        android:src="@drawable/create_folder"
+        android:tint="?attr/fabIconTintColor"
+        android:contentDescription="@string/create_folder" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/create_bookmark_fab"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/create_bookmark"
+        android:tint="?attr/fabIconTintColor"
+        android:contentDescription="@string/create_bookmark" />
+</FrameLayout>

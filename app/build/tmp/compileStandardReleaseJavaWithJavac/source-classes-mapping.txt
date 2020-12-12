@@ -1,0 +1,177 @@
+com/jdots/browser/fragments/DomainSettingsFragment.java
+ com.jdots.browser.fragments.DomainSettingsFragment
+ com.jdots.browser.fragments.DomainSettingsFragment$1
+ com.jdots.browser.fragments.DomainSettingsFragment$2
+ com.jdots.browser.fragments.DomainSettingsFragment$3
+ com.jdots.browser.fragments.DomainSettingsFragment$4
+ com.jdots.browser.fragments.DomainSettingsFragment$5
+ com.jdots.browser.fragments.DomainSettingsFragment$6
+ com.jdots.browser.fragments.DomainSettingsFragment$7
+com/jdots/browser/dialogs/StoragePermissionDialog.java
+ com.jdots.browser.dialogs.StoragePermissionDialog
+ com.jdots.browser.dialogs.StoragePermissionDialog$StoragePermissionDialogListener
+com/jdots/browser/helpers/ImportExportDatabaseHelper.java
+ com.jdots.browser.helpers.ImportExportDatabaseHelper
+com/jdots/browser/helpers/CheckPinnedMismatchHelper.java
+ com.jdots.browser.helpers.CheckPinnedMismatchHelper
+com/jdots/browser/activities/RequestsActivity.java
+ com.jdots.browser.activities.RequestsActivity
+ com.jdots.browser.activities.RequestsActivity$1
+ com.jdots.browser.activities.RequestsActivity$2
+com/jdots/browser/helpers/AdHelper.java
+ com.jdots.browser.helpers.AdHelper
+com/jdots/browser/dialogs/SaveDialog.java
+ com.jdots.browser.dialogs.SaveDialog
+ com.jdots.browser.dialogs.SaveDialog$1
+ com.jdots.browser.dialogs.SaveDialog$SaveListener
+com/jdots/browser/helpers/DomainsDatabaseHelper.java
+ com.jdots.browser.helpers.DomainsDatabaseHelper
+com/jdots/browser/views/NoSwipeViewPager.java
+ com.jdots.browser.views.NoSwipeViewPager
+com/jdots/browser/adapters/AboutPagerAdapter.java
+ com.jdots.browser.adapters.AboutPagerAdapter
+com/jdots/browser/dialogs/UrlHistoryDialog.java
+ com.jdots.browser.dialogs.UrlHistoryDialog
+ com.jdots.browser.dialogs.UrlHistoryDialog$NavigateHistoryListener
+com/jdots/browser/dialogs/WaitingForProxyDialog.java
+ com.jdots.browser.dialogs.WaitingForProxyDialog
+com/jdots/browser/adapters/HistoryArrayAdapter.java
+ com.jdots.browser.adapters.HistoryArrayAdapter
+com/jdots/browser/fragments/WebViewTabFragment.java
+ com.jdots.browser.fragments.WebViewTabFragment
+ com.jdots.browser.fragments.WebViewTabFragment$NewTabListener
+com/jdots/browser/asynctasks/GetUrlSize.java
+ com.jdots.browser.asynctasks.GetUrlSize
+com/jdots/browser/dialogs/OpenDialog.java
+ com.jdots.browser.dialogs.OpenDialog
+ com.jdots.browser.dialogs.OpenDialog$1
+ com.jdots.browser.dialogs.OpenDialog$OpenListener
+com/jdots/browser/activities/AboutActivity.java
+ com.jdots.browser.activities.AboutActivity
+com/jdots/browser/asynctasks/GetHostIpAddresses.java
+ com.jdots.browser.asynctasks.GetHostIpAddresses
+com/jdots/browser/asynctasks/SaveAboutVersionImage.java
+ com.jdots.browser.asynctasks.SaveAboutVersionImage
+com/jdots/browser/fragments/AboutWebViewFragment.java
+ com.jdots.browser.fragments.AboutWebViewFragment
+ com.jdots.browser.fragments.AboutWebViewFragment$1
+com/jdots/browser/activities/BookmarksActivity.java
+ com.jdots.browser.activities.BookmarksActivity
+ com.jdots.browser.activities.BookmarksActivity$1
+ com.jdots.browser.activities.BookmarksActivity$1$1
+ com.jdots.browser.activities.BookmarksActivity$2
+com/jdots/browser/views/CheckedLinearLayout.java
+ com.jdots.browser.views.CheckedLinearLayout
+com/jdots/browser/dialogs/ProxyNotInstalledDialog.java
+ com.jdots.browser.dialogs.ProxyNotInstalledDialog
+com/jdots/browser/asynctasks/PrepareSaveDialog.java
+ com.jdots.browser.asynctasks.PrepareSaveDialog
+com/jdots/browser/dialogs/SslCertificateErrorDialog.java
+ com.jdots.browser.dialogs.SslCertificateErrorDialog
+ com.jdots.browser.dialogs.SslCertificateErrorDialog$GetIpAddresses
+com/jdots/browser/dialogs/ViewSslCertificateDialog.java
+ com.jdots.browser.dialogs.ViewSslCertificateDialog
+com/jdots/browser/activities/SettingsActivity.java
+ com.jdots.browser.activities.SettingsActivity
+com/jdots/browser/adapters/RequestsArrayAdapter.java
+ com.jdots.browser.adapters.RequestsArrayAdapter
+com/jdots/browser/BuildConfig.java
+ com.jdots.browser.BuildConfig
+com/jdots/browser/dialogs/AdConsentDialog.java
+ com.jdots.browser.dialogs.AdConsentDialog
+com/jdots/browser/dialogs/PinnedMismatchDialog.java
+ com.jdots.browser.dialogs.PinnedMismatchDialog
+ com.jdots.browser.dialogs.PinnedMismatchDialog$1
+ com.jdots.browser.dialogs.PinnedMismatchDialog$PinnedMismatchListener
+ com.jdots.browser.dialogs.PinnedMismatchDialog$pagerAdapter
+com/jdots/browser/asynctasks/GetLogcat.java
+ com.jdots.browser.asynctasks.GetLogcat
+com/jdots/browser/activities/MainWebViewActivity.java
+ com.jdots.browser.activities.MainWebViewActivity
+ com.jdots.browser.activities.MainWebViewActivity$1
+ com.jdots.browser.activities.MainWebViewActivity$10
+ com.jdots.browser.activities.MainWebViewActivity$11
+ com.jdots.browser.activities.MainWebViewActivity$12
+ com.jdots.browser.activities.MainWebViewActivity$13
+ com.jdots.browser.activities.MainWebViewActivity$2
+ com.jdots.browser.activities.MainWebViewActivity$3
+ com.jdots.browser.activities.MainWebViewActivity$4
+ com.jdots.browser.activities.MainWebViewActivity$5
+ com.jdots.browser.activities.MainWebViewActivity$6
+ com.jdots.browser.activities.MainWebViewActivity$7
+ com.jdots.browser.activities.MainWebViewActivity$8
+ com.jdots.browser.activities.MainWebViewActivity$9
+com/jdots/browser/asynctasks/PopulateBlocklists.java
+ com.jdots.browser.asynctasks.PopulateBlocklists
+ com.jdots.browser.asynctasks.PopulateBlocklists$PopulateBlocklistsListener
+com/jdots/browser/adapters/WebViewPagerAdapter.java
+ com.jdots.browser.adapters.WebViewPagerAdapter
+com/jdots/browser/backgroundtasks/GetSourceBackgroundTask.java
+ com.jdots.browser.backgroundtasks.GetSourceBackgroundTask
+com/jdots/browser/helpers/ProxyHelper.java
+ com.jdots.browser.helpers.ProxyHelper
+com/jdots/browser/activities/GuideActivity.java
+ com.jdots.browser.activities.GuideActivity
+com/jdots/browser/helpers/DownloadLocationHelper.java
+ com.jdots.browser.helpers.DownloadLocationHelper
+com/jdots/browser/dialogs/ViewRequestDialog.java
+ com.jdots.browser.dialogs.ViewRequestDialog
+ com.jdots.browser.dialogs.ViewRequestDialog$ViewRequestListener
+com/jdots/browser/activities/DomainsActivity.java
+ com.jdots.browser.activities.DomainsActivity
+ com.jdots.browser.activities.DomainsActivity$1
+ com.jdots.browser.activities.DomainsActivity$2
+ com.jdots.browser.activities.DomainsActivity$2$1
+ com.jdots.browser.activities.DomainsActivity$3
+com/jdots/browser/fragments/SettingsFragment.java
+ com.jdots.browser.fragments.SettingsFragment
+com/jdots/browser/helpers/BookmarksDatabaseHelper.java
+ com.jdots.browser.helpers.BookmarksDatabaseHelper
+com/jdots/browser/activities/ImportExportActivity.java
+ com.jdots.browser.activities.ImportExportActivity
+ com.jdots.browser.activities.ImportExportActivity$1
+ com.jdots.browser.activities.ImportExportActivity$2
+ com.jdots.browser.activities.ImportExportActivity$3
+com/jdots/browser/dialogs/SaveWebpageDialog.java
+ com.jdots.browser.dialogs.SaveWebpageDialog
+ com.jdots.browser.dialogs.SaveWebpageDialog$1
+ com.jdots.browser.dialogs.SaveWebpageDialog$2
+ com.jdots.browser.dialogs.SaveWebpageDialog$SaveWebpageListener
+com/jdots/browser/asynctasks/SaveWebpageImage.java
+ com.jdots.browser.asynctasks.SaveWebpageImage
+com/jdots/browser/views/NestedScrollWebView.java
+ com.jdots.browser.views.NestedScrollWebView
+com/jdots/browser/adapters/GuidePagerAdapter.java
+ com.jdots.browser.adapters.GuidePagerAdapter
+com/jdots/browser/views/WrapVerticalContentViewPager.java
+ com.jdots.browser.views.WrapVerticalContentViewPager
+com/jdots/browser/dialogs/MoveToFolderDialog.java
+ com.jdots.browser.dialogs.MoveToFolderDialog
+ com.jdots.browser.dialogs.MoveToFolderDialog$1
+ com.jdots.browser.dialogs.MoveToFolderDialog$2
+ com.jdots.browser.dialogs.MoveToFolderDialog$MoveToFolderListener
+com/jdots/browser/activities/BookmarksDatabaseViewActivity.java
+ com.jdots.browser.activities.BookmarksDatabaseViewActivity
+ com.jdots.browser.activities.BookmarksDatabaseViewActivity$1
+ com.jdots.browser.activities.BookmarksDatabaseViewActivity$2
+ com.jdots.browser.activities.BookmarksDatabaseViewActivity$3
+ com.jdots.browser.activities.BookmarksDatabaseViewActivity$4
+ com.jdots.browser.activities.BookmarksDatabaseViewActivity$4$1
+com/jdots/browser/helpers/FileNameHelper.java
+ com.jdots.browser.helpers.FileNameHelper
+com/jdots/browser/definitions/History.java
+ com.jdots.browser.definitions.History
+com/jdots/browser/asynctasks/SaveUrl.java
+ com.jdots.browser.asynctasks.SaveUrl
+com/jdots/browser/helpers/BlocklistHelper.java
+ com.jdots.browser.helpers.BlocklistHelper
+com/jdots/browser/activities/LogcatActivity.java
+ com.jdots.browser.activities.LogcatActivity
+com/jdots/browser/fragments/DomainsListFragment.java
+ com.jdots.browser.fragments.DomainsListFragment
+ com.jdots.browser.fragments.DomainsListFragment$DismissSnackbarInterface
+com/jdots/browser/fragments/AboutVersionFragment.java
+ com.jdots.browser.fragments.AboutVersionFragment
+com/jdots/browser/fragments/GuideWebViewFragment.java
+ com.jdots.browser.fragments.GuideWebViewFragment
+ com.jdots.browser.fragments.GuideWebViewFragment$1

@@ -1,0 +1,19 @@
+<!-- This file is derived from elements of `folder` and `exit_to_app`, which are part of the Android Material icon set.  They are released under the Apache License 2.0.
+    Modifications   2017     The resulting image is released under the GPLv3+ license. -->
+
+<!-- `tools:ignore="VectorRaster"` removes the lint warning about `android:autoMirrored="true"` not applying to API < 21. -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportHeight="24"
+    android:viewportWidth="24"
+    android:autoMirrored="true"
+    tools:ignore="VectorRaster" >
+
+    <!-- A hard coded color must be used until API >= 21.  Then `@color` or `?attr/colorControlNormal` may be used. -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M4,4C2.9,4 2.01,4.9 2.01,6L2,18C2,19.1 2.9,20 4,20L20,20C21.1,20 22,19.1 22,18L22,8C22,6.9 21.1,6 20,6L12,6L10,4L4,4zM13.75,7.83L18.75,12.83L13.75,17.83L12.34,16.421L14.92,13.83L5.25,13.83L5.25,11.83L14.92,11.83L12.34,9.24L13.75,7.83z" />
+</vector>

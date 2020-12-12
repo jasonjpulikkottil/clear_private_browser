@@ -1,0 +1,78 @@
+<!--
+    2018-2020
+
+  //
+
+ //
+
+
+
+   -->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <link href="../css/theme.css" rel="stylesheet">
+
+        <!-- Setting the color scheme instructs the WebView to respect `prefers-color-scheme` @media CSS. -->
+        <meta content="light dark" name="color-scheme">
+    </head>
+
+    <body>
+        <h3><svg class="header"><use href="../shared_images/local_activity.svg#icon"/></svg> Kaynak İstekleri</h3>
+
+        <p>Bir URL yüklendiğinde, genellikle CCS, JavaScript, resim ve diğer dosyalar için birkaç kaynak isteği yapar. Bu isteklerle ilgili detaylar İstekler etkinliğinden ulaşılabilir.
+            Gezinti çekmecesi, İstekler etkinliğine götüren bir bağlantı içerir ve ayrıca bu etkinlik kaç tane isteğin engellediğini gösterir.
+            Bir isteğe dokunulduğunda, neden izin verildiğine ya da engellendiğine dair detaylar görüntülenir.</p>
+
+        <img class="center" src="images/request_details.png"/>
+
+        <p>Clear Browser, <a href="https://adblockplus.org/filters">Adblock sözdizimini (Adblock syntax)</a> temel alan 4 <a href="https://easylist.to/">yaygın engel listesini</a> içerir:
+            EasyList, EasyPrivacy, Fanboy’s Annoyance List ve Fanboy’s Social Blocking List.
+            Bu engel listeleri, Clear Browser tarafından, aşağıda listelenmiş olan kaynak isteklerini kontrol eden 22 alt listeye göre işlenmiştir.</p>
+
+        <ol>
+            <li>Ana Beyaz Listesi</li>
+            <li>Final Beyaz Listesi</li>
+            <li>Domain Beyaz Listesi</li>
+            <li>Domain Başlangıç Beyaz Listesi</li>
+            <li>Domain Final Beyaz Listesi</li>
+            <li>Üçüncü Taraf Beyaz Listesi</li>
+            <li>Üçüncü Taraf Domain Beyaz Listesi</li>
+            <li>Üçüncü Taraf Domain Başlangıç Beyaz Listesi</li>
+            <li>Ana Kara Listesi</li>
+            <li>Başlangıç Kara Listesi</li>
+            <li>Final Kara Listesi</li>
+            <li>Domain Kara Listesi</li>
+            <li>Domain Başlangıç Kara Listesi</li>
+            <li>Domain Final Kara Listesi</li>
+            <li>Domain Düzenli İfade (Regular Expression) Kara Listesi</li>
+            <li>Üçüncü Taraf Kara Listesi</li>
+            <li>Üçüncü Taraf Başlangıç Kara Listesi</li>
+            <li>Üçüncü Taraf Domain Kara Listesi</li>
+            <li>Üçüncü Taraf Domain Başlangıç Kara Listesi</li>
+            <li>Üçüncü Taraf Düzenli İfade (Regular Expression) Kara Listesi</li>
+            <li>Üçüncü Taraf Domain Düzenli İfade (Regular Expression) Kara Listesi</li>
+            <li>Düzenli İfade (Regular Expression) Kara Listesi</li>
+        </ol>
+
+        <p>Başlangıç listeleri, URL'nin başlangıcına göre kontrol eder. Final listeleri, URL'nin sonuna göre kontrol eder. Domain listeleri, yalnızca belli domainlere göre kontrol eder.
+            Üçüncü taraf listeleri, yalnızca isteğin kök domaini ana URL'nin kök domaininden farklıysa uygulanır.
+            Düzenli ifade listeleri, <a href="https://en.wikipedia.org/wiki/Regular_expression">düzenli ifade sözdizimini (regular expression syntax)</a> takip eder.
+            Her alt liste öğesinin bir veya daha fazla girdisi vardır.
+            Domain alt listeleri işe karıştığında, ilk girdi ana URL'nin domaini ile eşleşirse, kaynak isteği yalnızca öğeye göre kontrol edilir.</p>
+
+        <p>Anroid’in WebView kısıtlamaları yüzünden ve isteklerin işlenmesini hızlandırmak için Clear Browser, Adblock sözdiziminin basitleştirilmiş bir yorumunu uygular.
+            Bu durum, bazen, kaynakların orijinal girdi tarafından amaçlanmayan şekillerde izin verildiği veya engellendiği yanlış pozitif (false positive) durumuna yol açabilir.
+            Engel listesi girdilerinin nasıl işlendiğine dair daha ayrıntılı bir açıklama <a href="https://www.stoutner.com/privacy-browser/blocklists/">stoutner.com</a> adresinde bulunabilir.</p>
+
+        <p>Clear Browser'a 3 yeni engel listesi eklendi.
+            <a href="https://www.stoutner.com/privacy-browser/blocklists/ultralist/">UltraList</a> ve <a href="https://www.stoutner.com/privacy-browser/blocklists/ultraprivacy/">UltraPrivacy</a>,
+            EasyList ve EasyPrivacy'nin engellemediği reklamları ve izleyicileri de engeller. Üçüncü liste ise tüm üçüncü taraf istekleri engeller.
+            Bir istek yalnızca, isteğin temel domaini bağlantının temel domaininden farklıysa üçüncü taraf olarak kabul edilir.
+            Örneğin, <code>www.website.com</code> adresi <code>images.website.com</code> adresinden bir resim yüklüyorsa,
+            her ikisi de aynı temel domaini (<code>website.com</code>) paylaştığı için bu üçüncü taraf isteği olarak engellenmez.
+            Tüm üçüncü taraf istekleri engellemek gizliliği arttırır, fakat çok sayıda web sitesini bozduğu için bu engel listesi varsayılan olarak devre dışıdır.</p>
+    </body>
+</html>

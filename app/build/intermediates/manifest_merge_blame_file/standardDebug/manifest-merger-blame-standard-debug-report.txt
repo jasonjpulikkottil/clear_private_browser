@@ -1,0 +1,478 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jdots.browser"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+9-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:8:5-67
+12-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+13-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:9:5-88
+13-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:9:22-85
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:10:5-80
+14-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:10:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:11:5-81
+15-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:11:22-78
+16
+17    <uses-feature
+17-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:13:5-15:36
+18        android:name="android.hardware.touchscreen"
+18-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:14:9-52
+19        android:required="false" />
+19-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:15:9-33
+20
+21    <application
+21-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:16:5-281:19
+22        android:name="androidx.multidex.MultiDexApplication"
+23        android:allowBackup="false"
+23-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:17:9-36
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.3.2] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/fc99c69e5314a6736128ee9e416d66e8/core-1.3.2/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:fullBackupContent="false"
+26-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:18:9-42
+27        android:icon="@mipmap/ic_launcher_foreground"
+27-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:19:9-54
+28        android:label="@string/application_name"
+28-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:20:9-49
+29        android:networkSecurityConfig="@xml/network_security_config"
+29-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:21:9-69
+30        android:requestLegacyExternalStorage="true"
+30-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:22:9-52
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:23:9-54
+32        android:supportsRtl="true" >
+32-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:24:9-35
+33
+34        <!-- If `android:name="android.webkit.WebView.MetricsOptOut"` is not `true` then `WebViews` will upload metrics to Google.  <https://developer.android.com/reference/android/webkit/WebView.html> -->
+35        <meta-data
+35-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:28:9-30:36
+36            android:name="android.webkit.WebView.MetricsOptOut"
+36-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:29:13-64
+37            android:value="true" />
+37-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:30:13-33
+38
+39        <!-- Explicitly disable "Safe Browsing". -->
+40        <meta-data
+40-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:33:9-35:37
+41            android:name="android.webkit.WebView.EnableSafeBrowsing"
+41-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:34:13-69
+42            android:value="false" />
+42-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:35:13-34
+43
+44        <!-- Specify the Application ID used by the ads in the free flavor. -->
+45        <meta-data
+45-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:38:9-40:53
+46            android:name="com.google.android.gms.ads.APPLICATION_ID"
+46-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:39:13-69
+47            android:value="@string/google_app_id" />
+47-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:40:13-50
+48
+49        <!-- Don't initialize the ad system in the free flavor until it is explicitly called. -->
+50        <meta-data
+50-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:43:9-45:36
+51            android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT"
+51-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:44:13-81
+52            android:value="true" />
+52-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:45:13-33
+53
+54        <!-- The file provider is required to encrypt files with OpenKeychain. -->
+55        <provider
+55-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:48:9-57:20
+56            android:name="androidx.core.content.FileProvider"
+56-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:49:13-62
+57            android:authorities="@string/file_provider"
+57-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:50:13-56
+58            android:exported="false"
+58-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:51:13-37
+59            android:grantUriPermissions="true" >
+59-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:52:13-47
+60            <meta-data
+60-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:54:13-56:63
+61                android:name="android.support.FILE_PROVIDER_PATHS"
+61-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:55:17-67
+62                android:resource="@xml/file_provider_paths" />
+62-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:56:17-60
+63        </provider>
+64
+65        <!--
+66             The label uses the short name so that it isn't truncated under the icon in the launcher on most phones.
+67            The theme has to be defined here or an ugly title bar is displayed when the app launches.
+68            `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+69            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+70            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+71            `android:launchMode="singleTask"` makes the app launch in a new task instead of inside the task of the program that sends it an intent.
+72            It also makes it reuse an existing Clear Browser activity if available instead of launching a new one.
+73            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+74            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+75        -->
+76        <activity
+76-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:68:9-138:20
+77            android:name="com.jdots.browser.activities.MainWebViewActivity"
+77-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:69:13-76
+78            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+78-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:70:13-96
+79            android:label="@string/short_name"
+79-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:71:13-47
+80            android:launchMode="singleTask"
+80-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:72:13-44
+81            android:persistableMode="persistNever"
+81-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:73:13-51
+82            android:screenOrientation="fullUser"
+82-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:74:13-49
+83            android:theme="@style/ClearBrowser" >
+83-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:75:13-48
+84            <intent-filter>
+84-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:78:13-81:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:79:17-69
+85-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:79:25-66
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:80:17-77
+87-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:80:27-74
+88            </intent-filter>
+89
+90            <!-- Process web intents. -->
+91            <intent-filter>
+91-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:84:13-92:29
+92                <action android:name="android.intent.action.VIEW" />
+92-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:85:17-69
+92-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:85:25-66
+93
+94                <category android:name="android.intent.category.BROWSABLE" />
+94-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:87:17-78
+94-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:87:27-75
+95                <category android:name="android.intent.category.DEFAULT" />
+95-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:88:17-76
+95-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:88:27-73
+96
+97                <data android:scheme="http" />
+97-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:90:17-47
+97-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:90:23-44
+98                <data android:scheme="https" />
+98-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:90:17-47
+98-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:90:23-44
+99            </intent-filter>
+100
+101            <!-- Process content intents for text files. -->
+102            <intent-filter>
+102-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:95:13-103:29
+103                <action android:name="android.intent.action.VIEW" />
+103-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:85:17-69
+103-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:85:25-66
+104
+105                <category android:name="android.intent.category.BROWSABLE" />
+105-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:87:17-78
+105-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:87:27-75
+106                <category android:name="android.intent.category.DEFAULT" />
+106-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:88:17-76
+106-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:88:27-73
+107
+108                <data android:scheme="content" />
+108-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:90:17-47
+108-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:90:23-44
+109                <data android:mimeType="text/*" />
+109-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:90:17-47
+109-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:102:23-48
+110            </intent-filter>
+111
+112            <!-- Process intents for text strings.  Sometimes URLs are presented this way. -->
+113            <intent-filter>
+113-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:106:13-112:29
+114                <action android:name="android.intent.action.SEND" />
+114-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:107:17-69
+114-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:107:25-66
+115
+116                <category android:name="android.intent.category.DEFAULT" />
+116-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:88:17-76
+116-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:88:27-73
+117
+118                <data android:mimeType="text/plain" />
+118-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:90:17-47
+118-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:102:23-48
+119            </intent-filter>
+120
+121            <!-- Process intents for MHT archives. -->
+122            <intent-filter>
+122-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:115:13-129:29
+123                <action android:name="android.intent.action.VIEW" />
+123-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:85:17-69
+123-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:85:25-66
+124
+125                <category android:name="android.intent.category.BROWSABLE" />
+125-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:87:17-78
+125-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:87:27-75
+126                <category android:name="android.intent.category.DEFAULT" />
+126-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:88:17-76
+126-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:88:27-73
+127
+128                <data android:scheme="file" />
+128-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:90:17-47
+128-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:90:23-44
+129                <data android:scheme="content" />
+129-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:90:17-47
+129-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:90:23-44
+130                <data android:host="*" />
+130-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:90:17-47
+130-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:124:23-39
+131
+132                <!-- In the path pattern syntax, `.*` is a wildcard.  Hence, this matches any file path that ends in `.mht`.  <https://developer.android.com/guide/topics/manifest/data-element#path> -->
+133                <data android:pathPattern=".*.mht" />
+133-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:90:17-47
+133-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:127:23-51
+134                <data android:mimeType="*/*" />
+134-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:90:17-47
+134-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:102:23-48
+135            </intent-filter>
+136
+137            <!-- Process web search intents. -->
+138            <intent-filter>
+138-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:132:13-137:29
+139                <action android:name="android.intent.action.WEB_SEARCH" />
+139-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:133:17-75
+139-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:133:25-72
+140
+141                <category android:name="android.intent.category.BROWSABLE" />
+141-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:87:17-78
+141-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:87:27-75
+142                <category android:name="android.intent.category.DEFAULT" />
+142-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:88:17-76
+142-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:88:27-73
+143            </intent-filter>
+144        </activity>
+145
+146        <!--
+147             `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+148            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+149            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+150            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+151            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+152        -->
+153        <activity
+153-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:146:9-153:46
+154            android:name="com.jdots.browser.activities.BookmarksActivity"
+154-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:147:13-74
+155            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+155-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:148:13-96
+156            android:label="@string/bookmarks"
+156-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:149:13-46
+157            android:parentActivityName="com.jdots.browser.activities.MainWebViewActivity"
+157-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:150:13-90
+158            android:persistableMode="persistNever"
+158-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:151:13-51
+159            android:screenOrientation="fullUser" />
+159-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:152:13-49
+160
+161        <!--
+162             `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+163            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+164            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+165            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+166            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+167        -->
+168        <activity
+168-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:160:9-167:46
+169            android:name="com.jdots.browser.activities.BookmarksDatabaseViewActivity"
+169-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:161:13-86
+170            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+170-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:162:13-96
+171            android:label="@string/bookmarks_database_view"
+171-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:163:13-60
+172            android:parentActivityName="com.jdots.browser.activities.BookmarksActivity"
+172-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:164:13-88
+173            android:persistableMode="persistNever"
+173-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:165:13-51
+174            android:screenOrientation="fullUser" />
+174-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:166:13-49
+175
+176        <!--
+177             `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+178            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+179            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+180            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+181            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+182        -->
+183        <activity
+183-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:174:9-181:46
+184            android:name="com.jdots.browser.activities.RequestsActivity"
+184-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:175:13-73
+185            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+185-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:176:13-96
+186            android:label="@string/requests"
+186-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:177:13-45
+187            android:parentActivityName="com.jdots.browser.activities.MainWebViewActivity"
+187-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:178:13-90
+188            android:persistableMode="persistNever"
+188-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:179:13-51
+189            android:screenOrientation="fullUser" />
+189-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:180:13-49
+190
+191        <!--
+192             `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+193            `android:configChanges="keyboard|keyboardHidden"` makes the activity not reload when a bluetooth keyboard is activated/goes to sleep.
+194            `android:windowSoftInputMode="stateAlwaysHidden"` keeps the keyboard from displaying when the screen is rotated and after the `AddDomainDialog` is dismissed.
+195            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+196            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+197        -->
+198        <activity
+198-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:188:9-196:46
+199            android:name="com.jdots.browser.activities.DomainsActivity"
+199-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:189:13-72
+200            android:configChanges="screenLayout|keyboard|keyboardHidden"
+200-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:190:13-73
+201            android:label="@string/domains"
+201-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:191:13-44
+202            android:parentActivityName="com.jdots.browser.activities.MainWebViewActivity"
+202-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:192:13-90
+203            android:persistableMode="persistNever"
+203-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:193:13-51
+204            android:screenOrientation="fullUser"
+204-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:194:13-49
+205            android:windowSoftInputMode="stateAlwaysHidden" />
+205-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:195:13-60
+206
+207        <!--
+208             `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+209            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+210            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+211            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+212            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+213        -->
+214        <activity
+214-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:203:9-210:46
+215            android:name="com.jdots.browser.activities.SettingsActivity"
+215-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:204:13-73
+216            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+216-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:205:13-96
+217            android:label="@string/settings"
+217-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:206:13-45
+218            android:parentActivityName="com.jdots.browser.activities.MainWebViewActivity"
+218-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:207:13-90
+219            android:persistableMode="persistNever"
+219-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:208:13-51
+220            android:screenOrientation="fullUser" />
+220-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:209:13-49
+221
+222        <!--
+223             `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+224            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+225            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+226            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+227            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+228        -->
+229        <activity
+229-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:217:9-224:46
+230            android:name="com.jdots.browser.activities.ImportExportActivity"
+230-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:218:13-77
+231            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+231-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:219:13-96
+232            android:label="@string/import_export"
+232-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:220:13-50
+233            android:parentActivityName="com.jdots.browser.activities.MainWebViewActivity"
+233-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:221:13-90
+234            android:persistableMode="persistNever"
+234-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:222:13-51
+235            android:screenOrientation="fullUser" />
+235-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:223:13-49
+236
+237        <!--
+238             `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+239            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+240            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+241            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+242            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+243        -->
+244        <activity
+244-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:231:9-238:46
+245            android:name="com.jdots.browser.activities.LogcatActivity"
+245-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:232:13-71
+246            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+246-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:233:13-96
+247            android:label="@string/logcat"
+247-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:234:13-43
+248            android:parentActivityName="com.jdots.browser.activities.MainWebViewActivity"
+248-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:235:13-90
+249            android:persistableMode="persistNever"
+249-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:236:13-51
+250            android:screenOrientation="fullUser" />
+250-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:237:13-49
+251
+252        <!--
+253             `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+254            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+255            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+256            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+257            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+258        -->
+259        <activity
+259-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:245:9-252:46
+260            android:name="com.jdots.browser.activities.GuideActivity"
+260-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:246:13-70
+261            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+261-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:247:13-96
+262            android:label="@string/guide"
+262-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:248:13-42
+263            android:parentActivityName="com.jdots.browser.activities.MainWebViewActivity"
+263-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:249:13-90
+264            android:persistableMode="persistNever"
+264-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:250:13-51
+265            android:screenOrientation="fullUser" />
+265-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:251:13-49
+266
+267        <!--
+268             `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+269            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+270            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+271            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+272            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+273        -->
+274        <activity
+274-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:259:9-266:46
+275            android:name="com.jdots.browser.activities.AboutActivity"
+275-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:260:13-70
+276            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+276-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:261:13-96
+277            android:label="@string/about_application_name"
+277-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:262:13-59
+278            android:parentActivityName="com.jdots.browser.activities.MainWebViewActivity"
+278-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:263:13-90
+279            android:persistableMode="persistNever"
+279-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:264:13-51
+280            android:screenOrientation="fullUser" />
+280-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:265:13-49
+281
+282        <!--
+283             `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+284            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+285            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+286            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+287            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+288        -->
+289        <activity
+289-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:273:9-280:46
+290            android:name="com.jdots.browser.activities.ViewSourceActivity"
+290-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:274:13-58
+291            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+291-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:275:13-96
+292            android:label="@string/view_source"
+292-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:276:13-48
+293            android:parentActivityName="com.jdots.browser.activities.MainWebViewActivity"
+293-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:277:13-90
+294            android:persistableMode="persistNever"
+294-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:278:13-51
+295            android:screenOrientation="fullUser" />
+295-->/home/jdotslab/Documents/ClearBrowser/app/src/main/AndroidManifest.xml:279:13-49
+296    </application>
+297
+298</manifest>

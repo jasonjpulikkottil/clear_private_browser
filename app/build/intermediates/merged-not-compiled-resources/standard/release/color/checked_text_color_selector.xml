@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2017-2018,2020
+
+  //
+
+ //
+
+
+
+   -->
+
+<!-- Sets the color of non-checked items to be gray. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_checked="true" android:color="?android:attr/textColorPrimary" />
+    <item android:color="@color/gray_500" />
+</selector>

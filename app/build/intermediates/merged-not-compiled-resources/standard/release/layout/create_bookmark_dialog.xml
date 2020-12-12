@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2016-2019
+
+  //
+
+ //
+
+
+
+   -->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent" >
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical" >
+
+        <!-- The `TextInputLayout` makes the `android:hint` float above the `EditText`. -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp" >
+
+            <!-- `android:imeOptions="actionGo"` sets the keyboard to have a `go` key instead of a `new line` key.  `android:inputType="textUri"` disables spell check in the `EditText`. -->
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/create_bookmark_name_edittext"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="@string/bookmark_name"
+                android:imeOptions="actionGo"
+                android:inputType="textUri"
+                android:selectAllOnFocus="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- The `TextInputLayout` makes the `android:hint` float above the `EditText`. -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp" >
+
+            <!-- `android:imeOptions="actionGo"` sets the keyboard to have a `go` key instead of a `new line` key.  `android:inputType="textUri"` disables spell check in the `EditText`. -->
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/create_bookmark_url_edittext"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="@string/bookmark_url"
+                android:imeOptions="actionGo"
+                android:inputType="textUri"
+                android:selectAllOnFocus="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</ScrollView>

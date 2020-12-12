@@ -1,0 +1,21 @@
+<!--
+    2017,2020
+
+  //
+
+  It is derived from elements of `create_new_folder`, which is part of the Android Material icon set and is released under the Apache License 2.0.
+
+ //
+
+
+
+   -->
+
+<svg
+  id="icon"
+  viewBox="0 0 48 48"
+  xmlns="http://www.w3.org/2000/svg" >
+
+  <path
+     d="M 8 8 C 5.78 8 4.0195313 9.78 4.0195312 12 L 4 36 C 4 38.22 5.78 40 8 40 L 40 40 C 42.22 40 44 38.22 44 36 L 44 16 C 44 13.78 42.22 12 40 12 L 24 12 L 20 8 L 8 8 z M 22 18 L 26 18 L 26 24 L 32 24 L 32 28 L 26 28 L 26 34 L 22 34 L 22 28 L 16 28 L 16 24 L 22 24 L 22 18 z " />
+</svg>

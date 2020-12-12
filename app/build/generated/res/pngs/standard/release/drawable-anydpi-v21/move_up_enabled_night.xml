@@ -1,0 +1,13 @@
+<!-- This file comes from the Android Material icon set, where it is called `vertical_align_top`.  It is released under the Apache License 2.0. -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportHeight="24"
+    android:viewportWidth="24" >
+
+    <!-- A hard coded color must be used until API >= 21.  Then `@color` or `?attr/colorControlNormal` may be used. -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M8,11h3v10h2V11h3l-4,-4 -4,4zM4,3v2h16V3H4z"/>
+</vector>

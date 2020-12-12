@@ -1,0 +1,21 @@
+<!--
+    2020
+
+  //
+
+  It is a modified version of `vertical_align_bottom`, which is part of the Android Material icon set and is released under the Apache License 2.0.
+
+ //
+
+
+
+   -->
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 24 24"
+  id="icon" >
+
+  <path
+    d="M16 13h-3V3h-2v10H8l4 4 4-4zM4 19v2h16v-2H4z" />
+</svg>

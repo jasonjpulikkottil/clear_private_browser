@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2016-2017
+
+  //
+
+ //
+
+
+
+   -->
+
+<!-- `android:dividerHeight` must be specified with `android:divider` or the height will be `0dp`.
+    In our case we want the height to be `0dp`. -->
+<ListView
+    android:id="@+id/move_to_folder_listview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:choiceMode="singleChoice"
+    android:divider="@color/white"
+    android:dividerHeight="0dp" />

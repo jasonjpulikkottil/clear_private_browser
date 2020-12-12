@@ -1,0 +1,80 @@
+<!--
+    2018-2020
+
+  Translation 2019 Bernhard G. Keller.  Copyright assigned to
+
+  //
+
+ //
+
+
+
+   -->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="../css/theme.css">
+
+        <!-- Setting the color scheme instructs the WebView to respect `prefers-color-scheme` @media CSS. -->
+        <meta name="color-scheme" content="light dark">
+    </head>
+
+    <body>
+        <h3><svg class="header"><use href="../shared_images/local_activity.svg#icon"/></svg> Resourcen-Zugriffe</h3>
+
+        <p>Wenn eine URL geladen wird, wird üblicherweise eine Menge Anfragen für mit der Seite verbundene Ressourcen wie Bilder, CSS-, JavaScript- und andere Dateien an den betreffenden Webserver gestellt.
+            Details dazu können in der Ansicht "Zugriffe" betrachtet werden, welche über das Navigations-Menü links erreicht werden kann.
+            In dieser Ansicht wird auch dargestellt, wie viele (und welche) Anfragen geblockt wurden.
+            Durch Antippen der betreffenden Anfragen können weitere Details dazu angezeigt werden, die zeigen, warum die Anfrage erlaubt oder blockiert wurde.</p>
+
+        <img class="center" src="images/request_details.png"/>
+
+        <p>Clear Browser enthält vier <a href="https://easylist.to/">gebräuchliche Filterlisten</a>, die auf der <a href="https://adblockplus.org/filters">Adblock-Syntax</a> basieren:
+            EasyList, EasyPrivacy, Fanboy’s Annoyance Filterliste und Fanboy’s Social Blocking Filterliste.
+            Diese werden in 22 Unter-Listen aufgeteilt, welche die Ressourcen-Zugriffe in der folgenden Reihenfolge überprüfen:</p>
+
+        <ol>
+            <li>Haupt-Positivliste</li>
+            <li>Positivliste (URL-Ende)</li>
+            <li>Domänen-Positivliste</li>
+            <li>Domänen-Positivliste (URL-Anfang)</li>
+            <li>Domänen-Positivliste (URL-Ende)</li>
+            <li>Drittanbieter-Positivliste</li>
+            <li>Drittanbieter-Domänen-Positivliste</li>
+            <li>Drittanbieter-Domänen-Positivliste (URL-Anfang)</li>
+            <li>Haupt-Negativliste</li>
+            <li>Negativliste (URL-Anfang)</li>
+            <li>Negativliste (URL-Ende)</li>
+            <li>Domänen-Negativliste</li>
+            <li>Domänen-Negativliste (URL-Anfang)</li>
+            <li>Domänen-Negativliste (URL-Ende)</li>
+            <li>Domänen-Negativliste mit regulären Ausdrücken</li>
+            <li>Drittanbieter-Negativliste</li>
+            <li>Drittanbieter-Negativliste (URL-Anfang)</li>
+            <li>Drittanbieter-Domänen-Negativliste</li>
+            <li>Drittanbieter-Domänen-Negativliste (URL-Anfang)</li>
+            <li>Drittanbieter-Negativliste mit regulären Ausdrücken</li>
+            <li>Drittanbieter-Domänen-Negativliste mit regulären Ausdrücken</li>
+            <li>Negativliste mit regulären Ausdrücken</li>
+        </ol>
+
+        <p>Listen mit "(URL-Anfang)" prüfen gegen den Anfang einer URL, solche mit "(URL-Ende)" gegen das Ende der URL. Domänen-Listen prüfen gegen bestimmte Domains.
+            Drittanbieter-Listen greifen nur, wenn die Domain der Anfrage eine andere ist als die Domain der aufgerufenen URL.
+            Listen mit regulären Ausdrücken folgen der <a href="https://de.wikipedia.org/wiki/Reguläre_Ausdrücke">Syntax für reguläre Ausdrücke</a>. Jede Unter-Liste hat dabei einen oder mehrere Einträge.
+            Bei Domänen-Unterlisten werden die Ressourcen-Zugriffe nur dann überprüft, wenn der erste Eintrag der Domain der aufgerufenen URL entspricht.</p>
+
+        <p>Aufgrund von Einschränkungen in Android’s WebView und um die Geschwindigkeit von Anfragen zu steigern, verwendet Clear Browser eine vereinfachte Auswertung der Adblock-Syntax.
+            Dies kann manchmal zu "false positives" führen, bei denen Ressourcen erlaubt oder blockiert werden, die in den originalen Einträgen anders intendiert wären.
+            Eine detailiertere Beschreibung, wie die Listen-Einträge abgearbeitet werden, ist unter <a href="https://www.stoutner.com/privacy-browser/blocklists/">stoutner.com</a> verfügbar.</p>
+
+        <p>Clear Browser verfügt über drei zusätzliche Filterlisten:
+            <a href="https://www.stoutner.com/privacy-browser/blocklists/ultralist/">UltraList</a> und <a href="https://www.stoutner.com/privacy-browser/blocklists/ultraprivacy/">UltraPrivacy</a>
+            blockieren Werbung und Tracker, die EasyList und EasyPrivacy durchlassen. Die dritte Filterliste blockiert alle Drittanbieter-Anfragen.
+            Eine Anfrage wird dabei nur als Drittanbieter-Anfrage gewertet, wenn die Basis-Domain der Anfrage eine andere ist als die Basis-Domain der angefragten URL.
+            Lädt zum Beispiel die Seite <code>www.website.com</code> ein Bild von <code>images.website.com</code>, wird diese Anfrage nicht als Drittanbieter-Anfrage gewertet,
+            da die beiden Anfragen dieselbe Basis-Domain <code>website.com</code> haben.
+            Alle Drittanbieter-Anfragen zu blockieren verbessert zwar die Privatsphäre, diese Einstellung ist jedoch standardmäßig deaktiviert, da dadurch viele Webseiten verunstaltet werden können.</p>
+    </body>
+</html>

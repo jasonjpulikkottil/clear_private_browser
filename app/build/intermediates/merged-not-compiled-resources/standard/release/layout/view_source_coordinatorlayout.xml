@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2017-2020
+
+  //
+
+ //
+
+
+
+   -->
+
+<!-- Setting the layout root to be `focusableInTouchMode` prevents the URL toolbar from stealing focus on launch and opening the keyboard. -->
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@+id/view_source_coordinatorlayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <!-- The linear layout with `orientation="vertical"` moves the content below the app bar layout. -->
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" >
+
+        <!-- The app bar theme must be specified here because the activity uses a `NoActionBar` theme. -->
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="?android:attr/colorBackground"
+            android:theme="@style/ClearBrowserAppBar" >
+
+            <!-- The frame layout allows the toolbar and the progress bar to occupy the same space. -->
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" >
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/view_source_toolbar"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+
+                <!-- Android automatically uses a different, skinnier drawable with padding for indeterminate horizontal progress bars in API >= 21.
+                    They make this very difficult to override.  https://redmine.stoutner.com/issues/241
+                    `tools:ignore="UnusedAttribute"` removes the lint warning about `progressTint` and `progressBackgroundTint` not applying to API < 21. -->
+                <ProgressBar
+                    android:id="@+id/progress_bar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:minHeight="3dp"
+                    android:layout_gravity="bottom"
+                    android:visibility="gone"
+                    tools:ignore="UnusedAttribute" />
+            </FrameLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/view_source_swiperefreshlayout"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <ScrollView
+                android:id="@+id/view_source_scrollview"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" >
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp" >
+
+                    <!-- Request headers. -->
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="@string/request_headers"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textColor="?attr/blueTextColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/request_headers"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textIsSelectable="true"
+                        android:layout_marginBottom="8dp" />
+
+                    <!-- Response message. -->
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="@string/response_message"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textColor="?attr/blueTextColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/response_message"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textIsSelectable="true"
+                        android:layout_marginBottom="8dp" />
+
+                    <!-- Response headers. -->
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="@string/response_headers"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textColor="?attr/blueTextColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/response_headers"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textIsSelectable="true"
+                        android:layout_marginBottom="8dp" />
+
+                    <!-- Response body. -->
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="@string/response_body"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textColor="?attr/blueTextColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/response_body"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textIsSelectable="true" />
+                </LinearLayout>
+            </ScrollView>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2018-2020
+
+  //
+
+ //
+
+
+
+   -->
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/requests_coordinatorlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- the linear layout with `orientation="vertical"` moves the content below the app bar layout. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- The app bar theme must be specified here because the activity uses a `NoActionBar` theme. -->
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/requests_appbarlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/colorBackground"
+            android:theme="@style/ClearBrowserAppBar">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/requests_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <!-- `android:dividerHeight` must be at least `1dp` or the list view is inconsistent in calculating how many bookmarks are displayed. -->
+        <ListView
+            android:id="@+id/requests_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/transparent"
+            android:dividerHeight="1dp" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

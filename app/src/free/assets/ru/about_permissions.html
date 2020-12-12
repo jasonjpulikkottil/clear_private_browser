@@ -1,0 +1,66 @@
+<!--
+  //
+
+  //
+
+ //
+
+
+
+   -->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <link href="../css/theme.css" rel="stylesheet">
+
+        <!-- Setting the color scheme instructs the WebView to respect `prefers-color-scheme` @media CSS. -->
+        <meta content="light dark" name="color-scheme">
+    </head>
+
+    <body>
+        <h3>Полный доступ к сети</h3>
+        <p><a href="https://developer.android.com/reference/android/Manifest.permission.html#INTERNET">android.permission.INTERNET</a></p>
+        <p>Требуется для доступа WebView к интернету. Без этого разрешения Clear Browser будет отображать “Нет браузера: угрозы вашей конфиденциальности нет из-за отсутствия доступа к интернету”.</p>
+
+        <h3>Установка ярлыков</h3>
+        <p><a href="https://developer.android.com/reference/android/Manifest.permission.html#INSTALL_SHORTCUT">com.android.launcher.permission.INSTALL_SHORTCUT</a></p>
+        <p>Требуется для добавления ярлыков веб-сайтов на главный экран.</p>
+
+        <h3>Чтение хранилища</h3>
+        <p><a href="https://developer.android.com/reference/android/Manifest.permission#READ_EXTERNAL_STORAGE">android.permission.READ_EXTERNAL_STORAGE</a></p>
+        <p>Требуется для импорта настроек из общих папок.
+            В Android Marshmallow (API 23) и более поздних версиях, если это разрешение получено не будет, Clear Browser может импортировать настройки из папок приложения.</p>
+
+        <h3>Запись хранилища</h3>
+        <p><a href="https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE">android.permission.WRITE_EXTERNAL_STORAGE</a></p>
+        <p>Требуется для экспорта настроек и загрузки файлов в общие папки.
+            В Android Marshmallow (API 23) и более поздних версиях, если это разрешение получено не будет, Clear Browser может экспортировать настройки и хранить загрузки в папках приложения.</p>
+
+        <br/>
+        <hr/>
+        <br/>
+
+        <p>Кроме того, Clear Browser Free отображает объявления из сети Google AdMob с использованием бэкенда Firebase.
+            Для бесплатной версии Firebase добавляет следующие разрешения, даже если они не перечислены в
+            <a href="https://git.stoutner.com/?p=ClearBrowser.git;a=blob;f=app/src/main/AndroidManifest.xml;hb=HEAD">файле манифеста</a> исходного кода.</p>
+
+        <h3>Просмотр сетевых подключений</h3>
+        <p><a href="https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE">android.permission.ACCESS_NETWORK_STATE</a></p>
+        <p>Позволяет рекламе узнавать наличие подключения к интернету (возможно, таким образом предотвращаются попытки загрузки рекламы при отсутствии активного соединения).
+            Кроме того, передается тип подключения - Wi-Fi, 2G, 3G, 4G, и т.д.</p>
+
+        <h3>Предотвращение засыпания устройства</h3>
+        <p><a href="https://developer.android.com/reference/android/Manifest.permission.html#WAKE_LOCK">android.permission.WAKE_LOCK</a></p>
+        <p>Позволяет рекламе предотвращать переход процессора в режим сна и экран от выключения. Результаты тестировании не свидетельствуют о том, что реклама на самом деле это делает.</p>
+
+        <h3>Play Install Referrer API</h3>
+        <p><a href="https://android-developers.googleblog.com/2017/11/google-play-referrer-api-track-and.html">com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE</a></p>
+        <p>Позволяет сторонним приложениям сообщать о запуске инсталляции из рекламы в Clear Browser Free.</p>
+
+        <h3>Получение данных из интернета</h3>
+        <p><a href="http://androidpermissions.com/permission/com.google.android.c2dm.permission.RECEIVE">com.google.android.c2dm.permission.RECEIVE</a></p>
+        <p>Позволяет Google отправлять информацию непосредственно в AdView без необходимости сначала получать запрос (обмен сообщениями между облаком и устройством).</p>
+    </body>
+</html>

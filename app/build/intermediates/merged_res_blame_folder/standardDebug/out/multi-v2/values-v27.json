@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/jdotslab/Documents/ClearBrowser/app/build/intermediates/incremental/mergeStandardDebugResources/merged.dir/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "/home/jdotslab/Documents/ClearBrowser/app/src/main/res/values-v27/styles.xml",
+                    "from": {
+                        "startLines": "15,92,68,72",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "85,4218,2954,3128",
+                        "endLines": "66,94,70,90",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "2948,4372,3122,4212"
+                    },
+                    "to": {
+                        "startLines": "2,54,57,60",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,2923,3082,3255",
+                        "endLines": "53,56,59,78",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "2918,3077,3250,4339"
+                    }
+                }
+            ]
+        }
+    ]
+}

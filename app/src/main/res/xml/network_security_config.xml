@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2018,2020
+
+  //
+
+ //
+
+
+
+   -->
+
+<network-security-config xmlns:tools="http://schemas.android.com/tools">
+    <!-- Allow HTTP traffic and disable HSTS, which has no benefit for Clear Browser (because unspecified links default to HTTPS) but has negative fingerprinting implications. -->
+    <base-config cleartextTrafficPermitted="true" hstsEnforced="false" tools:ignore="InsecureBaseConfiguration">
+        <trust-anchors>
+            <!-- Trust system certificate authorities. -->
+            <certificates src="system" />
+
+            <!-- Trust user certificate authorities. -->
+            <certificates src="user" tools:ignore="AcceptsUserCertificates" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

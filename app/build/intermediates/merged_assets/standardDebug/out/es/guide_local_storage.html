@@ -1,0 +1,89 @@
+<!--
+    2016-2018,2020
+
+  Translation 2017-2018 Jose A. León.  Copyright assigned to
+
+  //
+
+ //
+
+
+
+   -->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="../css/theme.css">
+
+        <!-- Setting the color scheme instructs the WebView to respect `prefers-color-scheme` @media CSS. -->
+        <meta name="color-scheme" content="light dark">
+    </head>
+
+    <body>
+        <h3><svg class="header"><use href="../shared_images/cookie.svg#icon"/></svg> Cookies de primera parte</h3>
+
+        <p>Las cookies de primera parte son cookies establecidas por la página web en la barra URL de la parte superior de la página.</p>
+
+        <p>Desde los primeros días de internet, se hizo evidente que sería ventajoso para las páginas web el poder almacenar información en un ordenador para un acceso futuro.
+            Por ejemplo, una página web que muestre información meteorológica podría solicitar al usuario un código postal y luego almacenarlo en una cookie.
+            La próxima vez que el usuario visite la página web, la información meteorológica se cargará automáticamente para ese código postal, sin que el usuario tenga que volver a introducirlo.</p>
+
+        <p>Como todo en la web, gente inteligente descubrió todo tipo de maneras de abusar de las cookies para hacer cosas que los usuarios no aprobarían si supieran que estaban ocurriendo.
+            Por ejemplo, una página web puede establecer una cookie con un número de serie único en un dispositivo.
+            Luego, cada vez que un usuario visite la página web con ese dispositivo, puede vincularse a un perfil único que el servidor mantiene para ese número de serie,
+            incluso si el dispositivo se conecta desde diferentes direcciones IP.</p>
+
+        <p>Casi todas las páginas web con inicios de sesión requieren que las cookies de primera parte estén habilitadas para que el usuario pueda iniciar sesión.
+            Así es como se aseguran de que sigues siendo tu al moverte de una página a otra en el sitio, y es, en mi opinión, uno de los pocos usos legítimos de las cookies.</p>
+
+        <p>Si las cookies de primera parte están habilitadas pero Javascript está deshabilitado,
+            el icono de privacidad será amarillo <img class="inline" src="../shared_images/warning.svg"/> como advertencia.</p>
+
+
+        <h3><svg class="header"><use href="../shared_images/cookie.svg#icon"/></svg> Cookies de terceras partes</h3>
+
+        <p>Las cookies de terceras partes son establecidas por ciertas partes de una página web que son cargadas desde servidores diferentes a la URL de la parte superior de la página.
+            Por ejemplo, la mayoría de páginas web que tienen anuncios los cargan desde una compañía de publicidad de terceros, como <a href="https://www.google.com/adsense/start/">Ad Sense</a> de Google.
+            Cada vez que se carga la página web, solicita a la compañía de publicidad que muestre un anuncio.
+            La compañía de publicidad analiza cualquier información que pueda tener sobre el usuario, analiza la tasa actual que los anunciantes están dispuestos a pagar por sus anuncios,
+            y selecciona uno para mostrar. La sección de la página web que muestra los anuncios es cargada desde el servidor de la compañía de terceros en vez de hacerlo desde el servidor principal.</p>
+
+        <p>Ya que la mayoría de los anuncios en internet se muestran desde solo unas pequeñas compañías,
+            no les llevó a éstas mucho tiempo en darse cuenta que podrían establecer una cookie de seguimiento en el dispositivo del usuario y así conocer cualquier lugar al que el usuario va.
+            Cada vez que un anuncio se carga desde una compañía, lo primero que hace es comprobar si el dispositivo ya tiene un único número de serie en una cookie de seguimiento.
+            Si es así, busca el perfil para ese número de serie y toma nota del nuevo sitio web.
+            Es por esto que un usuario puede hacer una búsqueda en una página web por un producto que normalmente no busca, como nueces,
+            y luego de pronto empieza a ver anuncios de nueces en cada página web que visita.</p>
+
+        <p>Además de compañías de publicidad, las páginas de redes sociales descubrieron que también podían entrar en acción.
+            Hace unos pocos años, las principales páginas de redes sociales como Facebook y Twitter convencieron a un gran número de páginas web
+            que sería por su mejor interés colocar pequeños iconos de redes sociales en sus páginas. Éstos no son sólo imágenes.
+            Contienen <a href="https://developers.facebook.com/docs/plugins/like-button/">código incrustado</a> que enlazan de nuevo a la web de la red social,
+            y entre otras cosas cargan una cookie de terceras partes en el dispositivo. Estas cookies se colocan aunque el usuario no tenga una cuenta con la plataforma de la red social.
+            A través del tiempo, compañías como Facebook (la cual también corre una red de anuncios) han construído un gran número de perfiles detallados sobre personas que
+            <a href="http://www.theverge.com/2016/5/27/11795248/facebook-ad-network-non-users-cookies-plug-ins">ni siquiera han creado una cuenta en su web</a>.
+
+        <p>No existe ninguna buena razón para habilitar cookies de terceras partes. En dispositivos con Android KitKat o anteriores (versión <= 4.4.4 o API <= 20), WebView no
+            <a href="https://developer.android.com/reference/android/webkit/CookieManager.html#setAcceptThirdPartyCookies(android.webkit.WebView, boolean)">distingue entre cookies de primera parte
+            y cookies de teceras partes</a>. Por lo tanto, si se habilitan las cookies de primera parte también se habilitarán las de teceras partes.</p>
+
+
+        <h3><svg class="header"><use href="../shared_images/web.svg#icon"/></svg> Almacenamiento DOM</h3>
+
+        <p>Document Object Model storage (o Almacenamiento de modelos de objetos de documento), también conocido como almacenamiento web, es como cookies con esteroides.
+            Mientras que el tamaño máximo de almacenamiento combinado para todas las cookies de una única URL es de 4 kilobytes, el almacenamiento DOM puede contener
+            <a href="https://en.wikipedia.org/wiki/Web_storage#Storage_size">megabytes por sitio</a>.
+            Ya que el almacenamiento DOM usa JavaScript para leer y escribir datos, no puede activarse a menos que JavaScript esté también activado.</p>
+
+
+        <h3><svg class="header"><use href="../shared_images/subtitles.svg#icon"/></svg> Datos de formulario</h3>
+
+        <p>Los datos de formulario contienen información escrita en formularios web, como nombres de usuario, direcciones, números de teléfono, etc., y los enumera en un cuadro desplegable en futuras visitas.
+            A diferencia de las otras formas de almacenamiento local, los datos de los formularios no se envían al servidor web sin la interacción específica del usuario.
+            A partir de Android Oreo (8.0), los datos de formulario de WebView fueron reemplazados por el
+            <a href="https://medium.com/@bherbst/getting-androids-autofill-to-work-for-you-21435debea1">servicio Autofill</a>.
+            Como tal, los controles para los datos de formulario ya no aparecen en los dispositivos Android más nuevos.</p>
+    </body>
+</html>

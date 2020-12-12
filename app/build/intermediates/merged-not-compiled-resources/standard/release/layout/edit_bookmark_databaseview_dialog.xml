@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  //
+
+  //
+
+ //
+
+
+
+   -->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent" >
+
+    <!-- Setting `android:focusable` and `android:focusableInTouchMode` prevent `edit_bookmark_display_order_edittext` from being autoselected. -->
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <!-- Database ID. -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp" >
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/database_id"
+                android:textSize="18sp"
+                android:textColor="?android:textColorPrimary"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/edit_bookmark_database_id_textview"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/gray_500" />
+        </LinearLayout>
+
+        <!-- The icon selection rows. -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal" >
+
+            <!-- The column displaying the icons. -->
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="7dp" >
+
+                <ImageView
+                    android:id="@+id/edit_bookmark_current_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:layout_gravity="center_vertical"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/edit_bookmark_webpage_favorite_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:layout_gravity="center_vertical"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <!-- The column with the `RadioGroup`. -->
+            <RadioGroup
+                android:id="@+id/edit_bookmark_icon_radiogroup"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:checkedButton="@+id/edit_bookmark_current_icon_radiobutton" >
+
+                <RadioButton
+                    android:id="@id/edit_bookmark_current_icon_radiobutton"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="@string/current_bookmark_icon"
+                    android:textSize="18sp"
+                    android:textColor="?android:textColorPrimary" />
+
+                <RadioButton
+                    android:id="@+id/edit_bookmark_webpage_favorite_icon_radiobutton"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/web_page_favorite_icon"
+                    android:textSize="18sp"
+                    android:textColor="?android:textColorPrimary" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Bookmark name.  The `TextInputLayout` makes the `android:hint` float above the `EditText`. -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp" >
+
+            <!-- `android:imeOptions="actionGo"` sets the keyboard to have a `go` key instead of a `new line` key.  `android:inputType="textUri"` disables spell check in the `EditText`. -->
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_bookmark_name_edittext"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="@string/bookmark_name"
+                android:imeOptions="actionGo"
+                android:inputType="textUri"
+                android:selectAllOnFocus="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- URL.  The `TextInputLayout` makes the `android:hint` float above the `EditText`. -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp" >
+
+            <!-- `android:imeOptions="actionGo"` sets the keyboard to have a `go` key instead of a `new line` key.  `android:inputType="textUri"` disables spell check in the `EditText`. -->
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_bookmark_url_edittext"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="@string/bookmark_url"
+                android:imeOptions="actionGo"
+                android:inputType="textUri"
+                android:selectAllOnFocus="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Folder. -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp" >
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/folder"
+                android:textSize="18sp"
+                android:textColor="?android:textColorPrimary" />
+
+            <Spinner
+                android:id="@+id/edit_bookmark_folder_spinner"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+        </LinearLayout>
+
+        <!-- Display order. -->
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp" >
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/display_order"
+                android:textSize="18sp"
+                android:textColor="?android:textColorPrimary"
+                android:layout_marginEnd="6dp"
+                android:labelFor="@+id/edit_bookmark_display_order_edittext"/>
+
+            <EditText
+                android:id="@id/edit_bookmark_display_order_edittext"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:imeOptions="actionGo"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:importantForAutofill="no"
+                tools:targetApi="26" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

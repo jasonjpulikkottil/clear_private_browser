@@ -1,0 +1,21 @@
+<!--
+    2020
+
+  //
+
+  It is a modified version of `expand_more`, which is part of the Android Material icon set and is released under the Apache License 2.0.
+
+ //
+
+
+
+   -->
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 24 24"
+  id="icon" >
+
+  <path
+    d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+</svg>

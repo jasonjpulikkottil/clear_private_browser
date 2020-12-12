@@ -1,0 +1,53 @@
+<!--
+    2019-2020
+
+  //
+
+  It is derived from elements of `compare`, which is part of the Android Material icon set and is released under the Apache License 2.0.
+
+ //
+
+
+
+   -->
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 24 24" >
+
+  <style>
+    rect {
+      fill: #E0E0E0;
+    }
+
+    path {
+      fill: #000000;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      rect {
+        fill: #616161;
+      }
+
+      path {
+        fill: #FFFFFF;
+      }
+    }
+  </style>
+
+  <!-- Background -->
+  <g>
+    <rect
+      width="24"
+      height="24"
+      x="0"
+      y="0"
+      ry="3.1525424" />
+  </g>
+
+  <!-- Foreground -->
+  <g>
+    <path
+      d="M 3,18 H 9 V 16 H 3 Z M 3,6.0000002 v 2 h 18 v -2 z M 3,13 H 15 V 11 H 3 Z" />
+  </g>
+</svg>

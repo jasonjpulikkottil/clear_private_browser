@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2015-2019
+
+  Translation 2019 Kévin LE FLOHIC <kevinliste@framalistes.org>.  Copyright assigned to
+
+  //
+
+ //
+
+
+
+   -->
+
+<!-- `tools:ignore="MissingTranslation"` allows release APKs to be built if translation strings are missing.  The missing strings will fall back to English. -->
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation" >
+
+    <!-- Activities. -->
+    <string name="application_name">Clear Browser Free</string>
+
+    <!-- Create Home Screen Shortcut Alert Dialog. -->
+    <string name="open_with_application_name">Ouvrir avec Clear Browser Free.</string>
+
+    <!-- Ad Consent. -->
+    <string name="ad_consent_text">Clear Browser Free affiche une bannière publicitaire en bas de l\'écran.
+         Ces annonces proviennent des fournisseurs de Google couramment utilisés et sont configurées pour être non personnalisées.
+         \n\nLa version standard de Clear Browser ne contient pas d\'annonces d\'applications.</string>
+    <string name="close_browser">Fermer le navigateur</string>
+    <string name="accept_ads">Accepter les annonces</string>
+</resources>

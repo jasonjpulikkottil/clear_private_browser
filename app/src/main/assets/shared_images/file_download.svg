@@ -1,0 +1,21 @@
+<!--
+    2020
+
+  //
+
+  It is a modified version of `file_download`, which is part of the Android Material icon set and is released under the Apache License 2.0.
+
+ //
+
+
+
+   -->
+
+<svg
+  id="icon"
+  viewBox="0 0 24 24"
+  xmlns="http://www.w3.org/2000/svg" >
+
+  <path
+     d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
+</svg>

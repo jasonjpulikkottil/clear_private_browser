@@ -1,0 +1,21 @@
+<!--
+    2017,2020
+
+  //
+
+  It is derived from elements of `folder` and `exit_to_app`, which are part of the Android Material icon set and are released under the Apache License 2.0.
+
+ //
+
+
+
+   -->
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 48 48"
+  id="icon" >
+
+  <path
+    d="M 8 8 C 5.8 8 4.0195313 9.8 4.0195312 12 L 4 36 C 4 38.2 5.8 40 8 40 L 40 40 C 42.2 40 44 38.2 44 36 L 44 16 C 44 13.8 42.2 12 40 12 L 24 12 L 20 8 L 8 8 z M 27.5 15.660156 L 37.5 25.660156 L 27.5 35.660156 L 24.679688 32.841797 L 29.839844 27.660156 L 10.5 27.660156 L 10.5 23.660156 L 29.839844 23.660156 L 24.679688 18.480469 L 27.5 15.660156 z " />
+</svg>

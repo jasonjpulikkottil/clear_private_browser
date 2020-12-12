@@ -1,0 +1,481 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:3:1-283:12
+INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:3:1-283:12
+INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:3:1-283:12
+INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:3:1-283:12
+MERGED from [com.google.android.material:material:1.2.1] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/000d58ad0d88b05b38d48b2858d0f7a9/material-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference-ktx:1.1.1] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/0c81e2ecdafce4b592c45a0ee84cf89f/jetified-preference-ktx-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.1.1] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/c0db5987cf4dfad2dcff02d1982d7a4c/preference-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/12c11f007d4003fd012ef29573e4dd32/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/c3b34f09728f39f853c82e9ad559d5ff/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/e1d489f3b4019b10ed72904109c7b148/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/bfb84df927cf231633421073d474cb8c/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/fd4ac077d1f65d3435e8b6fcbb856985/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/ada761b68b8bc1e577a019e50567789c/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/a6b258f6004ef16cb25cfb9df23a9f90/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/c7e3e5cd1b0a7003a0e6a0bb14d3b2d7/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/b090f04d7fb7a8f0423402b3bf92307c/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/d2857de99c5296bc5174640846c8bfa6/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/1b6bdd5e46f977da9c15402388e349e1/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/b3ba0e837ebb355a2e3531121eac2c22/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/8c6fbbaf5998aee75aa380761f280fe9/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/34e4874949e624218e282186f0c3be93/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/9cb0e21846fe350940a52720c113237e/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/37a722724482d04c49a40b00a564c547/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/6c0cf09705cceb6a1f0416f87097a4e8/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.webkit:webkit:1.3.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/fb584471a814ce9864a468de16f214fc/webkit-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/821a5a4e1891df652cce5244b7a0ba55/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/a2a3956d917b721b23f3ea46bbd25296/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/1d36743eab3fca17323fe1477878bc3e/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/1d08dc9e7accb397dc3fc35a87276745/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/3ede1c1c0207738a6ca59f26d2c4ec72/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/cd7a7e4f15f966dcbfd12dae42bdd977/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.2] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/fc99c69e5314a6736128ee9e416d66e8/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/49e29bc12ec1541cfb18dfb9684d1072/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/d8d9c68968af50a25b7eea7dcb29f953/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/38ce74f464f47dfd01a1d222a35b0ddd/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/07c8e7b111edddc376da5bc2a541f82f/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [ss.anoop:awesome-textinput-layout:1.0.3] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/f2dcf5fd5df370eaa73ac76f48e25329/jetified-awesome-textinput-layout-1.0.3/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/08456763b9657e10f33a99935e5dcf10/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/f1ff365c394a8c28e6e70c1a32e76250/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/c789ab82f47f6ee9bafc6d3774fd0914/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/b109cd8bdd95b2702f82dfbb2a2050db/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/d1f3aae60a3f057306a8581770d4ca67/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/dba71ffdcd69e8e5bfeb611708786912/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/714472e6bd4dcacff8eeb52fdaab7f11/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:3:1-283:12
+INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:3:1-283:12
+INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:3:1-283:12
+	package
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:5:5-32
+		INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:3:1-283:12
+		INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:4:5-51
+	android:versionCode
+		INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:3:1-283:12
+		INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:3:11-69
+	android:installLocation
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:6:5-35
+uses-permission#android.permission.INTERNET
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:9:5-88
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:9:22-85
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:11:22-78
+uses-feature#android.hardware.touchscreen
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:14:9-52
+application
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:16:5-282:19
+MERGED from [com.google.android.material:material:1.2.1] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/000d58ad0d88b05b38d48b2858d0f7a9/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/000d58ad0d88b05b38d48b2858d0f7a9/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.3.2] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/fc99c69e5314a6736128ee9e416d66e8/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/fc99c69e5314a6736128ee9e416d66e8/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/b109cd8bdd95b2702f82dfbb2a2050db/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/b109cd8bdd95b2702f82dfbb2a2050db/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:22:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/fc99c69e5314a6736128ee9e416d66e8/core-1.3.2/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:20:9-49
+	android:fullBackupContent
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:18:9-42
+	tools:ignore
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:25:9-39
+	android:roundIcon
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:23:9-54
+	android:icon
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:19:9-54
+	android:allowBackup
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:17:9-36
+	android:networkSecurityConfig
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:21:9-69
+meta-data#android.webkit.WebView.MetricsOptOut
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:29:9-31:36
+	android:value
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:31:13-33
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:30:13-64
+meta-data#android.webkit.WebView.EnableSafeBrowsing
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:34:9-36:37
+	android:value
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:36:13-34
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:35:13-69
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:39:9-41:53
+	android:value
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:41:13-50
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:40:13-69
+meta-data#com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:44:9-46:36
+	android:value
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:46:13-33
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:45:13-81
+provider#androidx.core.content.FileProvider
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:49:9-58:20
+	android:grantUriPermissions
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:53:13-47
+	android:authorities
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:51:13-56
+	android:exported
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:50:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:55:13-57:63
+	android:resource
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:57:17-60
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:56:17-67
+activity#com.jdots.browser.activities.MainWebViewActivity
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:69:9-139:20
+	android:screenOrientation
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:75:13-49
+	android:label
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:72:13-47
+	android:launchMode
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:73:13-44
+	android:persistableMode
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:74:13-51
+	tools:ignore
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:77:13-43
+	android:configChanges
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:71:13-96
+	android:theme
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:76:13-48
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:70:13-76
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:79:13-82:29
+action#android.intent.action.MAIN
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:80:17-69
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:80:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:81:17-77
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:81:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:http+data:scheme:https
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:85:13-93:29
+action#android.intent.action.VIEW
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:86:17-69
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:86:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:88:17-78
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:88:27-75
+category#android.intent.category.DEFAULT
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:89:17-76
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:89:27-73
+data
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:91:17-47
+	android:host
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:125:23-39
+	android:scheme
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:91:23-44
+	android:pathPattern
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:128:23-51
+	android:mimeType
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:103:23-48
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:mimeType:text/*+data:scheme:content
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:96:13-104:29
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:107:13-113:29
+action#android.intent.action.SEND
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:108:17-69
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:108:25-66
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:.*.mht+data:scheme:content+data:scheme:file
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:116:13-130:29
+intent-filter#action:name:android.intent.action.WEB_SEARCH+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:133:13-138:29
+action#android.intent.action.WEB_SEARCH
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:134:17-75
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:134:25-72
+activity#com.jdots.browser.activities.BookmarksActivity
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:147:9-154:46
+	android:screenOrientation
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:153:13-49
+	android:parentActivityName
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:151:13-90
+	android:label
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:150:13-46
+	android:persistableMode
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:152:13-51
+	tools:ignore
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:154:13-43
+	android:configChanges
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:149:13-96
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:148:13-74
+activity#com.jdots.browser.activities.BookmarksDatabaseViewActivity
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:161:9-168:46
+	android:screenOrientation
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:167:13-49
+	android:parentActivityName
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:165:13-88
+	android:label
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:164:13-60
+	android:persistableMode
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:166:13-51
+	tools:ignore
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:168:13-43
+	android:configChanges
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:163:13-96
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:162:13-86
+activity#com.jdots.browser.activities.RequestsActivity
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:175:9-182:46
+	android:screenOrientation
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:181:13-49
+	android:parentActivityName
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:179:13-90
+	android:label
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:178:13-45
+	android:persistableMode
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:180:13-51
+	tools:ignore
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:182:13-43
+	android:configChanges
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:177:13-96
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:176:13-73
+activity#com.jdots.browser.activities.DomainsActivity
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:189:9-197:46
+	android:screenOrientation
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:195:13-49
+	android:parentActivityName
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:193:13-90
+	android:label
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:192:13-44
+	android:windowSoftInputMode
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:196:13-60
+	android:persistableMode
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:194:13-51
+	tools:ignore
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:197:13-43
+	android:configChanges
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:191:13-73
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:190:13-72
+activity#com.jdots.browser.activities.SettingsActivity
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:204:9-211:46
+	android:screenOrientation
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:210:13-49
+	android:parentActivityName
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:208:13-90
+	android:label
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:207:13-45
+	android:persistableMode
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:209:13-51
+	tools:ignore
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:211:13-43
+	android:configChanges
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:206:13-96
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:205:13-73
+activity#com.jdots.browser.activities.ImportExportActivity
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:218:9-225:46
+	android:screenOrientation
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:224:13-49
+	android:parentActivityName
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:222:13-90
+	android:label
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:221:13-50
+	android:persistableMode
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:223:13-51
+	tools:ignore
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:225:13-43
+	android:configChanges
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:220:13-96
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:219:13-77
+activity#com.jdots.browser.activities.LogcatActivity
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:232:9-239:46
+	android:screenOrientation
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:238:13-49
+	android:parentActivityName
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:236:13-90
+	android:label
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:235:13-43
+	android:persistableMode
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:237:13-51
+	tools:ignore
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:239:13-43
+	android:configChanges
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:234:13-96
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:233:13-71
+activity#com.jdots.browser.activities.GuideActivity
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:246:9-253:46
+	android:screenOrientation
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:252:13-49
+	android:parentActivityName
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:250:13-90
+	android:label
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:249:13-42
+	android:persistableMode
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:251:13-51
+	tools:ignore
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:253:13-43
+	android:configChanges
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:248:13-96
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:247:13-70
+activity#com.jdots.browser.activities.AboutActivity
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:260:9-267:46
+	android:screenOrientation
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:266:13-49
+	android:parentActivityName
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:264:13-90
+	android:label
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:263:13-59
+	android:persistableMode
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:265:13-51
+	tools:ignore
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:267:13-43
+	android:configChanges
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:262:13-96
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:261:13-70
+activity#com.jdots.browser.activities.ViewSourceActivity
+ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:274:9-281:46
+	android:screenOrientation
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:280:13-49
+	android:parentActivityName
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:278:13-90
+	android:label
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:277:13-48
+	android:persistableMode
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:279:13-51
+	tools:ignore
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:281:13-43
+	android:configChanges
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:276:13-96
+	android:name
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:275:13-58
+uses-sdk
+INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml
+INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.2.1] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/000d58ad0d88b05b38d48b2858d0f7a9/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/000d58ad0d88b05b38d48b2858d0f7a9/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference-ktx:1.1.1] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/0c81e2ecdafce4b592c45a0ee84cf89f/jetified-preference-ktx-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/0c81e2ecdafce4b592c45a0ee84cf89f/jetified-preference-ktx-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/c0db5987cf4dfad2dcff02d1982d7a4c/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/c0db5987cf4dfad2dcff02d1982d7a4c/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/12c11f007d4003fd012ef29573e4dd32/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/12c11f007d4003fd012ef29573e4dd32/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/c3b34f09728f39f853c82e9ad559d5ff/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/c3b34f09728f39f853c82e9ad559d5ff/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/e1d489f3b4019b10ed72904109c7b148/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/e1d489f3b4019b10ed72904109c7b148/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/bfb84df927cf231633421073d474cb8c/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/bfb84df927cf231633421073d474cb8c/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/fd4ac077d1f65d3435e8b6fcbb856985/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/fd4ac077d1f65d3435e8b6fcbb856985/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/ada761b68b8bc1e577a019e50567789c/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/ada761b68b8bc1e577a019e50567789c/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/a6b258f6004ef16cb25cfb9df23a9f90/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/a6b258f6004ef16cb25cfb9df23a9f90/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/c7e3e5cd1b0a7003a0e6a0bb14d3b2d7/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/c7e3e5cd1b0a7003a0e6a0bb14d3b2d7/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/b090f04d7fb7a8f0423402b3bf92307c/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/b090f04d7fb7a8f0423402b3bf92307c/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/d2857de99c5296bc5174640846c8bfa6/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/d2857de99c5296bc5174640846c8bfa6/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/1b6bdd5e46f977da9c15402388e349e1/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/1b6bdd5e46f977da9c15402388e349e1/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/b3ba0e837ebb355a2e3531121eac2c22/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/b3ba0e837ebb355a2e3531121eac2c22/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/8c6fbbaf5998aee75aa380761f280fe9/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/8c6fbbaf5998aee75aa380761f280fe9/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/34e4874949e624218e282186f0c3be93/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/34e4874949e624218e282186f0c3be93/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/9cb0e21846fe350940a52720c113237e/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/9cb0e21846fe350940a52720c113237e/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/37a722724482d04c49a40b00a564c547/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/37a722724482d04c49a40b00a564c547/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/6c0cf09705cceb6a1f0416f87097a4e8/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/6c0cf09705cceb6a1f0416f87097a4e8/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.3.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/fb584471a814ce9864a468de16f214fc/webkit-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.3.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/fb584471a814ce9864a468de16f214fc/webkit-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/821a5a4e1891df652cce5244b7a0ba55/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/821a5a4e1891df652cce5244b7a0ba55/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/a2a3956d917b721b23f3ea46bbd25296/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/a2a3956d917b721b23f3ea46bbd25296/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/1d36743eab3fca17323fe1477878bc3e/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/1d36743eab3fca17323fe1477878bc3e/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/1d08dc9e7accb397dc3fc35a87276745/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/1d08dc9e7accb397dc3fc35a87276745/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/3ede1c1c0207738a6ca59f26d2c4ec72/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/3ede1c1c0207738a6ca59f26d2c4ec72/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/cd7a7e4f15f966dcbfd12dae42bdd977/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/cd7a7e4f15f966dcbfd12dae42bdd977/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/fc99c69e5314a6736128ee9e416d66e8/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/fc99c69e5314a6736128ee9e416d66e8/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/49e29bc12ec1541cfb18dfb9684d1072/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/49e29bc12ec1541cfb18dfb9684d1072/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/d8d9c68968af50a25b7eea7dcb29f953/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/d8d9c68968af50a25b7eea7dcb29f953/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/38ce74f464f47dfd01a1d222a35b0ddd/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/38ce74f464f47dfd01a1d222a35b0ddd/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/07c8e7b111edddc376da5bc2a541f82f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/07c8e7b111edddc376da5bc2a541f82f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [ss.anoop:awesome-textinput-layout:1.0.3] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/f2dcf5fd5df370eaa73ac76f48e25329/jetified-awesome-textinput-layout-1.0.3/AndroidManifest.xml:7:5-44
+MERGED from [ss.anoop:awesome-textinput-layout:1.0.3] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/f2dcf5fd5df370eaa73ac76f48e25329/jetified-awesome-textinput-layout-1.0.3/AndroidManifest.xml:7:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/08456763b9657e10f33a99935e5dcf10/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/08456763b9657e10f33a99935e5dcf10/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/f1ff365c394a8c28e6e70c1a32e76250/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/f1ff365c394a8c28e6e70c1a32e76250/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/c789ab82f47f6ee9bafc6d3774fd0914/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/c789ab82f47f6ee9bafc6d3774fd0914/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/b109cd8bdd95b2702f82dfbb2a2050db/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/b109cd8bdd95b2702f82dfbb2a2050db/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/d1f3aae60a3f057306a8581770d4ca67/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/d1f3aae60a3f057306a8581770d4ca67/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/dba71ffdcd69e8e5bfeb611708786912/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/dba71ffdcd69e8e5bfeb611708786912/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/714472e6bd4dcacff8eeb52fdaab7f11/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/714472e6bd4dcacff8eeb52fdaab7f11/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml
+INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml
+		ADDED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml

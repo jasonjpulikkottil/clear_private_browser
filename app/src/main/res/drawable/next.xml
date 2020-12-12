@@ -1,0 +1,13 @@
+<!-- This file comes from the Android Material icon set, where it is called `expand_more`.  It is released under the Apache License 2.0. -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0" >
+
+    <!-- A hard coded color must be used until API >= 21.  Then `@color` or `?attr/colorControlNormal` may be used instead. -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M16.59,8.59L12,13.17 7.41,8.59 6,10l6,6 6,-6z"/>
+</vector>

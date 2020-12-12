@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="black_translucent_11">#11000000</color>
+    <color name="black_translucent_22">#22000000</color>
+    <color name="black_translucent_33">#33000000</color>
+    <color name="blue_100">#FFBBDEFB</color>
+    <color name="blue_1000">#FF082B61</color>
+    <color name="blue_200">#FF90CAF9</color>
+    <color name="blue_300">#FF64B5F6</color>
+    <color name="blue_400">#FF42A5F5</color>
+    <color name="blue_50">#FFE3F2FD</color>
+    <color name="blue_500">#FF2196F3</color>
+    <color name="blue_600">#FF1E88E5</color>
+    <color name="blue_700">#FF1976D2</color>
+    <color name="blue_700_50">#881976D2</color>
+    <color name="blue_750">#FF1770C6</color>
+    <color name="blue_800">#FF1565C0</color>
+    <color name="blue_830">#FF1760B5</color>
+    <color name="blue_900">#FF0D47A1</color>
+    <color name="blue_a700">#FF2962FF</color>
+    <color name="blue_gray_500">#FF607D8B</color>
+    <color name="dark_blue_15">#FF001C33</color>
+    <color name="dark_blue_30">#FF002A4D</color>
+    <color name="dark_blue_40">#FF0E3F66</color>
+    <color name="dark_blue_55">#FF14568C</color>
+    <color name="dark_blue_65">#FF1766A6</color>
+    <color name="dark_green_15">#FF163317</color>
+    <color name="disabled_tint">#FF9E9E9E</color>
+    <color name="ghosted_tint">#FF616161</color>
+    <color name="gray_100">#FFF5F5F5</color>
+    <color name="gray_200">#FFEEEEEE</color>
+    <color name="gray_300">#FFE0E0E0</color>
+    <color name="gray_350">#FFC1C1C1</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_425">#FFB7B7B7</color>
+    <color name="gray_50">#FFFAFAFA</color>
+    <color name="gray_500">#FF9E9E9E</color>
+    <color name="gray_600">#FF757575</color>
+    <color name="gray_700">#FF616161</color>
+    <color name="gray_750">#FF515151</color>
+    <color name="gray_800">#FF424242</color>
+    <color name="gray_850">#FF313131</color>
+    <color name="gray_860">#FF303030</color>
+    <color name="gray_875">#FF2D2D2D</color>
+    <color name="gray_900">#FF212121</color>
+    <color name="gray_925">#FF202020</color>
+    <color name="green_100">#FFC8E6C9</color>
+    <color name="green_200">#FFA5D6A7</color>
+    <color name="green_50">#FFE8F5E9</color>
+    <color name="light_green_100">#FFDCEDC8</color>
+    <color name="light_green_a700">#FF64DD17</color>
+    <color name="red_100">#FFFFCDD2</color>
+    <color name="red_1000">#FFA21212</color>
+    <color name="red_1100">#FF930606</color>
+    <color name="red_200">#FFEF9A9A</color>
+    <color name="red_600">#FFE53935</color>
+    <color name="red_700">#FFD32F2F</color>
+    <color name="red_700_40">#55D32F2F</color>
+    <color name="red_800">#FFC62828</color>
+    <color name="red_900">#FFB71C1C</color>
+    <color name="red_a700">#FFD50000</color>
+    <color name="red_tint">#FFB71C1C</color>
+    <color name="semi_transparent_black">#66000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="violet_300">#FFBAD3FB</color>
+    <color name="violet_500">#FF8AB4F8</color>
+    <color name="violet_700">#FF5785C5</color>
+    <color name="violet_a900">#FF586479</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow_100">#FFFFF9C4</color>
+    <color name="yellow_700_50">#88FBC02D</color>
+    <color name="yellow_900">#FFF57F17</color>
+    <color name="yellow_a700">#FFFFD600</color>
+    <style name="ClearBrowser" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Main Items. -->
+        <item name="windowActionModeOverlay">true</item>  <!-- `windowActionModeOverlay` makes the contextual app bar cover the support app bar. -->
+
+        <!-- Colors.  -->
+        <item name="android:actionModeBackground">?android:attr/colorBackground</item>
+        <item name="android:textColorHighlight">@color/violet_700</item>
+        <item name="blueTextColor">@color/violet_700</item>
+        <item name="blueTitleTextColor">@color/violet_500</item>
+        <item name="buttonBackgroundColorSelector">@color/button_background_color_selector_night</item>
+        <item name="buttonTextColorSelector">@color/button_text_color_selector_night</item>
+        <item name="colorAccent">@color/violet_500</item>
+        <item name="redTextColor">@color/red_900</item>
+
+        <!-- Tints. -->
+        <item name="addTabIconTintColor">@color/white</item>
+        <item name="domainSettingsIconTintColor">@color/violet_500</item>
+        <item name="fabIconTintColor">@color/gray_875</item>
+        <item name="findOnPageIconTintColor">@color/violet_500</item>
+        <item name="navigationIconTintColor">@color/violet_500</item>
+        <item name="progressTintColor">@color/violet_500</item>
+
+        <!-- Drawables. -->
+        <item name="listSelectorDrawable">@drawable/list_selector_night</item>
+
+        <!-- Main App Bar Icons. -->
+        <item name="bookmarksAppBarIcon">@drawable/bookmarks_night</item>
+
+        <!-- Options Icons. -->
+        <item name="aboutIcon">@drawable/about_night</item>
+        <item name="closeIcon">@drawable/close_night</item>
+        <item name="copyIcon">@drawable/copy_night</item>
+        <item name="deleteIcon">@drawable/delete_night</item>
+        <item name="editIcon">@drawable/edit_night</item>
+        <item name="moveToFolderIcon">@drawable/move_to_folder_night</item>
+        <item name="saveIcon">@drawable/save_night</item>
+        <item name="saveImageIcon">@drawable/images_options_night</item>
+        <item name="saveTextIcon">@drawable/save_text_night</item>
+        <item name="selectAllIcon">@drawable/select_all_night</item>
+        <item name="shareIcon">@drawable/share_night</item>
+        <item name="sortIcon">@drawable/sort_night</item>
+
+        <!-- Dialog Icons. -->
+        <item name="aboutBlueIcon">@drawable/about_blue_night</item>
+        <item name="domainsBlueIcon">@drawable/domains_night</item>
+        <item name="fontSizeBlueIcon">@drawable/font_size_night</item>
+        <item name="lockBlueIcon">@drawable/lock_night</item>
+    </style>
+    <style name="ClearBrowserAlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/violet_500</item>
+    </style>
+    <style name="ClearBrowserAppBar" parent="ThemeOverlay.AppCompat.DayNight.ActionBar">
+        <item name="android:textColorHighlight">@color/violet_700</item>
+    </style>
+    <style name="ClearBrowserSettings" parent="Theme.AppCompat.DayNight">
+        <!-- Colors. -->
+        <item name="colorAccent">@color/violet_500</item>
+        <item name="colorPrimary">?android:attr/colorBackground</item>  <!-- `colorPrimary` sets the background color of the app bar. -->
+
+        <!-- Icons. -->
+        <item name="appThemeIcon">@drawable/app_theme_night</item>
+        <item name="downloadIcon">@drawable/downloads_enabled_night</item>
+        <item name="fontSizeIcon">@drawable/font_size_night</item>
+        <item name="homepageIcon">@drawable/home_enabled_night</item>
+        <item name="searchIcon">@drawable/search_enabled_night</item>
+        <item name="userAgentIcon">@drawable/user_agent_night</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight" parent="Theme.AppCompat"/>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="Theme.AppCompat"/>
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="Theme.AppCompat.Dialog"/>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="Theme.AppCompat.Dialog.Alert"/>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="Theme.AppCompat.Dialog.MinWidth"/>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="Theme.AppCompat.DialogWhenLarge"/>
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="Theme.AppCompat.NoActionBar"/>
+    <style name="Theme.MaterialComponents.DayNight" parent="Theme.MaterialComponents"/>
+    <style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="Theme.MaterialComponents.BottomSheetDialog"/>
+    <style name="Theme.MaterialComponents.DayNight.Bridge" parent="Theme.MaterialComponents.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="Theme.MaterialComponents"/>
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="Theme.MaterialComponents.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog" parent="Theme.MaterialComponents.Dialog"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="Theme.MaterialComponents.Dialog.Alert"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="Theme.MaterialComponents.Dialog.Alert.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="Theme.MaterialComponents.Dialog.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="Theme.MaterialComponents.Dialog.FixedSize"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="Theme.MaterialComponents.Dialog.FixedSize.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="Theme.MaterialComponents.Dialog.MinWidth"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="Theme.MaterialComponents.Dialog.MinWidth.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="Theme.MaterialComponents.DialogWhenLarge"/>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="Theme.MaterialComponents.NoActionBar"/>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="Theme.MaterialComponents.NoActionBar.Bridge"/>
+    <style name="ThemeOverlay.AppCompat.DayNight" parent="ThemeOverlay.AppCompat.Dark"/>
+    <style name="ThemeOverlay.MaterialComponents.DayNight.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog"/>
+    <style name="Widget.MaterialComponents.ActionBar.PrimarySurface" parent="Widget.MaterialComponents.ActionBar.Surface"/>
+    <style name="Widget.MaterialComponents.AppBarLayout.PrimarySurface" parent="Widget.MaterialComponents.AppBarLayout.Surface"/>
+    <style name="Widget.MaterialComponents.BottomAppBar.PrimarySurface" parent="Widget.MaterialComponents.BottomAppBar"/>
+    <style name="Widget.MaterialComponents.BottomNavigationView.PrimarySurface" parent="Widget.MaterialComponents.BottomNavigationView"/>
+    <style name="Widget.MaterialComponents.TabLayout.PrimarySurface" parent="Widget.MaterialComponents.TabLayout"/>
+    <style name="Widget.MaterialComponents.Toolbar.PrimarySurface" parent="Widget.MaterialComponents.Toolbar.Surface"/>
+</resources>

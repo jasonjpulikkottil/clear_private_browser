@@ -1,0 +1,477 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jdots.browser"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+9-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:8:5-67
+12-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+13-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:9:5-88
+13-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:9:22-85
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:10:5-80
+14-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:10:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:11:5-81
+15-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:11:22-78
+16
+17    <uses-feature
+17-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:13:5-15:36
+18        android:name="android.hardware.touchscreen"
+18-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:14:9-52
+19        android:required="false" />
+19-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:15:9-33
+20
+21    <application
+21-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:16:5-282:19
+22        android:name="androidx.multidex.MultiDexApplication"
+23        android:allowBackup="false"
+23-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:17:9-36
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.3.2] /home/jdotslab/.gradle/caches/transforms-2/files-2.1/fc99c69e5314a6736128ee9e416d66e8/core-1.3.2/AndroidManifest.xml:24:18-86
+25        android:fullBackupContent="false"
+25-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:18:9-42
+26        android:icon="@mipmap/ic_launcher_foreground"
+26-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:19:9-54
+27        android:label="@string/application_name"
+27-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:20:9-49
+28        android:networkSecurityConfig="@xml/network_security_config"
+28-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:21:9-69
+29        android:requestLegacyExternalStorage="true"
+29-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:22:9-52
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:23:9-54
+31        android:supportsRtl="true" >
+31-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:24:9-35
+32
+33        <!-- If `android:name="android.webkit.WebView.MetricsOptOut"` is not `true` then `WebViews` will upload metrics to Google.  <https://developer.android.com/reference/android/webkit/WebView.html> -->
+34        <meta-data
+34-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:29:9-31:36
+35            android:name="android.webkit.WebView.MetricsOptOut"
+35-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:30:13-64
+36            android:value="true" />
+36-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:31:13-33
+37
+38        <!-- Explicitly disable "Safe Browsing". -->
+39        <meta-data
+39-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:34:9-36:37
+40            android:name="android.webkit.WebView.EnableSafeBrowsing"
+40-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:35:13-69
+41            android:value="false" />
+41-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:36:13-34
+42
+43        <!-- Specify the Application ID used by the ads in the free flavor. -->
+44        <meta-data
+44-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:39:9-41:53
+45            android:name="com.google.android.gms.ads.APPLICATION_ID"
+45-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:40:13-69
+46            android:value="@string/google_app_id" />
+46-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:41:13-50
+47
+48        <!-- Don't initialize the ad system in the free flavor until it is explicitly called. -->
+49        <meta-data
+49-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:44:9-46:36
+50            android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT"
+50-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:45:13-81
+51            android:value="true" />
+51-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:46:13-33
+52
+53        <!-- The file provider is required to encrypt files with OpenKeychain. -->
+54        <provider
+54-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:49:9-58:20
+55            android:name="androidx.core.content.FileProvider"
+55-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:50:13-62
+56            android:authorities="@string/file_provider"
+56-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:51:13-56
+57            android:exported="false"
+57-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:52:13-37
+58            android:grantUriPermissions="true" >
+58-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:53:13-47
+59            <meta-data
+59-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:55:13-57:63
+60                android:name="android.support.FILE_PROVIDER_PATHS"
+60-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:56:17-67
+61                android:resource="@xml/file_provider_paths" />
+61-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:57:17-60
+62        </provider>
+63
+64        <!--
+65             The label uses the short name so that it isn't truncated under the icon in the launcher on most phones.
+66            The theme has to be defined here or an ugly title bar is displayed when the app launches.
+67            `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+68            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+69            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+70            `android:launchMode="singleTask"` makes the app launch in a new task instead of inside the task of the program that sends it an intent.
+71            It also makes it reuse an existing Clear Browser activity if available instead of launching a new one.
+72            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+73            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+74        -->
+75        <activity
+75-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:69:9-139:20
+76            android:name="com.jdots.browser.activities.MainWebViewActivity"
+76-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:70:13-76
+77            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+77-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:71:13-96
+78            android:label="@string/short_name"
+78-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:72:13-47
+79            android:launchMode="singleTask"
+79-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:73:13-44
+80            android:persistableMode="persistNever"
+80-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:74:13-51
+81            android:screenOrientation="fullUser"
+81-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:75:13-49
+82            android:theme="@style/ClearBrowser" >
+82-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:76:13-48
+83            <intent-filter>
+83-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:79:13-82:29
+84                <action android:name="android.intent.action.MAIN" />
+84-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:80:17-69
+84-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:80:25-66
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:81:17-77
+86-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:81:27-74
+87            </intent-filter>
+88
+89            <!-- Process web intents. -->
+90            <intent-filter>
+90-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:85:13-93:29
+91                <action android:name="android.intent.action.VIEW" />
+91-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:86:17-69
+91-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:86:25-66
+92
+93                <category android:name="android.intent.category.BROWSABLE" />
+93-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:88:17-78
+93-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:88:27-75
+94                <category android:name="android.intent.category.DEFAULT" />
+94-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:89:17-76
+94-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:89:27-73
+95
+96                <data android:scheme="http" />
+96-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:91:17-47
+96-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:91:23-44
+97                <data android:scheme="https" />
+97-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:91:17-47
+97-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:91:23-44
+98            </intent-filter>
+99
+100            <!-- Process content intents for text files. -->
+101            <intent-filter>
+101-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:96:13-104:29
+102                <action android:name="android.intent.action.VIEW" />
+102-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:86:17-69
+102-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:86:25-66
+103
+104                <category android:name="android.intent.category.BROWSABLE" />
+104-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:88:17-78
+104-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:88:27-75
+105                <category android:name="android.intent.category.DEFAULT" />
+105-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:89:17-76
+105-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:89:27-73
+106
+107                <data android:scheme="content" />
+107-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:91:17-47
+107-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:91:23-44
+108                <data android:mimeType="text/*" />
+108-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:91:17-47
+108-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:103:23-48
+109            </intent-filter>
+110
+111            <!-- Process intents for text strings.  Sometimes URLs are presented this way. -->
+112            <intent-filter>
+112-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:107:13-113:29
+113                <action android:name="android.intent.action.SEND" />
+113-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:108:17-69
+113-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:108:25-66
+114
+115                <category android:name="android.intent.category.DEFAULT" />
+115-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:89:17-76
+115-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:89:27-73
+116
+117                <data android:mimeType="text/plain" />
+117-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:91:17-47
+117-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:103:23-48
+118            </intent-filter>
+119
+120            <!-- Process intents for MHT archives. -->
+121            <intent-filter>
+121-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:116:13-130:29
+122                <action android:name="android.intent.action.VIEW" />
+122-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:86:17-69
+122-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:86:25-66
+123
+124                <category android:name="android.intent.category.BROWSABLE" />
+124-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:88:17-78
+124-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:88:27-75
+125                <category android:name="android.intent.category.DEFAULT" />
+125-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:89:17-76
+125-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:89:27-73
+126
+127                <data android:scheme="file" />
+127-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:91:17-47
+127-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:91:23-44
+128                <data android:scheme="content" />
+128-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:91:17-47
+128-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:91:23-44
+129                <data android:host="*" />
+129-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:91:17-47
+129-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:125:23-39
+130
+131                <!-- In the path pattern syntax, `.*` is a wildcard.  Hence, this matches any file path that ends in `.mht`.  <https://developer.android.com/guide/topics/manifest/data-element#path> -->
+132                <data android:pathPattern=".*.mht" />
+132-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:91:17-47
+132-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:128:23-51
+133                <data android:mimeType="*/*" />
+133-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:91:17-47
+133-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:103:23-48
+134            </intent-filter>
+135
+136            <!-- Process web search intents. -->
+137            <intent-filter>
+137-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:133:13-138:29
+138                <action android:name="android.intent.action.WEB_SEARCH" />
+138-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:134:17-75
+138-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:134:25-72
+139
+140                <category android:name="android.intent.category.BROWSABLE" />
+140-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:88:17-78
+140-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:88:27-75
+141                <category android:name="android.intent.category.DEFAULT" />
+141-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:89:17-76
+141-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:89:27-73
+142            </intent-filter>
+143        </activity>
+144
+145        <!--
+146             `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+147            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+148            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+149            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+150            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+151        -->
+152        <activity
+152-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:147:9-154:46
+153            android:name="com.jdots.browser.activities.BookmarksActivity"
+153-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:148:13-74
+154            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+154-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:149:13-96
+155            android:label="@string/bookmarks"
+155-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:150:13-46
+156            android:parentActivityName="com.jdots.browser.activities.MainWebViewActivity"
+156-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:151:13-90
+157            android:persistableMode="persistNever"
+157-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:152:13-51
+158            android:screenOrientation="fullUser" />
+158-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:153:13-49
+159
+160        <!--
+161             `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+162            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+163            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+164            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+165            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+166        -->
+167        <activity
+167-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:161:9-168:46
+168            android:name="com.jdots.browser.activities.BookmarksDatabaseViewActivity"
+168-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:162:13-86
+169            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+169-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:163:13-96
+170            android:label="@string/bookmarks_database_view"
+170-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:164:13-60
+171            android:parentActivityName="com.jdots.browser.activities.BookmarksActivity"
+171-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:165:13-88
+172            android:persistableMode="persistNever"
+172-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:166:13-51
+173            android:screenOrientation="fullUser" />
+173-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:167:13-49
+174
+175        <!--
+176             `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+177            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+178            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+179            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+180            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+181        -->
+182        <activity
+182-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:175:9-182:46
+183            android:name="com.jdots.browser.activities.RequestsActivity"
+183-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:176:13-73
+184            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+184-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:177:13-96
+185            android:label="@string/requests"
+185-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:178:13-45
+186            android:parentActivityName="com.jdots.browser.activities.MainWebViewActivity"
+186-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:179:13-90
+187            android:persistableMode="persistNever"
+187-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:180:13-51
+188            android:screenOrientation="fullUser" />
+188-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:181:13-49
+189
+190        <!--
+191             `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+192            `android:configChanges="keyboard|keyboardHidden"` makes the activity not reload when a bluetooth keyboard is activated/goes to sleep.
+193            `android:windowSoftInputMode="stateAlwaysHidden"` keeps the keyboard from displaying when the screen is rotated and after the `AddDomainDialog` is dismissed.
+194            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+195            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+196        -->
+197        <activity
+197-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:189:9-197:46
+198            android:name="com.jdots.browser.activities.DomainsActivity"
+198-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:190:13-72
+199            android:configChanges="screenLayout|keyboard|keyboardHidden"
+199-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:191:13-73
+200            android:label="@string/domains"
+200-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:192:13-44
+201            android:parentActivityName="com.jdots.browser.activities.MainWebViewActivity"
+201-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:193:13-90
+202            android:persistableMode="persistNever"
+202-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:194:13-51
+203            android:screenOrientation="fullUser"
+203-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:195:13-49
+204            android:windowSoftInputMode="stateAlwaysHidden" />
+204-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:196:13-60
+205
+206        <!--
+207             `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+208            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+209            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+210            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+211            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+212        -->
+213        <activity
+213-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:204:9-211:46
+214            android:name="com.jdots.browser.activities.SettingsActivity"
+214-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:205:13-73
+215            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+215-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:206:13-96
+216            android:label="@string/settings"
+216-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:207:13-45
+217            android:parentActivityName="com.jdots.browser.activities.MainWebViewActivity"
+217-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:208:13-90
+218            android:persistableMode="persistNever"
+218-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:209:13-51
+219            android:screenOrientation="fullUser" />
+219-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:210:13-49
+220
+221        <!--
+222             `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+223            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+224            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+225            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+226            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+227        -->
+228        <activity
+228-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:218:9-225:46
+229            android:name="com.jdots.browser.activities.ImportExportActivity"
+229-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:219:13-77
+230            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+230-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:220:13-96
+231            android:label="@string/import_export"
+231-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:221:13-50
+232            android:parentActivityName="com.jdots.browser.activities.MainWebViewActivity"
+232-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:222:13-90
+233            android:persistableMode="persistNever"
+233-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:223:13-51
+234            android:screenOrientation="fullUser" />
+234-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:224:13-49
+235
+236        <!--
+237             `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+238            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+239            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+240            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+241            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+242        -->
+243        <activity
+243-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:232:9-239:46
+244            android:name="com.jdots.browser.activities.LogcatActivity"
+244-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:233:13-71
+245            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+245-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:234:13-96
+246            android:label="@string/logcat"
+246-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:235:13-43
+247            android:parentActivityName="com.jdots.browser.activities.MainWebViewActivity"
+247-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:236:13-90
+248            android:persistableMode="persistNever"
+248-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:237:13-51
+249            android:screenOrientation="fullUser" />
+249-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:238:13-49
+250
+251        <!--
+252             `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+253            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+254            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+255            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+256            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+257        -->
+258        <activity
+258-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:246:9-253:46
+259            android:name="com.jdots.browser.activities.GuideActivity"
+259-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:247:13-70
+260            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+260-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:248:13-96
+261            android:label="@string/guide"
+261-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:249:13-42
+262            android:parentActivityName="com.jdots.browser.activities.MainWebViewActivity"
+262-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:250:13-90
+263            android:persistableMode="persistNever"
+263-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:251:13-51
+264            android:screenOrientation="fullUser" />
+264-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:252:13-49
+265
+266        <!--
+267             `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+268            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+269            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+270            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+271            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+272        -->
+273        <activity
+273-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:260:9-267:46
+274            android:name="com.jdots.browser.activities.AboutActivity"
+274-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:261:13-70
+275            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+275-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:262:13-96
+276            android:label="@string/about_application_name"
+276-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:263:13-59
+277            android:parentActivityName="com.jdots.browser.activities.MainWebViewActivity"
+277-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:264:13-90
+278            android:persistableMode="persistNever"
+278-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:265:13-51
+279            android:screenOrientation="fullUser" />
+279-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:266:13-49
+280
+281        <!--
+282             `android:configChanges="orientation|screenSize"` makes the activity not restart when the orientation changes, which preserves scroll location in the WebView.
+283            `android:configChanges="screenLayout"` makes the activity not restart when entering or exiting split screen mode.
+284            `android:configChanges="keyboard|keyboardHidden"` makes the activity not restart when a bluetooth keyboard is activated/goes to sleep.
+285            `android:persistableMode="persistNever"` removes Clear Browser from the recent apps list on a device reboot.
+286            `tools:ignore="unusedAttribute"` removes the lint warning that `persistableMode` does not apply to API < 21.
+287        -->
+288        <activity
+288-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:274:9-281:46
+289            android:name="com.jdots.browser.activities.ViewSourceActivity"
+289-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:275:13-58
+290            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
+290-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:276:13-96
+291            android:label="@string/view_source"
+291-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:277:13-48
+292            android:parentActivityName="com.jdots.browser.activities.MainWebViewActivity"
+292-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:278:13-90
+293            android:persistableMode="persistNever"
+293-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:279:13-51
+294            android:screenOrientation="fullUser" />
+294-->/home/jdotslab/Documents/PrivacyBrowser/app/src/main/AndroidManifest.xml:280:13-49
+295    </application>
+296
+297</manifest>

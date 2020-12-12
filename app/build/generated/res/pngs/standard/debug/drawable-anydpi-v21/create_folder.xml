@@ -1,0 +1,18 @@
+<!-- This file comes from the Android Material icon set, where it is called `create_new_folder`.  It is released under the Apache License 2.0. -->
+
+<!-- `tools:ignore="VectorRaster"` removes the lint warning about `android:autoMirrored="true"` not applying to API < 21. -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportHeight="24"
+    android:viewportWidth="24"
+    android:autoMirrored="true"
+    tools:ignore="VectorRaster" >
+
+    <!-- A hard coded color must be used until API >= 21.  Then `@color` or `?attr/colorControlNormal` may be used. -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M4,4C2.89,4 2.01,4.89 2.01,6L2,18C2,19.11 2.89,20 4,20L20,20C21.11,20 22,19.11 22,18L22,8C22,6.89 21.11,6 20,6L12,6L10,4L4,4zM11,9L13,9L13,12L16,12L16,14L13,14L13,17L11,17L11,14L8,14L8,12L11,12L11,9z" />
+</vector>

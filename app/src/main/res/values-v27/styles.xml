@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+
+  //
+
+ //
+
+
+
+   -->
+
+<resources>
+
+    <style name="ClearBrowser" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Main Items. -->
+        <item name="android:navigationBarColor">?android:attr/colorBackground</item>
+        <item name="android:statusBarColor">?android:attr/colorBackground</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="windowActionModeOverlay">true</item>  <!-- `windowActionModeOverlay` makes the contextual app bar cover the support app bar. -->
+
+        <!-- Colors. -->
+        <item name="android:actionModeBackground">?android:attr/colorBackground</item>
+        <item name="android:textColorHighlight">@color/blue_200</item>
+        <item name="blueTextColor">@color/blue_700</item>
+        <item name="blueTitleTextColor">@color/blue_900</item>
+        <item name="buttonBackgroundColorSelector">@color/button_background_color_selector_day</item>
+        <item name="buttonTextColorSelector">@color/button_text_color_selector_day</item>
+        <item name="colorAccent">@color/blue_700</item>
+        <item name="redTextColor">@color/red_a700</item>
+
+        <!-- Tints. -->
+        <item name="addTabIconTintColor">@color/gray_925</item>
+        <item name="domainSettingsIconTintColor">@color/blue_800</item>
+        <item name="fabIconTintColor">@color/white</item>
+        <item name="findOnPageIconTintColor">@color/blue_800</item>
+        <item name="navigationIconTintColor">@color/blue_800</item>
+        <item name="progressTintColor">@color/blue_700</item>
+
+        <!-- Drawables. -->
+        <item name="listSelectorDrawable">@drawable/list_selector_day</item>
+
+        <!-- Main App Bar Icons. -->
+        <item name="bookmarksAppBarIcon">@drawable/bookmarks_day</item>
+
+        <!-- Options Icons. -->
+        <item name="aboutIcon">@drawable/about_day</item>
+        <item name="closeIcon">@drawable/close_day</item>
+        <item name="copyIcon">@drawable/copy_day</item>
+        <item name="deleteIcon">@drawable/delete_day</item>
+        <item name="editIcon">@drawable/edit_day</item>
+        <item name="moveToFolderIcon">@drawable/move_to_folder_day</item>
+        <item name="saveIcon">@drawable/save_day</item>
+        <item name="saveImageIcon">@drawable/images_options_day</item>
+        <item name="saveTextIcon">@drawable/save_text_day</item>
+        <item name="selectAllIcon">@drawable/select_all_day</item>
+        <item name="shareIcon">@drawable/share_day</item>
+        <item name="sortIcon">@drawable/sort_day</item>
+
+        <!-- Dialog Icons. -->
+        <item name="aboutBlueIcon">@drawable/about_blue_day</item>
+        <item name="domainsBlueIcon">@drawable/domains_day</item>
+        <item name="fontSizeBlueIcon">@drawable/font_size_day</item>
+        <item name="lockBlueIcon">@drawable/lock_day</item>
+    </style>
+
+    <style name="ClearBrowserAppBar" parent="ThemeOverlay.AppCompat.DayNight.ActionBar">
+        <item name="android:textColorHighlight">@color/blue_200</item>
+    </style>
+
+    <style name="ClearBrowserSettings" parent="Theme.AppCompat.DayNight">
+        <!-- Main Items. -->
+        <item name="android:navigationBarColor">?android:attr/colorBackground</item>
+        <item name="android:statusBarColor">?android:attr/colorBackground</item>
+        <item name="android:windowLightNavigationBar">?attr/isLightTheme</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+
+        <!-- Colors. -->
+        <item name="colorAccent">@color/blue_700</item>
+        <item name="colorPrimary">?android:attr/colorBackground</item>  <!-- `colorPrimary` sets the background color of the app bar. -->
+
+        <!-- Icons. -->
+        <item name="appThemeIcon">@drawable/app_theme_day</item>
+        <item name="downloadIcon">@drawable/downloads_enabled_day</item>
+        <item name="fontSizeIcon">@drawable/font_size_day</item>
+        <item name="homepageIcon">@drawable/home_enabled_day</item>
+        <item name="searchIcon">@drawable/search_enabled_day</item>
+        <item name="userAgentIcon">@drawable/user_agent_day</item>
+    </style>
+
+    <style name="ClearBrowserAlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/blue_700</item>
+    </style>
+</resources>

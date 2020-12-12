@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  //
+
+  //
+
+ //
+
+
+
+   -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="privacy"
+        android:title="@string/privacy" >
+
+        <SwitchPreference
+            android:key="javascript"
+            android:title="@string/javascript_preference"
+            android:summary="@string/javascript_preference_summary"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="first_party_cookies"
+            android:title="@string/first_party_cookies_preference"
+            android:summary="@string/first_party_cookies_preference_summary"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="third_party_cookies"
+            android:title="@string/third_party_cookies_preference"
+            android:summary="@string/third_party_cookies_summary"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="dom_storage"
+            android:title="@string/dom_storage_preference"
+            android:summary="@string/dom_storage_preference_summary"
+            android:defaultValue="false" />
+
+        <!-- Save form data can be removed once the minimum API >= 26. -->
+        <SwitchPreference
+            android:key="save_form_data"
+            android:title="@string/save_form_data_preference"
+            android:summary="@string/save_form_data_preference_summary"
+            android:defaultValue="false" />
+
+        <ListPreference
+            android:key="user_agent"
+            android:title="@string/user_agent"
+            android:entries="@array/translated_user_agent_names"
+            android:entryValues="@array/user_agent_names"
+            android:defaultValue="@string/user_agent_default_value"
+            android:icon="?attr/userAgentIcon" />
+
+        <!-- android:inputType="textVisiblePassword" sets the keyboard to have a dedicated number row.-->
+        <EditTextPreference
+            android:key="custom_user_agent"
+            android:title="@string/custom_user_agent"
+            android:defaultValue="@string/custom_user_agent_default_value"
+            android:inputType="textVisiblePassword|textMultiLine" />
+
+        <SwitchPreference
+            android:key="incognito_mode"
+            android:title="@string/incognito_mode"
+            android:summary="@string/incognito_mode_summary"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="do_not_track"
+            android:title="@string/do_not_track"
+            android:summary="@string/do_not_track_summary"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="allow_screenshots"
+            android:title="@string/allow_screenshots"
+            android:summary="@string/allow_screenshots_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="blocklists"
+        android:title="@string/blocklists" >
+
+        <SwitchPreference
+            android:key="easylist"
+            android:title="@string/easylist"
+            android:summary="@string/easylist_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="easyprivacy"
+            android:title="@string/easyprivacy"
+            android:summary="@string/easyprivacy_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="fanboys_annoyance_list"
+            android:title="@string/fanboys_annoyance_list"
+            android:summary="@string/fanboys_annoyance_list_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="fanboys_social_blocking_list"
+            android:title="@string/fanboys_social_blocking_list"
+            android:summary="@string/fanboys_social_blocking_list_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="ultralist"
+            android:title="@string/ultralist"
+            android:summary="@string/ultralist_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="ultraprivacy"
+            android:title="@string/ultraprivacy"
+            android:summary="@string/ultraprivacy_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="block_all_third_party_requests"
+            android:title="@string/block_all_third_party_requests"
+            android:summary="@string/block_all_third_party_requests_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="url_modification"
+        android:title="@string/url_modification" >
+
+        <SwitchPreference
+            android:key="google_analytics"
+            android:title="@string/google_analytics"
+            android:summary="@string/google_analytics_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="facebook_click_ids"
+            android:title="@string/facebook_click_ids"
+            android:summary="@string/facebook_click_ids_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="twitter_amp_redirects"
+            android:title="@string/twitter_amp_redirects"
+            android:summary="@string/twitter_amp_redirects_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="search_category"
+        android:title="@string/search" >
+
+        <ListPreference
+            android:key="search"
+            android:title="@string/search"
+            android:entries="@array/search_entries"
+            android:entryValues="@array/search_entry_values"
+            android:defaultValue="@string/search_default_value"
+            android:icon="?attr/searchIcon" />
+
+        <EditTextPreference
+            android:key="search_custom_url"
+            android:title="@string/search_custom_url"
+            android:defaultValue="@string/search_custom_url_default_value"
+            android:inputType="textUri" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="proxy_category"
+        android:title="@string/proxy" >
+
+        <ListPreference
+            android:key="proxy"
+            android:title="@string/proxy"
+            android:entries="@array/proxy_entries"
+            android:entryValues="@array/proxy_entry_values"
+            android:defaultValue="@string/proxy_default_value" />
+
+        <EditTextPreference
+            android:key="proxy_custom_url"
+            android:title="@string/proxy_custom_url"
+            android:defaultValue="@string/proxy_custom_url_default_value"
+            android:inputType="textUri" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="full_screen"
+        android:title="@string/full_screen" >
+
+        <SwitchPreference
+            android:key="full_screen_browsing_mode"
+            android:title="@string/full_screen_browsing_mode"
+            android:summary="@string/full_screen_browsing_mode_summary"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="hide_app_bar"
+            android:title="@string/hide_app_bar"
+            android:summary="@string/hide_app_bar_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="clear_and_exit"
+        android:title="@string/clear_and_exit" >
+
+        <SwitchPreference
+            android:key="clear_everything"
+            android:title="@string/clear_everything"
+            android:summary="@string/clear_everything_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="clear_cookies"
+            android:title="@string/clear_cookies_preference"
+            android:summary="@string/clear_cookies_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="clear_dom_storage"
+            android:title="@string/clear_dom_storage_preference"
+            android:summary="@string/clear_dom_storage_summary"
+            android:defaultValue="true" />
+
+        <!-- Clear form data can be removed once the minimum API >= 26. -->
+        <SwitchPreference
+            android:key="clear_form_data"
+            android:title="@string/clear_form_data_preference"
+            android:summary="@string/clear_form_data_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="clear_logcat"
+            android:title="@string/clear_logcat_preference"
+            android:summary="@string/clear_logcat_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="clear_cache"
+            android:title="@string/clear_cache"
+            android:summary="@string/clear_cache_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="general"
+        android:title="@string/general" >
+
+        <EditTextPreference
+            android:key="homepage"
+            android:title="@string/homepage"
+            android:defaultValue="@string/homepage_default_value"
+            android:inputType="textUri"
+            android:icon="?attr/homepageIcon" />
+
+        <ListPreference
+            android:key="download_location"
+            android:title="@string/download_location"
+            android:entries="@array/download_location_entries"
+            android:entryValues="@array/download_location_entry_values"
+            android:defaultValue="@string/download_location_default_value"
+            android:icon="?attr/downloadIcon" />
+
+        <EditTextPreference
+            android:key="download_custom_location"
+            android:title="@string/download_custom_location"
+            android:defaultValue="@string/download_custom_location_default_value"
+            android:inputType="textUri" />
+
+        <!-- `android:inputType="number"` currently doesn't work with AndroidX. -->
+        <EditTextPreference
+            android:key="font_size"
+            android:title="@string/font_size_preference"
+            android:defaultValue="@string/font_size_default_value"
+            android:inputType="number"
+            android:icon="?attr/fontSizeIcon" />
+
+        <SwitchPreference
+            android:key="open_intents_in_new_tab"
+            android:title="@string/open_intents_in_new_tab"
+            android:summary="@string/open_intents_in_new_tab_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="swipe_to_refresh"
+            android:title="@string/swipe_to_refresh"
+            android:summary="@string/swipe_to_refresh_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="scroll_app_bar"
+            android:title="@string/scroll_app_bar"
+            android:summary="@string/scroll_app_bar_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="display_additional_app_bar_icons"
+            android:title="@string/display_additional_app_bar_icons"
+            android:summary="@string/display_additional_app_bar_icons_summary"
+            android:defaultValue="false" />
+
+        <ListPreference
+            android:key="app_theme"
+            android:title="@string/app_theme"
+            android:entries="@array/app_theme_entries"
+            android:entryValues="@array/app_theme_entry_values"
+            android:defaultValue="@string/app_theme_default_value"
+            android:icon="?attr/appThemeIcon" />
+
+        <ListPreference
+            android:key="webview_theme"
+            android:title="@string/webview_theme"
+            android:entries="@array/webview_theme_entries"
+            android:entryValues="@array/webview_theme_entry_values"
+            android:defaultValue="@string/webview_theme_default_value" />
+
+        <SwitchPreference
+            android:key="wide_viewport"
+            android:title="@string/wide_viewport_preference"
+            android:summary="@string/wide_viewport_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="display_webpage_images"
+            android:title="@string/display_webpage_images"
+            android:summary="@string/display_webpage_images_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

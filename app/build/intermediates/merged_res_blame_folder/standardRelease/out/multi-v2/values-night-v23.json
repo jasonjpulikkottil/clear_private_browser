@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/jdotslab/Documents/PrivacyBrowser/app/build/intermediates/incremental/mergeStandardReleaseResources/merged.dir/values-night-v23/values-night-v23.xml",
+            "map": [
+                {
+                    "source": "/home/jdotslab/Documents/PrivacyBrowser/app/src/main/res/values-night-v23/styles.xml",
+                    "from": {
+                        "startLines": "14,87,65,69",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "84,3977,2860,3037",
+                        "endLines": "63,89,67,85",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "2854,4134,3031,3971"
+                    },
+                    "to": {
+                        "startLines": "2,52,55,58",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,2829,2990,3165",
+                        "endLines": "51,54,57,74",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "2824,2985,3160,4098"
+                    }
+                }
+            ]
+        }
+    ]
+}

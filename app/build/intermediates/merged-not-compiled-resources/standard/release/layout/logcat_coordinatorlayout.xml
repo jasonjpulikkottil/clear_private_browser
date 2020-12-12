@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    2018-2020
+
+  //
+
+ //
+
+
+
+   -->
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@+id/logcat_coordinatorlayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+
+    <!-- the LinearLayout with `orientation="vertical"` moves the content below the AppBarLayout. -->
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" >
+
+        <!-- The app bar theme must be specified here because the activity uses a `NoActionBar` theme.  The background is set programmatically based on the proxy status. -->
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/logcat_appbarlayout"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="?android:attr/colorBackground"
+            android:theme="@style/ClearBrowserAppBar" >
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/logcat_toolbar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/logcat_swiperefreshlayout"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" >
+
+            <ScrollView
+                android:id="@+id/logcat_scrollview"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" >
+
+                <TextView
+                    android:id="@+id/logcat_textview"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_margin="10dp"
+                    android:textIsSelectable="true" />
+            </ScrollView>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

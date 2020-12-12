@@ -1,0 +1,162 @@
+/*
+ *   2017-2020
+ *
+ * //
+ *
+
+ *
+ * Clear Browser is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ *
+ *
+ */
+
+/* Dark colors. */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #C1C1C1;  /* Gray 350 */
+    background-color: #303030;  /* Gray 860 */
+  }
+}
+
+/* Hyperlinks. */
+a {
+  color: #1976D2;  /* Blue 700 */
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #5785C5;  /* Violet 700 */
+  }
+}
+
+
+/* Headers. */
+h3 {
+  color: #0D47A1;  /* Blue 900 */
+}
+
+@media (prefers-color-scheme: dark) {
+  h3 {
+    color: #8AB4F8;  /* Violet 500 */
+  }
+}
+
+
+/* Red bold text */
+strong.red {
+  color: #B71C1C;  /* Red 900. */
+}
+
+@media (prefers-color-scheme: dark) {
+  strong.red {
+    color: #930606;  /* Red 1100. */
+  }
+}
+
+
+/* Blue bold text */
+strong.blue {
+  color: #1565C0;  /* Blue 800. */
+}
+
+
+/* List items. */
+item {
+  color: #1565C0;  /* Blue 800. */
+  font-weight: bold;
+}
+
+
+/* Header images do not allow the icon to be themed. */
+img.header {
+  vertical-align: bottom;
+  height: 32;
+  width: 32;
+}
+
+/* Header SVGs allow the icon to be themed. */
+svg.header {
+  vertical-align: bottom;
+  height: 32;
+  width: 32;
+  fill: #0D47A1;  /* Blue 900 */
+}
+
+@media (prefers-color-scheme: dark) {
+  svg.header {
+    fill: #8AB4F8;  /* Violet 500 */
+  }
+}
+
+
+/* Links SVGs allow the icon to be themed. */
+svg.links {
+  vertical-align: middle;
+  height: 32;
+  width: 32;
+  fill: #0D47A1;  /* Blue 900 */
+}
+
+@media (prefers-color-scheme: dark) {
+  svg.header {
+    fill: #8AB4F8;  /* Violet 500 */
+  }
+}
+
+
+/* Left aligned images do not allow the icon to be themed. */
+img.left {
+  float: left;
+  height: 32;
+  width: 32;
+}
+
+/* Left aligned SVGs allow the icon to be themed. */
+svg.left {
+  float: left;
+  height: 32;
+  width: 32;
+  fill: #000000;  /* Black */
+}
+
+@media (prefers-color-scheme: dark) {
+  svg.left {
+    fill: #FFFFFF;  /* White */
+  }
+}
+
+
+/* SVG icons. */
+svg.icon {
+  vertical-align: middle;
+  height: 32;
+  width: 32;
+  fill: #000000;  /* Black */
+}
+
+@media (prefers-color-scheme: dark) {
+  svg.icon {
+    fill: #FFFFFF;  /* White */
+  }
+}
+
+
+/* Inline images. */
+img.inline {
+  height: 16;
+  width: 16;
+}
+
+
+/* Centered screenshot images.  An image must be a block to be centered. */
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 720;
+  width: 360;
+}

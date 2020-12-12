@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+
+  //
+
+ //
+
+
+
+   -->
+
+<resources>
+
+    <style name="ClearBrowser" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Main Items. -->
+        <item name="windowActionModeOverlay">true</item>  <!-- `windowActionModeOverlay` makes the contextual app bar cover the support app bar. -->
+
+        <!-- Colors.  -->
+        <item name="android:actionModeBackground">?android:attr/colorBackground</item>
+        <item name="android:textColorHighlight">@color/violet_700</item>
+        <item name="blueTextColor">@color/violet_700</item>
+        <item name="blueTitleTextColor">@color/violet_500</item>
+        <item name="buttonBackgroundColorSelector">@color/button_background_color_selector_night</item>
+        <item name="buttonTextColorSelector">@color/button_text_color_selector_night</item>
+        <item name="colorAccent">@color/violet_500</item>
+        <item name="redTextColor">@color/red_900</item>
+
+        <!-- Tints. -->
+        <item name="addTabIconTintColor">@color/white</item>
+        <item name="domainSettingsIconTintColor">@color/violet_500</item>
+        <item name="fabIconTintColor">@color/gray_875</item>
+        <item name="findOnPageIconTintColor">@color/violet_500</item>
+        <item name="navigationIconTintColor">@color/violet_500</item>
+        <item name="progressTintColor">@color/violet_500</item>
+
+        <!-- Drawables. -->
+        <item name="listSelectorDrawable">@drawable/list_selector_night</item>
+
+        <!-- Main App Bar Icons. -->
+        <item name="bookmarksAppBarIcon">@drawable/bookmarks_night</item>
+
+        <!-- Options Icons. -->
+        <item name="aboutIcon">@drawable/about_night</item>
+        <item name="closeIcon">@drawable/close_night</item>
+        <item name="copyIcon">@drawable/copy_night</item>
+        <item name="deleteIcon">@drawable/delete_night</item>
+        <item name="editIcon">@drawable/edit_night</item>
+        <item name="moveToFolderIcon">@drawable/move_to_folder_night</item>
+        <item name="saveIcon">@drawable/save_night</item>
+        <item name="saveImageIcon">@drawable/images_options_night</item>
+        <item name="saveTextIcon">@drawable/save_text_night</item>
+        <item name="selectAllIcon">@drawable/select_all_night</item>
+        <item name="shareIcon">@drawable/share_night</item>
+        <item name="sortIcon">@drawable/sort_night</item>
+
+        <!-- Dialog Icons. -->
+        <item name="aboutBlueIcon">@drawable/about_blue_night</item>
+        <item name="domainsBlueIcon">@drawable/domains_night</item>
+        <item name="fontSizeBlueIcon">@drawable/font_size_night</item>
+        <item name="lockBlueIcon">@drawable/lock_night</item>
+    </style>
+
+    <style name="ClearBrowserAppBar" parent="ThemeOverlay.AppCompat.DayNight.ActionBar">
+        <item name="android:textColorHighlight">@color/violet_700</item>
+    </style>
+
+    <style name="ClearBrowserSettings" parent="Theme.AppCompat.DayNight">
+        <!-- Colors. -->
+        <item name="colorAccent">@color/violet_500</item>
+        <item name="colorPrimary">?android:attr/colorBackground</item>  <!-- `colorPrimary` sets the background color of the app bar. -->
+
+        <!-- Icons. -->
+        <item name="appThemeIcon">@drawable/app_theme_night</item>
+        <item name="downloadIcon">@drawable/downloads_enabled_night</item>
+        <item name="fontSizeIcon">@drawable/font_size_night</item>
+        <item name="homepageIcon">@drawable/home_enabled_night</item>
+        <item name="searchIcon">@drawable/search_enabled_night</item>
+        <item name="userAgentIcon">@drawable/user_agent_night</item>
+    </style>
+
+    <style name="ClearBrowserAlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/violet_500</item>
+    </style>
+</resources>

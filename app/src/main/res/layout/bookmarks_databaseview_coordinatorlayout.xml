@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  //
+
+  //
+
+ //
+
+
+
+   -->
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bookmarks_databaseview_coordinatorlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- The linear layout with `orientation="vertical"` moves the list view below the app bar layout. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- The app bar theme must be specified here because the activity uses a `NoActionBar` theme. -->
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/bookmarks_databaseview_appbarlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/colorBackground"
+            android:theme="@style/ClearBrowserAppBar">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/bookmarks_databaseview_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <!-- `android:choiceMode="multipleChoiceModal"` allows the contextual action menu to select more than one item at a time. -->
+        <ListView
+            android:id="@+id/bookmarks_databaseview_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:choiceMode="multipleChoiceModal" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

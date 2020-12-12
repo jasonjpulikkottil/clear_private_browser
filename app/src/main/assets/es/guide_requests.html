@@ -1,0 +1,80 @@
+<!--
+    2018-2020
+
+  Translation 2018 Jose A. León.  Copyright assigned to
+
+  //
+
+ //
+
+
+
+   -->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <link href="../css/theme.css" rel="stylesheet">
+
+        <!-- Setting the color scheme instructs the WebView to respect `prefers-color-scheme` @media CSS. -->
+        <meta content="light dark" name="color-scheme">
+    </head>
+
+    <body>
+        <h3><svg class="header"><use href="../shared_images/local_activity.svg#icon"/></svg> Peticiones de recursos</h3>
+
+        <p>Cuando se carga una URL, normalmente realiza una serie de peticiones de recursos para CCS, JavaScript, imágenes y otros archivos.
+            Los detalles sobre estas solicitudes se pueden ver en la Actividad de peticiones. El cajón de navegación tiene un enlace a la Actividad de peticiones y también muestra cuántas órdenes se bloquearon.
+            Al tocar una solicitud se muestran los detalles de por qué se ha permitido o bloqueado.</p>
+
+        <img class="center" src="images/request_details.png"/>
+
+        <p>Navegador Privado incluye cuatro <a href="https://easylist.to/">listas de bloqueo comunes</a> basadas en la <a href="https://adblockplus.org/filters">sintaxis de Adblock</a>:
+            EasyList, EasyPrivacy, Lista molesta de Fanboy y Lista de bloqueo social de Fanboy.
+            Estas listas de bloqueo son procesadas por Navegador Privado en las siguientes 22 sublistas, que verifican las solicitudes de recursos en el orden listado.</p>
+
+        <ol>
+            <li>Lista blanca principal</li>
+            <li>Lista blanca final</li>
+            <li>Lista blanca de dominios</li>
+            <li>Lista blanca inicial de dominios</li>
+            <li>Lista blanca final de dominios</li>
+            <li>Lista blanca de terceros</li>
+            <li>Lista blanca de dominios de terceros</li>
+            <li>Lista blanca inicial de dominios de terceros</li>
+            <li>Lista negra principal</li>
+            <li>Lista negra inicial</li>
+            <li>Lista negra final</li>
+            <li>Lista negra de dominios</li>
+            <li>Lista negra inicial de dominios</li>
+            <li>Lista negra final de dominios</li>
+            <li>Lista negra de expresiones regulares de dominios</li>
+            <li>Lista negra de terceros</li>
+            <li>Lista negra inicial de terceros</li>
+            <li>Lista negra de dominios de terceros</li>
+            <li>Lista negra inicial de dominios de terceros</li>
+            <li>Lista negra de expresiones regulares de terceros</li>
+            <li>Lista negra de expresiones regulares de dominios de terceros</li>
+            <li>Lista negra de expresiones regulares</li>
+        </ol>
+
+        <p>Las listas iniciales se comparan con el principio de la URL. Las listas finales se comparan con el final de la URL. Las listas de dominios sólo se comparan con ciertos dominios.
+            Las listas de terceras partes sólo se aplican si el dominio raíz de la solicitud es diferente del dominio raíz de la URL principal.
+            Las listas de expresiones regulares siguen la <a href="https://es.wikipedia.org/wiki/Expresión_regular">sintaxis de las expresiones regulares</a>.
+            Cada elemento de la sublista tiene una o más entradas.
+            En el caso de sublistas de dominio, la solicitud de recurso sólo se compara con el artículo si la primera entrada coincide con el dominio de la URL principal.</p>
+
+        <p>Debido a las limitaciones del WebView de Android, y para acelerar el procesamiento de las solicitudes, Navegador Privado implementa una interpretación simplificada de la sintaxis de Adblock.
+            Esto puede conducir a veces a falsos positivos, en los que los recursos se permiten o bloquean de formas que no estaban previstas en la entrada original.
+            Una descripción más detallada de cómo se procesan las entradas de la lista de bloqueo está disponible en <a href="https://www.stoutner.com/privacy-browser/blocklists/">stoutner.com</a>.</p>
+
+        <p>Navegador Privado tiene tres listas de bloqueo adicionales.
+            <a href="https://www.stoutner.com/privacy-browser/blocklists/ultralist/">UltraList</a> y <a href="https://www.stoutner.com/privacy-browser/blocklists/ultraprivacy/">UltraPrivacy</a>
+            bloquean los anuncios y rastreadores que EasyList y EasyPrivacy no bloquea. La tercera bloquea todas las peticiones de terceras partes.
+            Una solicitud sólo se considera de terceras partes si el dominio base de la solicitud es diferente del dominio base de la URL.
+            Por ejemplo, si <code>www.website.com</code> carga una imagen de <code>images.website.com</code>,
+            esto no se bloquea como petición de una tercera parte porque ambos comparten el mismo dominio base de <code>website.com</code>.
+            El bloqueo de todas las solicitudes de terceras partes aumenta la privacidad, pero esta lista de bloqueo está desactivada por defecto porque rompe un gran número de páginas web.</p>
+    </body>
+</html>
